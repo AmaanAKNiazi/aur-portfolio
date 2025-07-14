@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import Home from './pages/Home';
+import Timeline from './pages/Timeline';
+import Stories from './pages/Stories';
+import Archives from './pages/Archives';
+import Projects from './pages/Projects';
+import Resources from './pages/Resources';
+import WhoWeAre from './pages/WhoWeAre';
+import Announcements from './pages/Announcements';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/timeline" element={<Timeline />} />
+          <Route path="/stories" element={<Stories />} />
+          <Route path="/archives" element={<Archives />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/resources" element={<Resources />} />
+          <Route path="/who-we-are" element={<WhoWeAre />} />
+          <Route path="/announcements/:eventSlug" element={<Announcements />} />
+          {/* Add more routes as needed */}
+        </Routes>
+      </Layout>
+    </Router>
   );
 }
 

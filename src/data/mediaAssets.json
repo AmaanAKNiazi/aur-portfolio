@@ -1,0 +1,440 @@
+{
+  "images": {
+    "hero_slideshow": [
+      {
+        "id": 1,
+        "src": "/images/home/hero-slide-1.jpeg",
+        "alt": "Hero Image 1"
+      },
+      {
+        "id": 2,
+        "src": "/images/home/kidsbulldozer.jpeg",
+        "alt": "Hero Image 2"
+      }
+    ],
+    "profile": "/images/profile.jpg",
+    "about_section": "/images/about-image.jpg",
+    "project_thumbnails": [
+      "/images/project-1.jpg",
+      "/images/project-2.jpg",
+      "/images/project-3.jpg"
+    ],
+    "map_section": {
+      "main_map": "/images/home/locations-map.jpg",
+      "alt": "Your map description"
+    },
+    "timeline":{
+      "june_26_2015": "/images/timeline/jun-26-2015-justice-for-i11.jpeg"
+    }
+  },
+  "pdfs": {
+    "portfolio": "/documents/home/toolkit_eng.pdf", 
+    "resume": "/documents/home/toolkit_urdu.pdf",
+    "project_report": "/documents/project-report.pdf",
+    "policy_document": "/documents/policy-document.pdf"
+  },
+  "videos": {
+    "hero_video": {
+      "src": "/videos/home/your-video.mp4",
+      "poster": "/images/your-thumbnail.jpg",
+      "title": "People's Conference on Land, Ecology, Development and Displacement",
+      "caption": "Resolution on 21st century land reform passed at the AWP People’s conference on land, ecology, development and displacement. The resolution consisted of the key demands emerging from each of the panel discussions in ranging from global finance, real estate and the new colonialism, resource extraction in the peripheries, Bahria Town, urban expansion and indigenous rights, katchi abadis and the affordable housing crisis, war and land conflicts in ex-FATA, 21st century enclosures and the politics of land acquisition, and building an Islamabad for the people. Presented by AWP Punjab President Ammar Rashid."
+    }
+  } ,
+  "external_links": {
+    "youtube_channel": "https://www.youtube.com/channel/UCjGGxt42VM0oGmxGZSr-Eww#",
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "twitter": "https://twitter.com/yourhandle"
+  },  
+    "map_locations": [
+        {
+        "id": 1,
+        "name": "G7 Shopper Colony (Allama Iqbal colony)",
+        "city": "Your City",
+        "country": "Your Country",
+        "description": "Your description"
+        },
+        {
+        "id": 1,
+        "name": "G7 Shopper Colony (Allama Iqbal colony)"
+        },
+        {
+        "id": 1,
+        "name": "G8 Miskeen Musharaff"
+        },
+        {
+        "id": 1,
+        "name": "H9 Rimsha Colony"
+        },
+        {
+        "id": 1,
+        "name": "Mehrabadi"
+        },
+        {
+        "id": 1,
+        "name": "I-9 Muslim Colony"
+        },
+        {
+        "id": 1,
+        "name": "Alipur Farash"
+        },
+                {
+        "id": 1,
+        "name": "I-10"
+        }
+    ],
+    "timeline_events": [
+    {
+      "id": 1,
+      "heading": "JUSTICE FOR I-11",
+      "slug": "election-campaign-2018",
+      "date": "June 26, 2015",
+      "image": "/images/timeline/jun-26-2015-justice-for-i11.jpeg",
+      "news_link": "",
+      "preview": "Tracking the Supreme Court case for low-income housing in Pakistan.",
+      "side": "left",
+      "color": "red"
+    },
+    {
+      "id": 2,
+      "heading": "CDA ANNOUNCES DEMOLITION PLAN",
+      "slug": "protest-rally-2019",
+      "date": "July 23, 2015",
+      "image": "/images/timeline/jul-23-2015-cda-announces-demolition-plan.jpeg",
+      "news_link": "https://www.dawn.com/news/1190765",
+      "preview": "CDA submits demolition plan for 43 katchi abadis in Islamadad to Islamabad High Court.",
+      "side": "right",
+      "color": "green"
+    },
+    {
+      "id": 3,
+      "heading": "KATCHI ABADI RESIDENTS PROTEST",
+      "slug": "katchi-abadi-residents-protest",
+      "date": "July 24, 2015",
+      "image": "/images/timeline/jul-24-2015-katchi-abadi-residnets-protest.jpeg",
+      "news_link": "https://tribune.com.pk/story/925430/right-to-shelter-slum-dwellers-protest-cda-eviction-drive",
+      "preview": "AWP and katchi abadi residents from over a dozen abadis organize protest against eviction plan at Islamabad Press Club.",
+      "side": "left",
+      "color": "black"
+    },
+    {
+      "id": 4,
+      "heading": "IHC ORDERS I-11 DEMOLITION",
+      "slug": "ihc-orders-i-11-demolition",
+      "date": "July 27, 2015",
+      "image": "/images/timeline/jul-27-2015-ihc-orders-i11-demolition.jpeg",
+      "news_link": "https://tribune.com.pk/story/925967/forced-evictions-cda-says-action-against-slums-from-monday",
+      "preview": "One-member bench of Islamabad High Court (consisting of Justice Shaukat Siddiqui) directs CDA to commence operation against I-11 katchi abadi.",
+      "side": "right",
+      "color": "red"
+    },
+    {
+      "id": 5,
+      "heading": "RESIDENTS THWART CDA EVICTION",
+      "slug": "residents-thwart-cda-eviction",
+      "date": "July 27, 2015",
+      "image": "/images/timeline/jul-27-2015-residents-thwart-cda-eviction.jpeg",
+      "news_link": "https://www.dawn.com/news/1196873",
+      "preview": "CDA makes first operation attempt to evict I-11 katchi abadi, thwarted by residents’ mobilization.",
+      "side": "left",
+      "color": "green"
+    },
+    {
+      "id": 6,
+      "heading": "AWP CHALLENGES EVICTION",
+      "slug": "awp-challenges-eviction",
+      "date": "July 27, 2015",
+      "image": "",
+      "news_link": "",
+      "preview": "Rapidly mobilized resources to support vulnerable urban communities during the pandemic, providing emergency housing, food security, and health services.",
+      "side": "right",
+      "color": "black"
+    },
+    {
+      "id": 7,
+      "heading": "RESIDENTS THWART SECOND EVICTION ATTEMPT",
+      "slug": "residents-thwart-second-eviction-attempt",
+      "date": "July 29, 2015",
+      "image": "/images/timeline/jul-29-2015-residents-thwart-second-eviction-attempt.jpeg",
+      "news_link": "https://archive.pakistantoday.com.pk/2015/07/30/i-11-slum-dwellers-thwart-cda-with-love-offer-talks-flowers/",
+      "preview": "CDA undertakes second attempt to evict I-11 katchi abadi, thwarted again by residents and AWP activists.",
+      "side": "left",
+      "color": "red"
+    },
+    {
+      "id": 8,
+      "heading": "CDA DEMOLITION OPERATION BEGINS",
+      "slug": "cda-demolition-operation-begins",
+      "date": "July 30, 2015",
+      "image": "",
+      "news_link": "https://www.dawn.com/news/1197351",
+      "preview": "CDA, Rangers undertake massive operation at I-11 katchi abadi, demolish one third of settlement, arrest dozens including AWP workers, FIRs under Anti-Terrorist Act registered against 1000s of abadi residents, over 15,000 residents made homeless overnight.",
+      "side": "right",
+      "color": "green"
+    },
+    {
+      "id": 9,
+      "heading": "I-11 KATCHI ABADI DESTROYED",
+      "slug": "i-11-katchi-abadi-destroyed",
+      "date": "July 31, 2015",
+      "image": "/images/timeline/jul-31-2015-i11-katchi-abadi-destroyed.jpeg",
+      "news_link": "https://tribune.com.pk/story/930700/i-11-slum-another-750-houses-flattened",
+      "preview": "CDA demolishes remainder of I-11 katchi abadi.",
+      "side": "left",
+      "color": "black"
+    },
+    {
+      "id": 10,
+      "heading": "SUPREME COURT PETITION",
+      "slug": "supreme-court-petition",
+      "date": "August 1, 2015",
+      "image": "/images/timeline/supreme-court.jpeg",
+      "news_link": "https://www.dawn.com/news/1197925",
+      "preview": "Displaced residents of I-11, along with Awami Workers Party, file a constitutional petition in the Supreme Court challenging the evictions and demanding the government provide low-income housing. The petitioners are represented in court by AWP President Advocate Abid Hassan Minto.",
+      "side": "right",
+      "color": "red"
+    },
+        {
+      "id": 11,
+      "heading": "AWP HOLDS PRESS CONFERENCE",
+      "slug": "awp-holds-press-conference",
+      "date": "August 2, 2015",
+      "image": "/images/timeline/aug-2-2015-awp-holds-press-conference.jpeg",
+      "news_link": "https://tribune.com.pk/story/931168/drive-against-slums-awp-calls-for-re-settlement-of-evicted-residents",
+      "preview": "WP President Abid Hassan Minto and AWP Chairman Fanoos Gujjar hold press conference to demand an end to the ongoing eviction operation in Islamabad.",
+      "side": "left",
+      "color": "green"
+    },
+    {
+      "id": 12,
+      "heading": "INTERIOR MINISTER PRAISES DEMOLITION",
+      "slug": "interior-minister-praises-demolition",
+      "date": "August 3, 2015",
+      "image": "/images/timeline/aug-3-2015-interior-minister-praises-demolition.jpeg",
+      "news_link": "https://www.dawn.com/news/1198105",
+      "preview": "Interior Minister Chaudhry Nisar congratulates police on successful operation and orders its continuation against rest of Islamabad’s katchi abadis.",
+      "side": "right",
+      "color": "black"
+    },
+	{
+      "id": 13,
+      "heading": "PROTEST CAMP",
+      "slug": "protest-camp",
+      "date": "August 9, 2015",
+      "image": "/images/timeline/aug-9-2015-protest-camp.jpeg",
+      "news_link": "",
+      "preview": "AWP sets up protest camp in front of National Press Club to demand I-11 katchi abadi resettlement and halt to evictions in Islamabad.",
+      "side": "left",
+      "color": "red"
+    },
+    {
+      "id": 14,
+      "heading": "SENATE CONDEMNS OPERATION",
+      "slug": "senate-condemns-operation",
+      "date": "August 10, 2015",
+      "image": "/images/timeline/aug-10-2015-senate-condems-operation.jpeg",
+      "news_link": "https://tribune.com.pk/story/935605/kasur-child-porn-scandal-senate-passes-resolution-demanding-harsh-punishment-for-perpetrators",
+      "preview": "Senate passes a resolution condemning the CDA’s strategy of evicting I-11 residents and calls for govt to facilitate their rehabilitation.",
+      "side": "right",
+      "color": "green"
+    },
+    {
+      "id": 15,
+      "heading": "COUNTRYWIDE DAY OF ACTION",
+      "slug": "countrywide-day-of-action",
+      "date": "August 12, 2015",
+      "image": "/images/timeline/aug-12-2015-countrywide-day-of-action.jpeg",
+      "news_link": "https://tribune.com.pk/story/937018/forced-evictions-call-for-implementation-of-senate-resolution",
+      "preview": "AWP organizes countrywide Day of Action against forced evictions and to demand I-11 resettlement. AWP, and Katchi Abadi Alliance hold press conference of katchi abadi residents to demand an end to the operation.",
+      "side": "left",
+      "color": "black"
+    },
+    {
+      "id": 16,
+      "heading": "KATCHI ABADI PROTEST",
+      "slug": "katchi-abadi-protest",
+      "date": "August 25, 2015",
+      "image": "/images/timeline/aug-25-2015-katchi-abadi-protest.jpeg",
+      "news_link": "https://www.dawn.com/news/1202926",
+      "preview": "AWP & World Minorities Alliance protest outside Islamabad Press Club against forced evictions.",
+      "side": "right",
+      "color": "red"
+    },
+    {
+      "id": 17,
+      "heading": "SC ORDERS EVICTION HALT",
+      "slug": "sc-orders-eviction-halt",
+      "date": "August 26, 2015",
+      "image": "/images/timeline/supreme-court.jpeg",
+      "news_link": "https://tribune.com.pk/story/945181/i-11-katchi-abadi-sc-orders-govt-to-stop-demolishing-houses",
+      "preview": "Supreme Court 3-member bench headed by Chief Justice Jawwad Khawaja hears AWP petition against katchi abadi evictions, orders a halt to the eviction operation in Islamabad, orders the CDA and police to provide a report on katchi abadis in Islamabad and the basis for their impending demolition.",
+      "side": "left",
+      "color": "green"
+    },
+    {
+      "id": 18,
+      "heading": "KATCHI ABADI SEMINAR",
+      "slug": "katchi-abadi-seminar",
+      "date": "August 27, 2015",
+      "image": "/images/timeline/aug-27-2015-katchi-abadi-seminar.jpeg",
+      "news_link": "https://www.dawn.com/news/1203374",
+      "preview": "All Pakistan Alliance for Katchi Abadis holds seminar on low-income housing policy.",
+      "side": "right",
+      "color": "black"
+    },
+    {
+      "id": 19,
+      "heading": "SC REPRIMANDS CDA",
+      "slug": "sc-reprimands-cda",
+      "date": "August 31, 2015",
+      "image": "/images/timeline/supreme-court.jpeg",
+      "news_link": "https://tribune.com.pk/story/948361/fundamental-right-court-seeks-proposals-on-housing-for-homeless",
+      "preview": "Supreme Court notes that the State ‘cannot possibly ignore its obligation to enforce fundamental rights or to act in accordance with the principles of policy set out in Article 38(d) related to housing/shelter for citizens’ and orders federal, provincial governments + CDA to prepare proposals to that effect. SC reprimands police and CDA officials for the brutality of the I-11 katchi abadi operation, asks where are all the terrorists that they were boasting about capturing. Housing expert Tasneem Siddiqui appears in court and is appointed amicus curae to advise CDA and government on fulfilling their constitutional responsibilities to provide low-income housing. SC orders Law and Justice Commission to organize meeting between petitioners and respondents to formulate proposals for resolving issue of low-income housing.",
+      "side": "left",
+      "color": "red"
+    },
+    {
+      "id": 20,
+      "heading": "TASNEEM SIDDIQUI SUBMITS REPORT",
+      "slug": "tasneem-siddiqui-submits-report",
+      "date": "September 7, 2015",
+      "image": "/images/timeline/sept-7-2015-tasneem-siddiqui-submits-report.jpeg",
+      "news_link": "https://tribune.com.pk/story/952554/i-11-katchi-abadi-case-poor-have-same-rights-as-premier-sc",
+      "preview": "Tasneem Siddiqui and LJCP submit their reports to the Supreme Court. Tasneem Siddiqui calls for the resettlement of the I-11 katchi abadi residents as a precedent against future forced evictions, the regularization of existing katchi abadis in Islamabad, the allotment of land for low-income housing and the creation of a directorate in CDA for the management of katchi abadis in the Capital.",
+      "side": "right",
+      "color": "green"
+    },
+    {
+      "id": 21,
+      "heading": "SC ASKS GOVT TO SUBMIT DETAILS ON LOW-INCOME HOUSING",
+      "slug": "sc-asks-govt-to-submit-details-on-low-income-housing",
+      "date": "September 7, 2015",
+      "image": "/images/timeline/supreme-court.jpeg",
+      "news_link": "https://tribune.com.pk/story/952554/i-11-katchi-abadi-case-poor-have-same-rights-as-premier-sc",
+      "preview": "Supreme Court asks federal and provincial governments to submit budgetary allocations and expenditure on low-income housing and katchi abadis for the last 14 years, along with concrete plans with dateline for achieving the objective of ensuring low-cost housing.",
+      "side": "left",
+      "color": "black"
+    },
+    {
+      "id": 22,
+      "heading": "SC DEMANDS “CONCRETE PLANS“ ",
+      "slug": "sc-demands-concrete-plans",
+      "date": "September 22, 2015",
+      "image": "/images/timeline/supreme-court.jpeg",
+      "news_link": "https://tribune.com.pk/story/966794/katchi-abadi-case-sc-for-concrete-plans-for-slums",
+      "preview": "Supreme Court redirects Federation, Provinces and CDA to come forth with ‘concrete and practicable plans to do in line with what they are required by the Constitution to do’ on the fundamental right to housing of citizens.",
+      "side": "right",
+      "color": "red"
+    },
+    {
+      "id": 23,
+      "heading": "AWP PROTEST",
+      "slug": "awp-protest",
+      "date": "October 15, 2015",
+      "image": "/images/timeline/oct-15-2015-awp-protest.jpeg",
+      "news_link": "https://www.dawn.com/news/1213381",
+      "preview": "AWP and katchi abadi residents hold protest against CDA harassment.",
+      "side": "left",
+      "color": "green"
+    },
+    {
+      "id": 24,
+      "heading": "LOCAL GOVT ELECTION VICTORIES",
+      "slug": "local-govt-election-victories",
+      "date": "November 30, 2015",
+      "image": "/images/timeline/nov-30-2015-local-govt-election-victories.png",
+      "news_link": "",
+      "preview": "Two displaced residents from I-11 katchi abadi win local govt councilor seats for I-11 under Awami Workers Party ticket.",
+      "side": "right",
+      "color": "black"
+    },
+    {
+      "id": 25,
+      "heading": "SC REPRIMANDS GOVT & CDA FOR NEGLIGENCE",
+      "slug": "sc-reprimands-govt-cda-for-negligence",
+      "date": "December 3, 2015",
+      "image": "/images/timeline/supreme-court.jpeg",
+      "news_link": "",
+      "preview": "Supreme Court reprimands governments and CDA for their negligence on the issue and calls upon the Attorney General, Chairman CDA, and secretaries of Housing of all provinces to appear in person in the next hearing with concrete policies/recommendations.",
+      "side": "left",
+      "color": "red"
+    },
+    {
+      "id": 26,
+      "heading": "CDA’S RELIGIOUS BIGOTRY",
+      "slug": "cdas-religious-bigotry",
+      "date": "December 8, 2015",
+      "image": "/images/timeline/dec-8-2015-cdas-religious-bigotry.jpeg",
+      "news_link": "https://www.dawn.com/news/1225169",
+      "preview": "In an official response to the Supreme Court, the CDA asserts that Christian katchi abadis in Islamabad threaten Muslim majority!",
+      "side": "right",
+      "color": "green"
+    },
+    {
+      "id": 27,
+      "heading": "MURAL PAINTING IN I-11 ABADI",
+      "slug": "mural-painting-in-i-11-abadi",
+      "date": "January 9, 2016",
+      "image": "/images/timeline/jan-9-2016-mural-painting-in-i11-abadi.jpeg",
+      "news_link": "https://www.dawn.com/news/12319103",
+      "preview": "AWP and displaced residents of I-11 katchi abadi paint mural in I-11 to highlight the movement for low-income housing and the case for resettlement of evicted people.",
+      "side": "left",
+      "color": "black"
+    },
+    {
+      "id": 28,
+      "heading": "SEMINAR ON LOW-INCOME HOUSING",
+      "slug": "seminar-on-low-income-housing",
+      "date": "January 11, 2016",
+      "image": "/images/timeline/jan-11-2016-seminar-on-low-income-housing.jpeg",
+      "news_link": "https://www.thenews.com.pk/print/89590-Govt-urged-to-allocate-land-for-addressing-low-income-group-housing-crisis",
+      "preview": "Awami Workers Party and All Pakistan Katchi Abadi Alliance holds a seminar at the National Press Club on low-income housing and the fundmental right to shelter, featuring architect and urban planning expert Arif Hasan, human rights activist IA Rehman, AWP chairman Fanoos Gujjar and AWP Punjab president Aasim Sajjad Akhtar.",
+      "side": "right",
+      "color": "red"
+    },
+    {
+      "id": 29,
+      "heading": "NO MORE EVICTIONS",
+      "slug": "no-more-evictions",
+      "date": "January 13, 2016",
+      "image": "/images/timeline/supreme-court.jpeg",
+      "news_link": "",
+      "preview": "Federal Government submits report of Expert Working Group to Supreme Court on katchi abadis and low-income housing, as part of an effort to evolve an effective national policy on rehabilitation of katchi abadis and low-income housing in pursuance of Supreme Court orders. The report of the EWG states explicitly that there shall be no further evictions of katchi abadi residents until they are relocated as per resettlement plans. It further states that all government housing schemes will have adequate plots for low-income people at affordable prices. Supreme Court commends government for recognizing its constitutional obligations, calls on it to translate promises into reality, and provide a timeline for implementation.",
+      "side": "left",
+      "color": "green"
+    },
+    {
+      "id": 30,
+      "heading": "MURAL PAINTING IN G-7 ABADI",
+      "slug": "mural-painting-in-g-7-abadi",
+      "date": "January 31, 2016",
+      "image": "/images/timeline/jan-31-2016-mural-painting-in-g7-abadi.jpeg",
+      "news_link": "https://www.dawn.com/news/1236716",
+      "preview": "AWP and residents of Iqbal Town katchi abadi in G-7 paint mural in G-7 to highlight the movement for low-income housing and the rights of katchi abadi residents.",
+      "side": "right",
+      "color": "black"
+    },
+	    {
+      "id": 31,
+      "heading": "YET AGAIN",
+      "slug": "yet-again",
+      "date": "February 11, 2016",
+      "image": "/images/timeline/supreme-court.jpeg",
+      "news_link": "https://tribune.com.pk/story/1045249/slum-growth-develop-low-income-housing-or-ban-private-schemes-sc-warns",
+      "preview": "Supreme Court reprimands the government for being unable to finalize the policy on katchi abadis and low income housing for many months Supreme Court says that ‘it is the constitutional obligation of the State without any exception to provide shelter to.. the poor and the shelterless’ SC says that ‘civic agencies, including CDA, DHA and the private sector has launched many housing schemes and many have been completed but no reasonable percentage in such housing schemes has been provided for low-cost and social housing while rich and affluent are doled out plots for a luxurious life. This kind of demarcation and discrimination also poses a potential threat to the State’. SC directs governments to prepare a bill for provision of inexpensive, low cost housing and social housing for the inhabitants of slum areas and shelterless people to be tabled before the Parliament and Provincial Assemblies, with a fixed timeframe and tentative budget. SC further directs the government to appoint a commission consisting of housing experts Tasneem Siddiqui and Arif Hasan to oversee this process.",
+      "side": "left",
+      "color": "red"
+    },
+    {
+      "id": 32,
+      "heading": "PROTEST AT SABZI MANDI",
+      "slug": "protest-at-sabzi-mandi",
+      "date": "April 18, 2016",
+      "image": "/images/timeline/apr-18-2016-protest-at-sabzi-mandi.jpeg",
+      "news_link": "",
+      "preview": "Displaced I-11 residents along with AWP hold protest at sabzi mandi against CDA’s refusal to implement Supreme Court orders regarding katchi abadis and low-income housing",
+      "side": "right",
+      "color": "green"
+    }
+  ]  
+}
