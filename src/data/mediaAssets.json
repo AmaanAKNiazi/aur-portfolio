@@ -46,7 +46,7 @@
     "linkedin": "https://linkedin.com/in/yourprofile",
     "twitter": "https://twitter.com/yourhandle"
   },  
-    "map_locations": [
+  "map_locations": [
         {
         "id": 1,
         "name": "G7 Shopper Colony (Allama Iqbal colony)",
@@ -82,8 +82,8 @@
         "id": 1,
         "name": "I-10"
         }
-    ],
-    "timeline_events": [
+  ],
+  "timeline_events": [
     {
       "id": 1,
       "heading": "JUSTICE FOR I-11",
@@ -436,5 +436,598 @@
       "side": "right",
       "color": "green"
     }
-  ]  
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "title": "Ali pur Farash Farash, CDA First resettlemnet Project in Islamabad",
+      "slug": "ali-pur-farash",
+      "featured_image": "/images/stories/ali-pur-farash-1.jpg",
+      "content": [
+        {
+          "type": "image",
+          "src": "/images/stories/ali-pur-farash-1.jpg",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "Alipur Farash town, an unfinished and underdeveloped, resettlement plan for Katchi abadi dwellers in Islamabad. This place was home to residents of F9 park katchiabadi, who were resettled here in 1992.  In 2001 CDA started katchiabadis up-gradation project. according to which residents of Muslim colony and later three other abadis, namely Haq Bahu colony, Dhoke Naju, and Essa Nagri were also included."
+        },
+        {
+          "type": "paragraph",
+          "text": "The project was a complete failure as relocated residents from katchi abadis of Alipur still have no access to basic facility including Water, Gas, and Transportation. For their sustenance, residents of the area managed to build an insufficient supply structure out of meager resources. Almost three decades later, the population of the abadi has crossed over 15,000 households and the town lacks access to basic facilities."
+        },
+        {
+          "type": "image",
+          "src": "/images/stories/ali-pur-farash-2.jpg",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "CDA provides about two tankers daily which merely provide water to about 300 families of Phase-I while the largest number of population suffers from it."
+        },
+        {
+          "type": "paragraph",
+          "text": "Land ownership status of Farash Town residents remains disputed due to maladministration of CDA. The residents are still waiting for registries to be transferred to them. This has paved the way for land grabbers to force the residents to sell their plots to non-slum dwellers. The collusion of CDA and local land mafia have scammed residents of the twin cities into buying ‘not for sale’ land for decades while the legal occupants of the abadi are kept deprived of ownership rights of their land."
+        },
+        {
+          "type": "image",
+          "images": "/images/stories/ali-pur-farash-3.jpg",
+          "caption": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "The residents of Farash Town have fought the inimical CDA for their every basic human right from Electricity to Trash management since it was established. Despite countless efforts including requesting local administrators to protest against CDA’s discriminatory attitude, residents have exhausted all the platforms. After a series of protests, in 2017, CDA agreed to provide a trash container and collection of trash weekly. In 2019, the trash container was taken away by CDA and never returned it. Due to non-existing trash management of Farash Town, people are faced with deadly diseases like hepatitis, dengue, malaria, fever, and liver failure."
+        },
+        {
+          "type": "paragraph",
+          "text": "Despite being the capital’s only resettlement plan, Farash Town is faced with sheer administrative negligence by CDA. Residents don’t have a community space to gather and youth and children don’t have space for extra-curricular activities. Spaces allocated for parks and playgrounds were never developed by city administration however a local NGO invested into developing community spaces which were later turned into wild ruins by CDA’s improper management."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Narratives From Below",
+      "slug": "narratives-from-below",
+      "featured_image": "/images/stories/narratives-from-below-1.jpg",
+      "content": [
+        {
+          "type": "image",
+          "src": "/images/stories/narratives-from-below-1.jpg",
+          "alt": "",
+          "caption": "Gulzar Bibi"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gulzar Bibi was born in Peshawar. I, came to Islamabad, when I was 20 years old, with my husband who was a daily wager. My husband died almost 8 years ago, since then I m a mother and father both to my children. Most of life I had worked as a maid in nearby home to support and feed my children, from washing clothes and toilets, I had done all sorts of work. But after the Covid19 outbreak people fear to allow us enter their homes, so all these four months we had to eat one time in a day.  Amid this dire situation two vehicle of CDA and Islamabad police officials came to my house and threaten us to leave by tomorrow, otherwise they are going to raze down my house in the morning. Yesterday, they came and demolished one of the room I recently build. I had borrowed money, sold my cow to build the room."
+        },
+        {
+          "type": "paragraph",
+          "text": "We are being treated like terrorists and outsider in our own country. I didn’t come from some foreign country. I’m born here but seems like, poor people cannot be the citizens of this country."
+        },        
+        {
+          "type": "image",
+          "src": "/images/stories/narratives-from-below-2.jpg",
+          "alt": "",
+          "caption": "Hayat Mir"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hayat Mir:  I’m 65 years old born in Jalalabad Afghanistan, I migrated to Pakistan 45 years ago. I married here and all my children are born in Pakistan. I moved to Pakistan because our lives were not safe, there was so much violence back then. During the Soviet occupation people lost their homes and loved one, everyone was grieving, we have seen the bodies of our sons and loved on daily basis. There was no work, the country was at war no one knew who is killing who, it was a very difficult time. I first came to Khayaban e Sir Sayyed, Rawalpindi where we rented a quarter. After some years the rent started to increase and I was unable to pay the rent. The increasing rent was not affordable and I had to leave the quarter, then shifted to I/10 Katchi Abadi made this hut where I along with my family live now."
+        },
+        {
+          "type": "paragraph",
+          "text": "We had range of problems from getting clean drinking water to the basic health facilities. For us (As Afghan migrant) to find some descent work is also harder, people don’t trust us. During the pandemic the stove in our hut remained off for days."
+        },
+        {
+          "type": "image",
+          "src": "/images/stories/narratives-from-below-3.jpg",
+          "alt": "",
+          "caption": "Noor Muhammad"
+        },
+        {
+          "type": "paragraph",
+          "text": "Noor Muhammad: I don’t have a birth certificate nor do I’m aware of my age, but I think I’m in my late 40s. I was born in G-9 Karachi Company. I have no basic education. Speaking about his situation Noor Muhammad said, these day, if I had bread I won’t have anything to eat with the bread. Because of the Covid-19 pandemic making a living has become virtually impossible as it is getting more and more difficult to find work. The suit I’m wearing is from someone else who gave it away. I have rarely been fortunate enough to buy my clothes for the most part of my life. My hut has been demolished several time in the last five years by CDA. I was arrested for defending my home, allegations of being a terrorist were also filed against me. This is what we get for defending our hut."
+        },
+                {
+          "type": "paragraph",
+          "text": "Recently, a daughter was born to me, I was out when I got home back, found out that my wife was in the hospital. When I reached Holy Family hospital in Rawalpindi my daughter was in dire need of ventilator. I lost her, she was not put on ventilator because I had no money. I lost her (Eyes were filled with tears)."
+        },
+        {
+          "type": "image",
+          "src": "/images/stories/narratives-from-below-4.jpg",
+          "alt": "",
+          "caption": "Tariq Khan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tariq Khan: The locals of the posh area often make our live difficult. Recently I have requested one of our neighbor from the sector to allow his family to fill water tanks for the daily use, they first allow us and then charged us for the electricity bill every month. The bill was almost 38 thousand which is impossible to pay for me. CDA often come every three months and threaten us, if they out we are building a concrete wall they destroy it. You tell me, where should we go, we are literally living on the Nalah. We have no other place to go."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Mairabadi F-11",
+      "slug": "mairabadi-f-11",
+      "featured_image": "/images/stories/mairabad-1.jpg",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Maira abadi is quite unique in its status as it’s an abadi built on private land unlike rest if the abadis. In that sense, it is a slum, not a katchaiabadi. Most of the residents pay rent to landlords. According to the locals, the land was part of the surrounding villages and mairas, the city administration awarded money to some people in 1986 but many people got a stay order against the occupancy by CDA and still hold the land. The CDA has tried to take over this particular abadi many times in the past but has met with strong resistance, not particularly by residents but the owners of the land through legal notices and cases."
+        },
+        {
+          "type": "paragraph",
+          "text": "Maira abadi is diverse when it comes to housing structures. Most people have rented small one-room quarters often owned by the owner of the land, others “buy” the land and build their own homes with construction blocks, and then there are the smaller abadis, mostly consisting of jhuggis (huts). These jhuggis are often 8-10 in number with a shared kitchen and toilet. Securing a home in Maira abadi is done in a number of ways. If you can afford you can pay the occupants/those who have control over the land to buy it and built home or you can rent a house. The cheapest living option is the renting of a small part of the land to build a makeshift shack, these are known as jhuggis."
+        },
+        {
+          "type": "paragraph",
+          "text": "The abadi is predominately Punjabi and Muslim. Large number of women from this abadi in particular, work in the middle and upper-middle-class houses in Islamabad as domestic workers. Maira is considered one of the most notorious abadis in the city of Islamabad, often referred to as the ghetto of the city. In the past, there has been news of intra abadi violence especially violence against women and young girls including cases of gang rape and murder."
+        },
+        {
+          "type": "images",
+          "images": [
+            "/images/stories/mairabad-1.jpg",
+            "/images/stories/mairabad-2.jpg"
+          ],
+          "caption": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "Most young girls in the abadi were/are employed as workers when they are as young as nine years.  Many women have only worked as domestic helpers while men switch their occupations especially those working as daily wagers. The families often choose to send the boy child to school in the abadi and girls are more likely to start working at a younger age. The women in this abadi are usually the primary earners, unlike their partners they get relatively more stable jobs."
+        },
+        {
+          "type": "paragraph",
+          "text": "The main entrance of the abadi is from the f-11 road. After crossing the first few empty plots, one could see many small jhuggis. They seemed so fragile as if they’ll fly away with the wind. residetns of the abadi has arranged personnel solar panel which they  use to run a small fan."
+        },
+        {
+          "type": "image",
+          "src": "/images/stories/mairabad-3.jpg",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "People use hand pumps and boring motors to access water in the abadi. The hand pumps are usually put here by political parties in order to gain some votes."
+        },
+        {
+          "type": "paragraph",
+          "text": "The first little market in the abadi comprises of motorcycle mechanic shops, mostly occupied with young boys. There is a small one room snooker club. The streets can get really muddy during monsoon."
+        },
+        {
+          "type": "paragraph",
+          "text": "One could hear music blaring from some households playing the Bollywood dance numbers as well as UK bhangra music. Women often play music in the background while doing the house chores in the abadi. Women gather to fill water near hand pumps, boring set-ups every day with their water gallons, and talk to each other. Men often gathered to play Ludo.  Unlike other abadis, one does not see as many children out or wandering aimlessly in the abadi. They mostly stay closer to their homes and play in their immediate neighborhoods, parents often told me proudly that they do not let their children go out much."
+        },
+        {
+          "type": "paragraph",
+          "text": "The people who lived in jhuggis were more aware of the castes of the. According to a resident of Mairababdi living in jugi,  the abadi is divided on the basis of castes, in jhuggis there is mostly the hudd baradari."
+        },
+        {
+          "type": "paragraph",
+          "text": "The residents of Mairabadi does not comprehend the state as an entity, which owes its citizen. They did not have any imagination of the state as a provider or its duties towards its people/citizens. They only understood empathy, charity, borrowing, and sharing instead of the language of rights, state, services, or welfare. They expected the state to lend help out of pity instead of the state’s responsibility towards its citizens. Their understanding of the state is also as an authority. They did not see authority as an injustice or breach of their rights as such. There was a certain level of acceptance of the living conditions despite the conditions being one of the worst. The people find refuge in religion, they believe class discrimination as something destined, decided by God or faith."
+        },
+        {
+          "type": "images",
+          "images": [
+            "/images/stories/mairabad-4.jpg",
+            "/images/stories/mairabad-5.jpg"
+          ],
+          "caption": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "The living conditions of those who live in the makeshift jhuggi basti was horrible. They barely have what we can call a roof, mostly a panaflex used on city billboards. When you go to the jhuggi abadi, it becomes obvious which government campaign ran lately in the city because all the panaflexes end up here. When I visited there were panaflexes of pak-china friendship on every house, it was both amusing and tragic because it spoke of economic prosperity."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The Struggle of Chaudhry James of G-7/1  Allama Iqbal Colony",
+      "slug": "allama-iqbal-colony-g7-1",
+      "featured_image": "/images/stories/allama-iqbal-colony-5.jpg",
+      "content": [
+		    {
+          "type": "image",
+          "src": "/images/stories/allama-iqbal-colony-1.jpg",
+          "alt": "",
+          "caption": "<strong>Figure 1:</strong> GPS location tagging of Allama Iqbal Colony G-7 Markaz, Islamabad. <br><strong>A:</strong> Map of Islamabad Capital Territory, <br><strong>B:</strong> Allama Iqbal Colony in G-7 Markaz"
+        },
+        {
+          "type": "paragraph",
+          "text": "The former name of the abadi was shopper (plastic bag/sheets) colony as most residents built their homes with big plastic sheets. The abadi was built 19 years ago. This abadi has been recognized by CDA. There are about 600 to 700 registered voters in the abadi. After registration of votes, people named their colony, Allama Iqbal Colony which is mentioned on their national identity cards.  In 2001, abadi was hit by a monsoon flood. Abadi falls in UC-31. Most of the people in Abadi work as janitors in different sectors of Islamabad; there are a handful of government servants in Abadi, some are private job holders or daily wagers."
+        },
+        {
+          "type": "paragraph",
+          "text": "The main entrance of the abadi is from Rehman Baba Road in G-7 Markaz near Khadda market. Abadi has pakka houses only, no jhuggies. This Abadi can be divided into two parts with a big water passage (Nala) in between, with a bridge. Both sides have equal numbers of houses. This abadi has small shops opened inside homes and there was no big market inside Abadi."
+        },
+		    {
+          "type": "image",
+          "src": "/images/stories/allama-iqbal-colony-2.jpg",
+          "alt": "",
+          "caption": "Nala disecting Allama Iqbal Colony. <br><strong>Figure 2:</strong> The water passage of Allama iqbal Colony. View from both sides of the bridge and the bridge itself."
+        },
+        {
+          "type": "paragraph",
+          "text": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "James is the main leader of this abadi. He lives near Khadda market from Rehman Baba road side and is usually found sitting outside their home under a tree shadow. His wife Nasreen Akhtar also had active involvement in saving Abadi from demolition in the past. James’ one neighbor named Arif is the new president of the AWP unit in Abadi (James was the previous president). The basement of Arif’s home was previously used as “Workers’ Academy” by AWP but during the pandemic, academic activities stopped so they converted it into the party office, a common place for everyone in Abadi to come and sit there and discuss whatever they want."
+        },
+		    {
+          "type": "image",
+          "src": "/images/stories/allama-iqbal-colony-3.jpg",
+          "alt": "",
+          "caption": "<strong>Figure 3:</strong> AWP party unit office and front view.<br>Children playing outside Allama Iqbal abadi."
+        },
+        {
+          "type": "paragraph",
+          "text": "James is famous as a Chaudary of his Abadi. In Christians abadis  community leaders are referred as chaudhries. Each abadi has several  Chaudaries. James was the first Chaudary of abadi who built, pioneered, and started the first jhuggi in abadi so he has more influence in abadi and everyone knows him and respects him."
+        },
+        {
+          "type": "image",
+          "src": "/images/stories/allama-iqbal-colony-4.jpg",
+          "alt": "",
+          "caption": "<strong>Figure 4:</strong> House of James and the nearby Rehman Baba road. <br><strong>Figure 5:</strong> Nasreen Akhtar (James’ wife) in her home while cooking a paratha on gas cylinder in Allama Iqbal colony G-7. <br><strong>Figure 6:</strong> Chaudary James Masih in Allama Iqbal Colony G-7 when it consisted of jhuggies only"
+        },
+        {
+          "type": "paragraph",
+          "text": "James is a 65 years old man, living in Islamabad since 1977 and in this Allama Iqbal colony, for 18 years. He hails from Gujranwala. He has spent 12 years in Hansa Colony, 17 to 18 years in Rawalpindi in Dhok Aala Khan and Dhok Ilahi Bakhsh, and 17 to 18 years in Allama Iqbal Colony G-7. He has also lived in Labour Colony near PIMS hospital and France colony F-7. Labour colony was demolished in the 1980s so he left that place. He did a 7 years job in Radio Pakistan when he fought there with the superintendent and got fired. Before that he worked in FIA. He was associated with the Pakistan Peoples Party from Z. A. Bhutto to Benazir Bhutto’s era. He also worked with Pakistan Christian Association for 17 years when Nasir Mahmood was its president, when he died, James joined PPP again. James had two houses in Hansa colony but left the place due to family clashes as he was living in a joint family system. In 2002, he worked for All Pakistan Kachi Abadi Alliance and then joined the Awami Workers Party."
+        },
+        {
+          "type": "image",
+          "src": "/images/stories/allama-iqbal-colony-5.jpg",
+          "alt": "",
+          "caption": "<strong>Figure 7:</strong> James, Muneeba and other AWP workers on protest (Nadeem Joseph’s murder) in front of National Press Club Islamabad on July 6, 2020."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pastor Imran is another main leader of Allama Iqbal colony.   According to pastor Imran, the people of the abadis are not united and that is the main cause of problems. Christian students are discriminated against in the government schools where Christian children are not allowed to sit with other Muslim children and separate sections are made for them."
+        },
+        {
+          "type": "paragraph",
+          "text": "CDA had destroyed the newly constructed room inside the house of Zahida, a resident of Allama Iqbal colony. She is living with a big family only in one room, they had a lot of space in the house but the CDA was not letting them build another room. Zaheda was so depressed. It is a common practice by CDA to visit abadi and locate any new construction and destroy it so that abadi does not flourish further in size and population. People inside and outside abadi too, keep on informing CDA about such new constructions in abadi. This also has made these people sort of resilient and fearless. People living in the abadi are called “qabza mafia” by the people living outside nearby regular colonies. Not all respondents were politically engaged or participated actively in incidents of demolishing the houses in abadi in the past. James' shop and one room were demolished last year in winter but they did not resist CDA out of fear of eviction. They knew that their silence would cause less harm to their living in that abadi."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Story of Rimsha Colony H-9/2",
+      "slug": "rimsha-colony-h9-2",
+      "featured_image": "/images/stories/rimsha-colony-2.png",
+      "content": [
+		    {
+          "type": "image",
+          "src": "/images/stories/rimsha-colony-1.png",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "Rimsha colony H 9/2 was built in 2012 by Christian residents of Merabadi after  Rimsha Masih blasphemy case. Later, Christian immigrants from different Punjab cities started settling in the abadi. Residents of H-9/2 katchi abadi are hard-working people.  It is predominantly Christian abadi. There are about eight to ten churches in this abadi."
+        },
+        {
+          "type": "paragraph",
+          "text": "The residents of the abadi have no access to water, electricity, and gas. Residents of the abadi monthly pay four to five thousand for water. People live in very harsh conditions in this abadi. This abadi has another critical issue of high voltage electric wires passing over the abadi. These wires fall over houses in a rainstorm. Few months back, a worker died and another one suffered severe burns when a wire fell over their house."
+        },
+	    	{
+          "type": "image",
+          "src": "/images/stories/rimsha-colony-2.png",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "The people of the abadi have been protesting and campaigning asking government to remove these high voltage electric wires passing over the abadi. Along with it, residents of the abadi are also appealing to the government of Pakistan to provide health, education facilities to residents of the abadi. The residents of Rimsha colony do not get proper check ups at hospitals. They are discriminated against for being poor. The attitude of CDA and police is worse towards the people of Rimsha colony.  CDA staff visit abadi and take people’s belongings with themselves. They demolish new construction inside the abadi. So, every time when we repair our houses we have to pay CDA staff. Similarly, Police also harass people inside abadi. They take bribes from abadi residents for repairing  their houses."
+        },
+        {
+          "type": "paragraph",
+          "text": "Earlier this year, CDA bulldozed the park that the abadi people had made for themselves inside the abadi. People of the abadi had planted flowers and vegetables. They had put a lot of effort into making a space for themselves but CDA destroyed it. It disheartened a lot of people and we the residents of the abadi called upon all political parties to stop CDA from bulldozing our houses and our parks."
+        },
+        {
+          "type": "paragraph",
+          "text": "Schools and colleges near abadi have been closed during the lockdown.  Many abadi people have lost their jobs during the lockdown.  People do not have money to pay fees and struggle with online classes. During lockdown; the air pollution has reduced and people are taking care of their surrounding environment."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Shorty story from I-9 Katachi Abadi ",
+      "slug": "i9-katch-abadi",
+      "featured_image": "/images/stories/i9-katchi-abadi-3.jpg",
+      "content": [
+		    {
+          "type": "image",
+          "src": "/images/stories/i9-katchi-abadi-1.jpg",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "Mir Azam is the main leader of the I-9/1 katchi abadi. He said that  <i>“The state does not provide shelter and other basic facilities to the people of these informal settlements. we are not considered as equal citizens of this country. This is because we do not live in big concrete houses. instead, the State is taking our houses from us.  We are not even allowed to live  with our families on the bank of sewage drainage.”</i>"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mir Azam, while recalling a television interview of former CDA chairman Shaista, back in 2014. Where Shaista, in response to a question about the fate of katchi abadis residents, whose houses would be demolished in a proposed eviction operation famously said that “the government will provide free transport to residents of katchi abadis to return back to their hometowns. As residents of katchiabadis do not belong to Islamabad.” Mir Azam furiously responded to Shaista's remarks, said, <i>“Where does Miss Shaista come from? She is not from Islamabad? she should also leave Islamabad and settle in her hometown.”</i> Then Mir Azam added <i>“This country belongs to all Pakistanis. we all are equal citizens of this country.”</i>"
+        },
+		    {
+          "type": "paragraph",
+          "text": "Mir Azam, while explaining the relation of katchiabadi people with the I-9/1 sector says that <i>“the rich people of Islamabad hate us because we are poor. They call us dirty. we are dirt and stain on the beauty of Islamabad city.”</i> The I-9/1 (Muslim abadi) dwellers are still scarred from eviction from their homes.  CDA staff regularly carries demolition operations against new construction and repairing work of houses damaged due to rain. The Abadi residents pay heavy bribes to continue reconstruction work on their damaged houses."
+        },
+		    {
+          "type": "paragraph",
+          "text": "Mir Azam is aware of Naya Pakistan housing scheme introduced by Prime minister Imran Khan. However, he is not hopeful. Mir Azam says that “I have a request for Prime Minister Imran Khan. <i>“Please do not demolish our houses in the katchiabadis. We do not want any houses from you. We the poor people of Islamabad have constructed this city but now we are not being allowed to live in this very city.  We do not have any access to water, electricity, and gas. The corona pandemic has further devastated our livelihoods. our conditions are worse than before. Markets are closed, there is no work.”</i>"
+        },
+		    {
+          "type": "image",
+          "src": "/images/stories/i9-katchi-abadi-2.jpg",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "Haider Ali was born in I-9/1 katchi abadi. He is in his late 20’s. He has been working with the All Pakistan Alliance for Katchiabadis (APAKA) for housing rights from a very young age. Haider Ali says that <i>“Our relationship with the state during this Covid 19 pandemic has worsened than before. Our state is not creating any jobs. Since lockdown has been imposed, people of the abadis have lost their jobs.”</i>"
+        },
+        {
+          "type": "paragraph",
+          "text": "Haider further added that <i>“there is a huge trust deficit between the state and residents of katchi abadis. We poor people from katchi abadis do not receive any relief from the state. our state gives priority to rich people. We do not have good relations with surrounding houses of i-9/1 sector. They look down upon residents of katchi abadis. The majority of people living in katchi abadi are not literate. During the lockdown, the people of abadis were not following any SOPS to protect themselves from corona.”</i>"
+        },
+		    {
+          "type": "image",
+          "src": "/images/stories/i9-katchi-abadi-3.jpg",
+          "alt": "",
+          "caption": ""
+        },		
+        {
+          "type": "paragraph",
+          "text": "Sardar Hussain another resident of I-9/1 katchi abadi While responding to my question Do you like to live in this abadi? said in Pashto, <i>“Goor ka gran ve kho Mari warta nakam de”. which could be translated as “life is hard here, but we have to live over here.”  “We have no better option. We are facing a lot of problems over here, poverty, mosquitos, humiliation and harassment from police, no electricity but we are still live over here.”</i>"
+        },		
+        {
+          "type": "paragraph",
+          "text": "Sardar Hussain has built a house in the abadi. He sells burf gola in the abadi. that is his main source of livelihood. His son helps him in his work. They are living hand to mouth. He has to feed nine family members from this burf gola stand. Sardar Hussain was complaining about weekly police raids on Muslim abadi. The police raid our houses every week. They arrest young boys from the abadi and then we have to release them after paying huge bribes to police.."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "The Story of Miskeen Colony G8/4 From Miskeen Khan Junghara to Miskeen Colony",
+      "slug": "miskeen-colony",
+      "featured_image": "/images/stories/miskeen-colony-1.jpg",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Miskeen Colony is an unregularized abadi. it is built on government’s land. It is situated near Musharraf Colony. The houses are mostly pakka and rarely jhuggis. Abadi has Christian Punjabi majority. This Abadi is 18 years old. This abadi’s name was given after the name of a Pashtun Miskeen Khan who was living here when it was a forest area.  Gradually, people started building juggies over here. This abadi is not given public service utilities (electricity, gas, water etc). Miskeen colony is situated near markaz of G-8 sector. This Abadi was demolished around 15 years ago by CDA when it only consisted of jhuggies. The jhuggis were converted into Pakka makaans  5 years ago. The abadi comes in Union Council UC-32. This abadi has 2100 registered voters. There are around 320 houses in abadi and around 500 families are living in this abadi. The average rent of Abadi’s house is 3000 to 5000 Rs. The majority of abadi’s people work as janitors in the government and private sector. People do have access to public transport, schools and public hospitals. One side of the abadi is exposed to a water passage (Nala). There is an iron bridge, the largest and main bridge at the entrance of abadi from Nala side. Following picture shows this bridge."
+        },
+		    {
+          "type": "image",
+          "src": "/images/stories/miskeen-colony-1.jpg",
+          "alt": "",
+          "caption": "<strong>Figure 1:</strong> Men carrying water coolers on the iron bridge in Miskeen colony."
+        },
+		    {
+          "type": "image",
+          "src": "/images/stories/miskeen-colony-2.jpg",
+          "alt": "",
+          "caption": ""
+        },		
+        {
+          "type": "paragraph",
+          "text": "In the Christian, abadis area girls and women are freely moving in the streets."
+        },
+        {
+          "type": "paragraph",
+          "text": "While taking a round inside abadi’s streets I witnessed small shops being opening inside homes and there was no big market in the abadi and see whether he can be a helpful person or not. He was accompanied with another friend of him named Isshaaq. They both answered our questions regarding abadi’s history, facilities etc. Andreas also showed us the lists of registered voters from Miskeen Colony. We did not find him suitable as a community mobiliser due to the diplomatic and unsatisfactory answers he gave to our questions."
+        },
+		    {
+          "type": "image",
+          "src": "/images/stories/miskeen-colony-3.jpg",
+          "alt": "",
+          "caption": ""
+        },	
+        {
+          "type": "paragraph",
+          "text": "Mumtaz, a resident of Miskeen colony who got jobless during the pandemic started a shop inside abadi."
+        },
+		    {
+          "type": "image",
+          "src": "/images/stories/miskeen-colony-4.jpg",
+          "alt": "",
+          "caption": "<strong>Figure 4:</strong> Outside view of shop’s window, opened by a female respondent (Mumtaz) from Miskeen Colony women and men in the abadi work together i.e men fetching water, women running the shops. "
+        },
+        {
+          "type": "paragraph",
+          "text": "During corona lockdown, the abadi residents themselves collected money to buy food ration for poor residents of the abadi. Arshad a resident of Miskeen along with four other collected money for ration. Arshad owns a grocery shop, a friend who works in PAF, and a friend who works in KRL hospital. They allocated 10% of their income for charity and distributed ration among 150 people. At first, they helped 50 families which were financially weakest in the abadi. The ration package included a packet of flour and some lentils etc. for 2-3 months. He said that they took care to distribute ration at night so that the self-respect of the people doesn’t get hurt."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Musharraf Colony: The Colony Named After Dictator, Pervez Musharaf",
+      "slug": "musharraf-colony",
+      "featured_image": "/images/stories/musharraf-colony-4.jpg",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Musharraf Colony is an unregularized abadi. It is built on the government’s land. It was built in Pervez Musharraf era therefore, it is named after him. In 2001 during Musharf era national katchiabadi policy was approved, according to which, katchiabadis can not be demolished unless provided an alternative location. Musharaf colony is adjacent to another katchiabadi Miskeen Colony. Both abadis are located in G-8/4 sector. The houses in Musharaf colony mostly pakka one rarely see jhuggis in the abadi. This abadi is 15 years old. Majority of the resident of this abadi are Christian Punjabi . Musharf colony has no access is to public service utilities (electricity, gas, water, etc) from the government. Musharraf colony is situated near markaz of G-8 sector. The houses in this abadi used to be kacha a few years back the houses were rebuilt into  Pakka makaans. The abadi comes in Union Council UC-32. There are around 250 houses in abadi where around 450 families live. The average rent of Abadi’s house is 3000 to 5000 Rs. Cost of land when was 5000 RS when they started this colony, now it is upto 2 lac Rs. The majority of abadi’s people work as janitors in the government and the private sector. People do have access to public transport, schools, and public hospitals. There is a water passage (Nala) at one side of abadi. There is no big market inside abadi."
+        },
+        {
+          "type": "images",
+          "images": [
+            "/images/stories/musharraf-colony-1.jpg",
+            "/images/stories/musharraf-colony-2.jpg",
+            "/images/stories/musharraf-colony-3.jpg",
+            "/images/stories/musharraf-colony-4.jpg"
+          ],
+          "caption": "<strong>Figure 1:</strong> Pictures from Abadi:"
+        },
+        {
+          "type": "images",
+          "images": [
+            "/images/stories/musharraf-colony-5.jpg",
+            "/images/stories/musharraf-colony-6.jpg",
+            "/images/stories/musharraf-colony-7.jpg"
+          ],
+          "caption": "<strong>Figure 2:</strong> View from different sides of Musharraf Colony"
+        }
+      ]
+    }	   
+  ],
+"archives": [
+    {
+      "title": "Press cuttings",
+      "description": "",
+      "documents": [
+        {
+          "title": "NA body for allowing double storey houses in legal katchi abadis.",
+          "type": "pdf_viewer",
+          "file_path": "/documents/archives/Press-cuttings-1.pdf",
+          "preview_image": "/images/archives/pide-guide-preview.jpg",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Daily Express",
+          "type": "image",
+          "file_path": "/images/archives/daily-express.png",
+          "preview_image": "/images/archives/daily-express.png",
+          "date": "",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "title": "Policy Papers",
+      "description": "",
+      "documents": [
+        {
+          "title": "PIDE's Guide to Policy and Research",
+          "type": "pdf_viewer",
+          "file_path": "/documents/archives/PIDE-PandR.pdf",
+          "preview_image": "/images/archives/newspaper-double-storey-houses.jpg",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Understanding Urban Resilience",
+          "type": "pdf_viewer",
+          "file_path": "/documents/archives/Understanding-Urban-Resilience-Migratzion-Displacement-Violence-in-Karachi.pdf",
+          "preview_image": "/images/archives/supreme-court-preview.jpg",
+          "date": "",
+          "description": "."
+        }
+      ]
+    },
+    {
+      "title": "Anti Aviction Tool Kit",
+      "description": "",
+      "documents": [
+        {
+          "title": "Anti Aviction Tool Kit Urdu",
+          "type": "pdf_viewer",
+          "file_path": "/documents/home/toolkit_urdu.pdf",
+          "preview_image": "/images/archives/court-petition-preview.jpg",
+          "date": "",
+          "description": ""
+        }
+      ]
+    }
+  ],
+"projects": [
+    {
+      "title": "GoldSmith Global Challenges Research Fund (GCRF)",
+      "background": "bg-gradient-to-br from-blue-900 to-purple-900",
+      "description": [
+        "Uncertainty and Insecurity of Tenure: Developing Infrastructures of Care and Resistance in Islamabad, Pakistan.",
+        "In 2018 Goldsmiths QR GCRF 2018 – 2020 was approved by Research England by confirmed funding for 2018 – 2019 and we are expecting Global Challenges Research initiatives to continue for next three years. The aim of the GCRF supported research project was to support collaborative mono – interdisciplinary capacity building research projects.",
+        "AUR has successfully completed the research project in various Katchi Abadis (informal settlements) in Islamabad. ",
+        "Aims of the Project",
+        "(1) Generate and project community-led knowledge relating to irregular low income settlements—particularly those currently under threat of eviction.",
+        "(2) Strengthen existing networks of organizers from various irregular settlements within Islamabad and to equip them to better represent their communities’ struggles in engagements with the state and public media.",
+        "(3) Relatedly, to consolidate and help disseminate APAKA’s knowledge on resisting threats of evictions by providing them with resources that would allow them to collect, collate, an share information between community members and policymakers."
+      ],
+      "images": [
+      ],
+      "status": "",
+      "year": "",
+      "partner": ""
+    },
+    {
+      "title": "Press Release for the Land, Ecology, Displacement and Development Conference ",
+      "background": "bg-gradient-to-br from-green-500 to-emerald-600",
+      "description": [
+        "Hundreds of progressive political workers, intellectuals, youth and affectees of ‘development’ projects from all over the country gathered for two successive days at the Shah Abdul Latif Bhitai Community Centre in Islamabad for the first ‘People’s Conference on Land, Ecology, Development and Displacement’. The conference brought to light the increasing incidence of violent dispossession taking place under the guise of ‘development’ in both peripheral regions and major Pakistani cities, and the increasing control of state-backed mafias on land and other natural resources at the cost of indigenous communities and working masses.",
+        "Eight sessions took place over the two-day conference, ranging from discussions over global finance and real estate, to the state of exhausted resource peripheries and the imperative of housing for working-class residents of metropolitan areas in the face of ever proliferating gated housing schemes. Amongst the prominent speakers present on the occasion were ex Director General of the Sindh Katchi Abadi Authority, Tasneem Siddiqui; President of the Gwadar Fishermen Alliance, Khudadad Waju; Dr. Majed Akhter of King’s College London; and Director of the Institute of Business Administration, Dr. Akbar Zaidi.",
+        "AWP leaders Ammar Rashid, Alia Amirali, Khurram Ali, Hafeez Baloch, and Aasim Sajjad shared their experiences of organising local communities from Karachi to Islamabad against mass evictions. They asserted that whether dispossession is enforced by the state, and where it entities like Bahria Town are in the lead, repression against those who engage in peaceful resistance to defend their homes and lands is commonplace and intensifying. AWP organisers resisting eviction of katchi abadis in Karachi’s Gujjar Nala and Orangi Nala areas have been jailed repeatedly, while Seengar Noonari, who has been on the frontline of resistance to the forced capture of villages for the expansion of Bahria Town was forcibly disappeared two weeks ago.",
+        "Legal experts like environmental lawyer Ahmed Rafay Alam and SIRA and Karachi Bachao Tehreek’s legal advisor Abira Ashfaq as well as urban planners like Ayesha Shahid noted the use of colonial era laws like the Land Acquisition Act (1894) to dispossess villagers and katchi abadi residents alike. They questioned the role of the superior judiciary in fulfilling its constitutional mandate of protecting the rights of the most vulnerable. They also criticised massive development initiatives like the Ravi Riverfront City and Rawalpindi Ring Road which are both ecologically destructive and generating mass displacement. Fayyaz Gilani of the Rawalpindi Ring Road Affectees committee and Akmal Riaz of the Dadhocha Dam Affectees committee also shared their experiences of being forced to sell agricultural lands at throwaway rates for mega-projects announced without them being consulted.",
+        "Sibt-ul-Hasan and Nazimuddin Salarzai shared how disputes over land are intensifying in the ex FATA districts in the shadow of the war on terror and the multifarious devastation caused by the latter. These disputes are exacerbating sectarian and other conflicts due to the flawed strategic policies of the state. Hashim Khoso and Nausheen Anwar discussed similar resource-based disputes in the context of Sindh, especially in the urban metropolis of Karachi. They warned that control over land in Karachi is continually conflated with ethnic identity, with potentially even more explosive consequences than have been experienced in the past.",
+        "In the session on Islamabad, PIDE economist Dr. Zia Bandey shared insights on the exploitation of street vendors, most of them displaced migrant workers, in the informal economy of the city and spoke of the importance of licensing them and providing them basic economic rights. Hydrology expert Dr. Hassan Abbas spoke of the unsustainable, dam-reliant water management practices used by government in the Islamabad region and stressed on the need to sustainably utilized natural aquifers and monsoon rains for the city’s water needs.",
+        "The conference resolution noted that the politics of land and other natural resources is more important today than even in the past and called for a series of wide-ranging steps for rural and urban land reform, including redistribution, review of the land acquisition act, taxation of large and under-utilized landholdings, implementation of incremental public housing and regularization of katchi abadis, among other aspects.",
+        "Today’s increasingly financialised model of ‘development’ is generating more surplus populations than ever before as profiteering through speculative real estate is considered far more important than the current or future welfare of millions of working people who previously used land and other natural resources to secure basic livelihoods. The need for a land reform agenda in the 21st century prefacing the wellbeing of working people and the natural environment is, therefore, extremely urgent."
+      ],
+      "images": [
+        {
+          "src": "/images/projects/land-ecology-displacement-conference-1.png",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "src": "/images/projects/land-ecology-displacement-conference-2.png",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "src": "/images/projects/land-ecology-displacement-conference-3.png",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "src": "/images/projects/land-ecology-displacement-conference-4.png",
+          "alt": "",
+          "caption": ""
+        }
+      ],
+      "status": "",
+      "year": "",
+      "partner": ""
+    }
+  ],
+"about_us": {
+    "title": "Alliance for Urban Rights",
+    "description": [
+      "Alliance for Urban Rights (AUR) is an action-based research and advocacy organization constituted in August 2019, to fill the gap between activism and research. Our work lies at the intersections of urban planning, climate, gender justice, and technology.",
+      "We work with communities impacted by urban displacement & violence especially the gendered impacts of it. AUR is a network of activists, organisers and researchers, who work on issues of marginality and rights.",
+      "<strong>Previous Projects</strong>",
+      "In our previous project we worked in collaboration with All Pakistan Alliance for Katchi Abadis in Islamabad (working since 2003), to explore possibilities and provide alternative policy discourse to the State provided narrative with respect to low income housing, which not only fails to address the fundamental needs of the people living in the ever growing low-income informal housing.",
+      "The aim of AUR is to improve the welfare of residents of irregular settlements by investing in, developing and strengthening related infrastructures of care, and in equipping vulnerable communities with the necessary knowledge, skills and capabilities. The purpose is to develop alternative knowledge on vulnerable communities- one that highlights their central role as hardworking, responsible citizens who live in ethical and sustainable communities.",
+      "Objectives",
+      "1) To conduct research studies on the socio- economic conditions of people living in irregular settlements with a view to involving ways and means for their development within and beyond their social historical frame works and to seek promotion of urban development such as provision of right to shelter, drinking water and education as well as Public Convenience for people.",
+      "2) Disseminating information about past and present government policies, actions and initiatives.",
+      "3) Establish a dialogue about the economic, social and political power structures that exist in the country and beyond.",
+      "4) Raising awareness about the political and legal rights of the Abadi residents, as slum-dwellers and citizens of Pakistan.",
+      "5) Outlining the need for peaceful social, political and community organization beyond religious, sectarian, ethnic and gender differences.",
+      "6) The association seeks to influence government decision-making through protests, organized demonstrations and legal claims. Its current agenda involves organizing a rally on land rights.",
+      "7) To communicate and coordinate with the Govt. Local and public authorities on various issues related to development welfare and public interest on different subjects. –due to ineffective policy and implementation-but also keeps the population living in these settlements at a very vulnerable dis empowered position in the mainstream societal and economic stratum."
+    ],
+    "images": [
+      {
+        "src": "/images/about/who-we-are-1.jpg",
+        "alt": "",
+        "caption": ""
+      },
+      {
+        "src": "/images/about/who-we-are-2.jpg",
+        "alt": "",
+        "caption": ""
+      },
+      {
+        "src": "/images/about/who-we-are-3.jpg",
+        "alt": "",
+        "caption": ""
+      }
+    ],
+    "founded": "",
+    "location": "",
+    "contact": ""
+  }  
 }

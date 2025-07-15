@@ -4,12 +4,12 @@ import { useParams, useNavigate } from 'react-router-dom';
 import mediaAssets from '../data/mediaAssets.json';
 
 const Announcements = () => {
-  const { eventId } = useParams();
+  const { eventSlug } = useParams(); // FIXED: Changed from eventId to eventSlug
   const navigate = useNavigate();
   const { timeline_events } = mediaAssets;
 
-  // Find the specific event
-  const event = timeline_events.find(e => e.id === parseInt(eventId));
+  // FIXED: Find the specific event by slug instead of id
+  const event = timeline_events.find(e => e.slug === eventSlug);
 
   const handleBackToTimeline = () => {
     navigate('/timeline');
@@ -23,7 +23,8 @@ const Announcements = () => {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-gray-900 mb-4">Event Not Found</h1>
+          <h1 className="text-2xl font-bold text-gray-900 mb-4">Event Page Not Found</h1>
+          <p className="text-gray-600 mb-6">Sorry, we couldn't find the event you're looking for.</p>
           <button
             onClick={handleBackToTimeline}
             className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
@@ -74,10 +75,10 @@ const Announcements = () => {
       </div>
 
       {/* Event Details Content */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article className="bg-white rounded-2xl shadow-lg overflow-hidden">
           {/* Event Header */}
-          <div className="px-8 py-8">
+          <div className="px-12 py-12">
             <div className="flex items-center space-x-4 mb-6">
               <div className="w-4 h-4 bg-blue-600 rounded-full"></div>
               <span className="text-blue-600 font-semibold text-lg">{event.date}</span>
@@ -88,7 +89,7 @@ const Announcements = () => {
             </h1>
 
             {/* Large Event Image */}
-            <div className="relative w-full h-96 bg-gray-200 rounded-xl overflow-hidden mb-6">
+            <div className="relative w-full h-[500px] bg-gray-200 rounded-xl overflow-hidden mb-8">
               <img
                 src={event.image}
                 alt={event.heading}
@@ -111,36 +112,16 @@ const Announcements = () => {
               </div>
             </div>
 
-            {/* Image Caption - Removed since captions no longer exist */}
-
             {/* Event Content */}
-            <div className="prose prose-lg max-w-none">
+            <div className="prose prose-xl max-w-none">
               <div 
-                className="text-gray-700 text-lg leading-relaxed mb-6"
+                className="text-gray-700 text-xl leading-relaxed mb-8"
                 dangerouslySetInnerHTML={{ __html: event.preview }}
               />
-
-              {/* Extended Content (placeholder for now) */}
-              <div className="space-y-6">
-                <h2 className="text-2xl font-bold text-gray-900">Background</h2>
-                <p className="text-gray-700 leading-relaxed">
-                  This milestone represents a significant achievement in our ongoing mission to advocate for urban rights and sustainable community development. Through dedicated efforts and community collaboration, we were able to make meaningful progress toward our goals.
-                </p>
-
-                <h2 className="text-2xl font-bold text-gray-900">Impact</h2>
-                <p className="text-gray-700 leading-relaxed">
-                  The impact of this achievement extends beyond immediate results, creating lasting change in the communities we serve. Our approach emphasizes community-led solutions and sustainable development practices that benefit all stakeholders.
-                </p>
-
-                <h2 className="text-2xl font-bold text-gray-900">What's Next</h2>
-                <p className="text-gray-700 leading-relaxed">
-                  Building on this success, we continue to advance our mission through strategic partnerships, community engagement, and policy advocacy. Each milestone brings us closer to creating more equitable and sustainable urban environments.
-                </p>
-              </div>
             </div>
 
             {/* Action Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 mt-8 pt-8 border-t border-gray-200">
+            <div className="flex flex-col sm:flex-row gap-4 mt-10 pt-10 border-t border-gray-200">
               {event.news_link && (
                 <button
                   onClick={() => window.open(event.news_link, '_blank')}
@@ -171,12 +152,12 @@ const Announcements = () => {
           <h3 className="text-xl font-bold text-gray-900 mb-6">Other Timeline Events</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {timeline_events
-              .filter(e => e.id !== event.id)
+              .filter(e => e.slug !== event.slug) // FIXED: Filter by slug instead of id
               .slice(0, 4)
               .map((otherEvent) => (
                 <div
                   key={otherEvent.id}
-                  onClick={() => navigate(`/announcements/${otherEvent.id}`)}
+                  onClick={() => navigate(`/announcements/${otherEvent.slug}`)} // FIXED: Navigate using slug
                   className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-200 cursor-pointer border border-gray-100 hover:border-blue-200"
                 >
                   <div className="flex items-start space-x-4">

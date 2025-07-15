@@ -126,7 +126,7 @@ const Timeline = () => {
 
       {/* Animated Timeline */}
       <div className="relative py-16" ref={timelineRef}>
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Vertical Timeline Line */}
           <div className="absolute left-8 lg:left-1/2 lg:transform lg:-translate-x-1/2 top-16 bottom-16">
             {/* Background line */}
@@ -164,22 +164,22 @@ const Timeline = () => {
 
                 {/* Event Content */}
                 <div
-                  className={`w-full lg:w-1/2 ${
+                  className={`w-full lg:w-[48%] ${
                     event.side === 'left' 
-                      ? 'lg:pr-10' 
-                      : 'lg:pl-10'
+                      ? 'lg:pr-12' 
+                      : 'lg:pl-12'
                   } pl-16 lg:pl-0`}
                 >
                   <div
-                    className={`bg-white rounded-2xl shadow-lg p-6 lg:p-8 transition-all duration-500 ${
+                    className={`bg-white rounded-2xl shadow-lg p-8 lg:p-10 transition-all duration-500 ${
                       activeEventId === event.id
                         ? 'scale-105 shadow-xl border-2 border-blue-200'
                         : 'scale-100 shadow-lg'
                     }`}
                   >
                     {/* Event Header */}
-                    <div className="mb-4 lg:mb-6">
-                      <h3 className="text-xl lg:text-2xl font-bold text-gray-900 mb-2 lg:mb-3">
+                    <div className="mb-6 lg:mb-8">
+                      <h3 className="text-xl lg:text-2xl font-bold text-gray-900 mb-3 lg:mb-4">
                         {event.heading}
                       </h3>
                       <p className="text-blue-600 font-semibold text-base lg:text-lg">
@@ -189,8 +189,8 @@ const Timeline = () => {
 
                     {/* Event Image - Conditional Rendering */}
                     {event.image && (
-                      <div className="mb-4 lg:mb-6">
-                        <div className="relative w-full h-48 lg:h-56 bg-gray-200 rounded-lg overflow-hidden">
+                      <div className="mb-6 lg:mb-8">
+                        <div className="relative w-full h-52 lg:h-64 bg-gray-200 rounded-lg overflow-hidden">
                           <img
                             src={event.image}
                             alt={event.heading}
@@ -217,14 +217,14 @@ const Timeline = () => {
 
                     {/* Event Preview with Embedded Link - Truncated */}
                     <div 
-                      className={`text-gray-700 leading-relaxed text-base lg:text-lg ${event.image ? 'mb-4 lg:mb-6' : 'mb-6 lg:mb-8'}`}
+                      className={`text-gray-700 leading-relaxed text-base lg:text-lg ${event.image ? 'mb-6 lg:mb-8' : 'mb-8 lg:mb-10'}`}
                       dangerouslySetInnerHTML={{ __html: truncatePreview(event.preview) }}
                     />
 
                     {/* Read More Button */}
                     <button
                       onClick={() => handleReadMore(event.slug)}
-                      className="inline-flex items-center px-4 py-2 lg:px-6 lg:py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                      className="inline-flex items-center px-6 py-3 lg:px-8 lg:py-4 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                     >
                       Read More
                       <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

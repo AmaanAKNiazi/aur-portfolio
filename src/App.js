@@ -5,6 +5,7 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 import Timeline from './pages/Timeline';
 import Stories from './pages/Stories';
+import Story from './pages/Story'; // Add this import
 import Archives from './pages/Archives';
 import Projects from './pages/Projects';
 import Resources from './pages/Resources';
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/stories" element={<Stories />} />
+          <Route path="/story/:storySlug" element={<Story />} /> {/* Add this route */}
           <Route path="/archives" element={<Archives />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resources" element={<Resources />} />
