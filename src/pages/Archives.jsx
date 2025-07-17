@@ -15,45 +15,160 @@ const Archives = () => {
     if (document.type === 'url') {
       window.open(document.link, '_blank');
     } else if (document.type === 'google_doc') {
-      // Open Google Doc in new tab
       window.open(document.link, '_blank');
     } else if (document.type === 'google_drive_pdf' || document.type === 'google_drive_doc') {
-      // Open Google Drive file in new tab
       window.open(document.link, '_blank');
-    } else if (document.type === 'pdf_viewer') {
-      // Open in PDF.js viewer
-      window.open(getPDFViewerUrl(document.file_path), '_blank');
-    } else if (document.type === 'pdf' || document.type === 'doc') {
+    } else if (document.type === 'pdf_viewer' || document.type === 'pdf') {
+      window.open(document.file_path, '_blank');
+    } else if (document.type === 'doc') {
       window.open(document.file_path, '_blank');
     } else if (document.type === 'image') {
       window.open(document.file_path, '_blank');
     }
   };
 
-  // Convert Google Drive file URL to preview URL
-  const getGoogleDrivePreviewUrl = (fileUrl) => {
-    const fileIdMatch = fileUrl.match(/\/d\/([a-zA-Z0-9-_]+)/);
-    if (fileIdMatch) {
-      const fileId = fileIdMatch[1];
-      return `https://drive.google.com/file/d/${fileId}/preview`;
+  const getDocumentIcon = (type) => {
+    switch (type) {
+      case 'pdf':
+      case 'pdf_viewer':
+        return '📄';
+      case 'doc':
+        return '📝';
+      case 'google_doc':
+        return '📄';
+      case 'google_drive_pdf':
+        return '📄';
+      case 'google_drive_doc':
+        return '📝';
+      case 'image':
+        return '🖼️';
+      case 'url':
+        return '🔗';
+      default:
+        return '📄';
     }
-    return fileUrl;
   };
 
-  // Convert Google Docs edit URL to preview URL
-  const getGoogleDocsPreviewUrl = (editUrl) => {
-    if (editUrl.includes('docs.google.com/document/d/')) {
-      const documentId = editUrl.match(/\/d\/([a-zA-Z0-9-_]+)/)?.[1];
-      if (documentId) {
-        return `https://docs.google.com/document/d/${documentId}/preview`;
-      }
+  const getDocumentTypeLabel = (type) => {
+    switch (type) {
+      case 'pdf':
+      case 'pdf_viewer':
+        return 'PDF Document';
+      case 'doc':
+        return 'Document';
+      case 'google_doc':
+        return 'Google Doc';
+      case 'google_drive_pdf':
+        return 'Google Drive PDF';
+      case 'google_drive_doc':
+        return 'Google Drive Doc';
+      case 'image':
+        return 'Image';
+      case 'url':
+        return 'Web Link';
+      default:
+        return 'Document';
     }
-    return editUrl;
   };
 
-  // Get PDF.js viewer URL for local PDFs
-  const getPDFViewerUrl = (pdfPath) => {
-    return `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(window.location.origin + pdfPath)}`;
+const renderDocumentPreview = (document, docIndex) => {
+  if (document.type === 'pdf_viewer' || document.type === 'pdf') {
+    return (
+      <div className="relative h-72 bg-gray-100 overflow-hidden">
+        <iframe
+          src={`${document.file_path}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`}
+          className="w-full h-full border-0"
+          title={document.title}
+          onError={(e) => {
+            // If iframe fails, show fallback
+            e.target.style.display = 'none';
+            e.target.nextSibling.style.display = 'flex';
+          }}
+        />
+        {/* Fallback if iframe fails */}
+        <div 
+          className="w-full h-full bg-gradient-to-br from-red-50 to-red-100 flex items-center justify-center cursor-pointer group"
+          style={{ display: 'none' }}
+          onClick={() => handleDocumentClick(document)}
+        >
+          <div className="text-center">
+            <div className="text-6xl mb-4 group-hover:scale-110 transition-transform duration-200">📄</div>
+            <div className="text-lg font-medium text-gray-700">PDF Document</div>
+            <div className="text-sm text-gray-500 mt-2">Click to view</div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+    // For PDF files - show a nice preview card instead of trying to render the PDF
+    if (document.type === 'pdf_viewer' || document.type === 'pdf') {
+      return (
+        <div className="relative h-72 bg-gradient-to-br from-red-50 to-red-100 flex items-center justify-center cursor-pointer group hover:from-red-100 hover:to-red-200 transition-colors duration-200"
+             onClick={() => handleDocumentClick(document)}>
+          <div className="text-center">
+            <div className="text-6xl mb-4 group-hover:scale-110 transition-transform duration-200">
+              📄
+            </div>
+            <div className="text-lg font-medium text-gray-700">PDF Document</div>
+            <div className="text-sm text-gray-500 mt-2">Click to view</div>
+          </div>
+          
+          {/* Hover overlay */}
+          <div className="absolute inset-0 bg-red-500 bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-200 flex items-center justify-center">
+            <div className="bg-white bg-opacity-90 rounded-lg p-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+              <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    if (document.preview_image) {
+      return (
+        <div className="relative h-72 bg-gray-100 overflow-hidden">
+          <img
+            src={document.preview_image}
+            alt={document.title}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            onError={(e) => {
+              e.target.style.display = 'none';
+              e.target.nextSibling.style.display = 'flex';
+            }}
+          />
+          {/* Fallback for images */}
+          <div 
+            className="w-full h-full bg-gradient-to-br from-green-50 to-green-100 flex items-center justify-center cursor-pointer group"
+            style={{ display: 'none' }}
+            onClick={() => handleDocumentClick(document)}
+          >
+            <div className="text-center">
+              <div className="text-6xl mb-4 group-hover:scale-110 transition-transform duration-200">
+                🖼️
+              </div>
+              <div className="text-lg font-medium text-gray-700">Image</div>
+              <div className="text-sm text-gray-500 mt-2">Click to view</div>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    // Default fallback preview
+    return (
+      <div className="relative h-72 bg-gradient-to-br from-gray-100 to-gray-300 flex items-center justify-center cursor-pointer group hover:from-gray-200 hover:to-gray-400 transition-colors duration-200"
+           onClick={() => handleDocumentClick(document)}>
+        <div className="text-center">
+          <div className="text-6xl mb-4 group-hover:scale-110 transition-transform duration-200">
+            {getDocumentIcon(document.type)}
+          </div>
+          <div className="text-lg font-medium text-gray-700">{getDocumentTypeLabel(document.type)}</div>
+          <div className="text-sm text-gray-500 mt-2">Click to view</div>
+        </div>
+      </div>
+    );
   };
 
   return (
@@ -110,69 +225,9 @@ const Archives = () => {
                         className="group bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border hover:border-blue-200"
                       >
                         {/* Document Preview */}
-                        <div 
-                          className="relative h-72 bg-gray-200 overflow-hidden"
-                          onClick={(e) => e.stopPropagation()}
-                        >
-                          {document.type === 'google_doc' ? (
-                            /* Google Docs Embedded Preview */
-                            <iframe
-                              src={getGoogleDocsPreviewUrl(document.link)}
-                              className="w-full h-full border-0"
-                              title={document.title}
-                              onError={(e) => {
-                                e.target.style.display = 'none';
-                                e.target.nextSibling.style.display = 'flex';
-                              }}
-                            />
-                          ) : (document.type === 'google_drive_pdf' || document.type === 'google_drive_doc') ? (
-                            /* Google Drive Embedded Preview */
-                            <iframe
-                              src={getGoogleDrivePreviewUrl(document.link)}
-                              className="w-full h-full border-0"
-                              title={document.title}
-                              onError={(e) => {
-                                e.target.style.display = 'none';
-                                e.target.nextSibling.style.display = 'flex';
-                              }}
-                            />
-                          ) : document.type === 'pdf_viewer' ? (
-                            /* PDF.js Embedded Preview */
-                            <iframe
-                              src={`https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(window.location.origin + document.file_path)}`}
-                              className="w-full h-full border-0"
-                              title={document.title}
-                              onError={(e) => {
-                                e.target.style.display = 'none';
-                                e.target.nextSibling.style.display = 'flex';
-                              }}
-                            />
-                          ) : document.preview_image ? (
-                            /* Regular Image Preview */
-                            <img
-                              src={document.preview_image}
-                              alt={document.title}
-                              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                              onError={(e) => {
-                                e.target.style.display = 'none';
-                                e.target.nextSibling.style.display = 'flex';
-                              }}
-                            />
-                          ) : null}
+                        <div className="relative overflow-hidden">
+                          {renderDocumentPreview(document, docIndex)}
                           
-                          {/* Fallback preview */}
-                          <div 
-                            className="w-full h-full bg-gradient-to-br from-gray-100 to-gray-300 flex items-center justify-center"
-                            style={{ 
-                              display: (document.type === 'google_doc' || document.type === 'google_drive_pdf' || document.type === 'google_drive_doc' || document.type === 'pdf_viewer' || document.preview_image) ? 'none' : 'flex' 
-                            }}
-                          >
-                            <div className="text-center text-gray-600">
-                              <div className="text-6xl mb-4">📄</div>
-                              <div className="text-lg font-medium">Document</div>
-                            </div>
-                          </div>
-
                           {/* External Link Icon */}
                           <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
                             <button
@@ -187,7 +242,7 @@ const Archives = () => {
                         </div>
 
                         {/* Document Info */}
-                        <div className="p-6" onClick={(e) => e.stopPropagation()}>
+                        <div className="p-6">
                           <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-200 line-clamp-2 mb-3 text-lg">
                             {document.title}
                           </h3>
@@ -202,18 +257,24 @@ const Archives = () => {
                             </p>
                           )}
                           
+                          {/* Document Type Badge */}
+                          <div className="flex items-center mb-4">
+                            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                              {getDocumentTypeLabel(document.type)}
+                            </span>
+                          </div>
+                          
                           {/* Open Document Button */}
                           <div className="flex items-center justify-center mt-4">
                             <button
                               onClick={() => handleDocumentClick(document)}
-                              className="flex items-center text-blue-600 hover:text-blue-700 transition-colors duration-200 px-4 py-2 rounded-lg hover:bg-blue-50"
+                              className="flex items-center text-blue-600 hover:text-blue-700 transition-colors duration-200 px-4 py-2 rounded-lg hover:bg-blue-50 w-full justify-center"
                             >
                               <span className="text-sm font-medium">
-                                {document.type === 'url' || document.type === 'google_doc' || document.type === 'google_drive_pdf' || document.type === 'google_drive_doc' || document.type === 'pdf_viewer' ? 'Open Document' : 
-                                 document.type === 'image' ? 'View Image' : 'Open Document'}
+                                Open Document
                               </span>
                               <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                               </svg>
                             </button>
                           </div>

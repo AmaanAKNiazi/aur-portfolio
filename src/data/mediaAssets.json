@@ -21,7 +21,7 @@
     ],
     "map_section": {
       "main_map": "/images/home/locations-map.jpg",
-      "alt": "Your map description"
+      "alt": ""
     },
     "timeline":{
       "june_26_2015": "/images/timeline/jun-26-2015-justice-for-i11.jpeg"
@@ -497,11 +497,11 @@
           "type": "image",
           "src": "/images/stories/narratives-from-below-1.jpg",
           "alt": "",
-          "caption": "Gulzar Bibi"
+          "caption": "<strong>Gulzar Bibi</strong>"
         },
         {
           "type": "paragraph",
-          "text": "Gulzar Bibi was born in Peshawar. I, came to Islamabad, when I was 20 years old, with my husband who was a daily wager. My husband died almost 8 years ago, since then I m a mother and father both to my children. Most of life I had worked as a maid in nearby home to support and feed my children, from washing clothes and toilets, I had done all sorts of work. But after the Covid19 outbreak people fear to allow us enter their homes, so all these four months we had to eat one time in a day.  Amid this dire situation two vehicle of CDA and Islamabad police officials came to my house and threaten us to leave by tomorrow, otherwise they are going to raze down my house in the morning. Yesterday, they came and demolished one of the room I recently build. I had borrowed money, sold my cow to build the room."
+          "text": "<strong>Gulzar Bibi</strong> was born in Peshawar. I, came to Islamabad, when I was 20 years old, with my husband who was a daily wager. My husband died almost 8 years ago, since then I m a mother and father both to my children. Most of life I had worked as a maid in nearby home to support and feed my children, from washing clothes and toilets, I had done all sorts of work. But after the Covid19 outbreak people fear to allow us enter their homes, so all these four months we had to eat one time in a day.  Amid this dire situation two vehicle of CDA and Islamabad police officials came to my house and threaten us to leave by tomorrow, otherwise they are going to raze down my house in the morning. Yesterday, they came and demolished one of the room I recently build. I had borrowed money, sold my cow to build the room."
         },
         {
           "type": "paragraph",
@@ -511,11 +511,11 @@
           "type": "image",
           "src": "/images/stories/narratives-from-below-2.jpg",
           "alt": "",
-          "caption": "Hayat Mir"
+          "caption": "<strong>Hayat Mir</strong>"
         },
         {
           "type": "paragraph",
-          "text": "Hayat Mir:  I’m 65 years old born in Jalalabad Afghanistan, I migrated to Pakistan 45 years ago. I married here and all my children are born in Pakistan. I moved to Pakistan because our lives were not safe, there was so much violence back then. During the Soviet occupation people lost their homes and loved one, everyone was grieving, we have seen the bodies of our sons and loved on daily basis. There was no work, the country was at war no one knew who is killing who, it was a very difficult time. I first came to Khayaban e Sir Sayyed, Rawalpindi where we rented a quarter. After some years the rent started to increase and I was unable to pay the rent. The increasing rent was not affordable and I had to leave the quarter, then shifted to I/10 Katchi Abadi made this hut where I along with my family live now."
+          "text": "<strong>Hayat Mir:</strong>  I’m 65 years old born in Jalalabad Afghanistan, I migrated to Pakistan 45 years ago. I married here and all my children are born in Pakistan. I moved to Pakistan because our lives were not safe, there was so much violence back then. During the Soviet occupation people lost their homes and loved one, everyone was grieving, we have seen the bodies of our sons and loved on daily basis. There was no work, the country was at war no one knew who is killing who, it was a very difficult time. I first came to Khayaban e Sir Sayyed, Rawalpindi where we rented a quarter. After some years the rent started to increase and I was unable to pay the rent. The increasing rent was not affordable and I had to leave the quarter, then shifted to I/10 Katchi Abadi made this hut where I along with my family live now."
         },
         {
           "type": "paragraph",
@@ -525,11 +525,11 @@
           "type": "image",
           "src": "/images/stories/narratives-from-below-3.jpg",
           "alt": "",
-          "caption": "Noor Muhammad"
+          "caption": "<strong>Noor Muhammad</strong>"
         },
         {
           "type": "paragraph",
-          "text": "Noor Muhammad: I don’t have a birth certificate nor do I’m aware of my age, but I think I’m in my late 40s. I was born in G-9 Karachi Company. I have no basic education. Speaking about his situation Noor Muhammad said, these day, if I had bread I won’t have anything to eat with the bread. Because of the Covid-19 pandemic making a living has become virtually impossible as it is getting more and more difficult to find work. The suit I’m wearing is from someone else who gave it away. I have rarely been fortunate enough to buy my clothes for the most part of my life. My hut has been demolished several time in the last five years by CDA. I was arrested for defending my home, allegations of being a terrorist were also filed against me. This is what we get for defending our hut."
+          "text": "<strong>Noor Muhammad:</strong> I don’t have a birth certificate nor do I’m aware of my age, but I think I’m in my late 40s. I was born in G-9 Karachi Company. I have no basic education. Speaking about his situation Noor Muhammad said, these day, if I had bread I won’t have anything to eat with the bread. Because of the Covid-19 pandemic making a living has become virtually impossible as it is getting more and more difficult to find work. The suit I’m wearing is from someone else who gave it away. I have rarely been fortunate enough to buy my clothes for the most part of my life. My hut has been demolished several time in the last five years by CDA. I was arrested for defending my home, allegations of being a terrorist were also filed against me. This is what we get for defending our hut."
         },
                 {
           "type": "paragraph",
@@ -539,11 +539,11 @@
           "type": "image",
           "src": "/images/stories/narratives-from-below-4.jpg",
           "alt": "",
-          "caption": "Tariq Khan"
+          "caption": "<strong>Tariq Khan</strong>"
         },
         {
           "type": "paragraph",
-          "text": "Tariq Khan: The locals of the posh area often make our live difficult. Recently I have requested one of our neighbor from the sector to allow his family to fill water tanks for the daily use, they first allow us and then charged us for the electricity bill every month. The bill was almost 38 thousand which is impossible to pay for me. CDA often come every three months and threaten us, if they out we are building a concrete wall they destroy it. You tell me, where should we go, we are literally living on the Nalah. We have no other place to go."
+          "text": "<strong>Tariq Khan:</strong> The locals of the posh area often make our live difficult. Recently I have requested one of our neighbor from the sector to allow his family to fill water tanks for the daily use, they first allow us and then charged us for the electricity bill every month. The bill was almost 38 thousand which is impossible to pay for me. CDA often come every three months and threaten us, if they out we are building a concrete wall they destroy it. You tell me, where should we go, we are literally living on the Nalah. We have no other place to go."
         }
       ]
     },
@@ -873,7 +873,7 @@
       ]
     }	   
   ],
-"archives": [
+  "archives": [
     {
       "title": "Press cuttings",
       "description": "",
@@ -882,7 +882,7 @@
           "title": "NA body for allowing double storey houses in legal katchi abadis.",
           "type": "pdf_viewer",
           "file_path": "/documents/archives/Press-cuttings-1.pdf",
-          "preview_image": "/images/archives/pide-guide-preview.jpg",
+          "preview_image": "",
           "date": "",
           "description": ""
         },
@@ -904,7 +904,7 @@
           "title": "PIDE's Guide to Policy and Research",
           "type": "pdf_viewer",
           "file_path": "/documents/archives/PIDE-PandR.pdf",
-          "preview_image": "/images/archives/newspaper-double-storey-houses.jpg",
+          "preview_image": "",
           "date": "",
           "description": ""
         },
@@ -912,7 +912,7 @@
           "title": "Understanding Urban Resilience",
           "type": "pdf_viewer",
           "file_path": "/documents/archives/Understanding-Urban-Resilience-Migratzion-Displacement-Violence-in-Karachi.pdf",
-          "preview_image": "/images/archives/supreme-court-preview.jpg",
+          "preview_image": "",
           "date": "",
           "description": "."
         }
@@ -926,14 +926,14 @@
           "title": "Anti Aviction Tool Kit Urdu",
           "type": "pdf_viewer",
           "file_path": "/documents/home/toolkit_urdu.pdf",
-          "preview_image": "/images/archives/court-petition-preview.jpg",
+          "preview_image": "",
           "date": "",
           "description": ""
         }
       ]
     }
   ],
-"projects": [
+  "projects": [
     {
       "title": "GoldSmith Global Challenges Research Fund (GCRF)",
       "background": "bg-gradient-to-br from-blue-900 to-purple-900",
@@ -992,7 +992,176 @@
       "partner": ""
     }
   ],
-"about_us": {
+  "resources": {
+    "intro": {
+      "title": "The “Permanent Impermanence” Report",
+      "subtitle": "Katchi Abadis and the crisis of forced evictions, displacement and low-income housing in Islamabad",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "background": "bg-gradient-to-br from-blue-900 to-purple-900",
+      "backgroundImage": "/images/resources/permanent_impermanence_report.png"
+    },
+    "report": {
+      "title": "The “Permanent Impermanence” Report",
+      "description": [
+        "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.",
+        "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
+      ],
+      "featured": {
+        "title": "Download the Report",
+        "description": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ],
+        "images": [
+          {
+            "src": "/images/resources/permanent_impermanence_report_cover.JPG",
+            "alt": "Urban Housing Rights Report",
+            "caption": "Featured Research Report"
+          }
+        ],
+        "downloadLink": "/documents/urban-housing-rights-report.pdf"
+      }
+    },
+    "details": {
+      "title": "Key Takeaways",
+      "sections": [
+        {
+          "id": 1,
+          "title": "<strong>Research Scope & Objectives</strong>",
+          "type": "paragraph",
+          "content": "This comprehensive study examines the housing crisis in Pakistani urban centers, focusing on the experiences of families living in informal settlements. Our research methodology combines quantitative data analysis with qualitative community testimonies to provide a holistic understanding of urban housing challenges."
+        },
+        {
+          "id": 2,
+          "title": "Data Collection Methods",
+          "type": "numbered",
+          "content": [
+            "Household surveys conducted across 12 katchi abadis in Islamabad",
+            "In-depth interviews with 150 community members and leaders",
+            "Focus group discussions with women, youth, and elderly residents",
+            "Policy analysis of existing housing regulations and implementation gaps",
+            "Participatory mapping exercises with community organizations"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Key Research Areas",
+          "type": "bullets",
+          "content": [
+            "Access to basic services (water, electricity, sanitation)",
+            "Security of tenure and eviction threats",
+            "Community organizing and resistance strategies",
+            "Gender-specific impacts of housing insecurity",
+            "Health and education outcomes in informal settlements"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Community Voices",
+          "type": "image_with_text",
+          "images": [
+            {
+              "src": "/images/details/community-voices.jpg",
+              "alt": "Community Research",
+              "caption": "Community members participating in research"
+            }
+          ],
+          "content": "Our research prioritizes the voices and experiences of community members themselves. Through extensive interviews and participatory research methods, we documented the resilience, innovation, and organizing capacity of residents in informal settlements. These testimonies form the foundation of our policy recommendations."
+        },
+        {
+          "id": 5,
+          "title": "Policy Recommendations Framework",
+          "type": "numbered",
+          "content": [
+            "Immediate halt to forced evictions without adequate resettlement",
+            "Recognition of informal settlements as legitimate communities",
+            "Investment in upgrading existing settlements rather than demolition",
+            "Participatory planning processes that include community input",
+            "Legal reforms to protect housing rights and prevent displacement"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Implementation Challenges",
+          "type": "bullets",
+          "content": [
+            "Bureaucratic resistance to policy change",
+            "Lack of coordination between government departments",
+            "Insufficient budget allocation for housing programs",
+            "Limited understanding of community needs among officials",
+            "Political instability affecting long-term planning"
+          ]
+        }
+      ]
+    },
+    "summary": {
+      "title": "Executive Summary",
+      "sections": [
+        {
+          "id": 1,
+          "title": "Key Findings",
+          "type": "bullets",
+          "content": [
+            "Over 60% of families in informal settlements lack secure tenure",
+            "Women bear disproportionate burden of housing insecurity",
+            "Children in katchi abadis have 40% lower school enrollment rates",
+            "Community-led initiatives show higher success rates than top-down programs",
+            "Forced evictions increase poverty and social marginalization"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Primary Recommendations",
+          "type": "numbered",
+          "content": [
+            "Establish a moratorium on forced evictions without adequate consultation and resettlement",
+            "Implement participatory budgeting for urban development projects",
+            "Create legal frameworks protecting housing rights of informal settlement residents",
+            "Invest in upgrading existing settlements rather than demolition and displacement",
+            "Develop affordable housing programs with community input and ownership"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Community Impact",
+          "type": "paragraph",
+          "content": "The research demonstrates the profound resilience and organizing capacity of communities facing housing insecurity. Despite facing constant threats of eviction and limited access to basic services, residents have developed innovative solutions for water access, waste management, and community safety. These grassroots initiatives offer valuable lessons for urban planning and policy development."
+        },
+        {
+          "id": 4,
+          "title": "Policy Implications",
+          "type": "bullets",
+          "content": [
+            "Current housing policies fail to address the scale of urban housing needs",
+            "Criminalization of informal settlements exacerbates poverty and exclusion",
+            "Lack of coordination between federal and local authorities creates implementation gaps",
+            "International human rights obligations require immediate policy reforms",
+            "Economic benefits of settlement upgrading outweigh costs of displacement"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Implementation Timeline",
+          "type": "numbered",
+          "content": [
+            "Immediate (0-6 months): Halt all forced evictions and establish community consultation processes",
+            "Short-term (6-18 months): Develop legal frameworks and allocate budget for settlement upgrading",
+            "Medium-term (1-3 years): Implement pilot upgrading projects in selected settlements",
+            "Long-term (3-5 years): Scale successful models and establish permanent housing policy framework",
+            "Ongoing: Monitor implementation and adapt policies based on community feedback"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Call to Action",
+          "type": "paragraph",
+          "content": "The housing crisis in Pakistani cities requires immediate and sustained action from government, civil society, and international partners. The evidence presented in this report demonstrates both the urgency of the situation and the availability of viable solutions. We call upon policymakers to prioritize housing rights, support community-led initiatives, and work towards inclusive urban development that leaves no one behind."
+        }
+      ]
+    }
+  },
+  "about_us": {
     "title": "Alliance for Urban Rights",
     "description": [
       "Alliance for Urban Rights (AUR) is an action-based research and advocacy organization constituted in August 2019, to fill the gap between activism and research. Our work lies at the intersections of urban planning, climate, gender justice, and technology.",

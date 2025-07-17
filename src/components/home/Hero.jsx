@@ -1,6 +1,6 @@
 // src/components/Hero.jsx
 import React, { useState, useEffect } from 'react';
-import mediaAssets from '../data/mediaAssets.json';
+import mediaAssets from '../../data/mediaAssets.json';
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -31,10 +31,6 @@ const Hero = () => {
 
   const prevSlide = () => {
     setCurrentSlide((prev) => (prev - 1 + slideImages.length) % slideImages.length);
-  };
-
-  const goToSlide = (index) => {
-    setCurrentSlide(index);
   };
 
   return (

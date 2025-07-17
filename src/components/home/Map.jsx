@@ -1,7 +1,7 @@
 // src/components/Map.jsx
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import mediaAssets from '../data/mediaAssets.json';
+import mediaAssets from '../../data/mediaAssets.json';
 
 const Map = () => {
   const navigate = useNavigate();

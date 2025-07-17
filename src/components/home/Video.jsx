@@ -1,6 +1,6 @@
 // src/components/Video.jsx
 import React, { useState } from 'react';
-import mediaAssets from '../data/mediaAssets.json';
+import mediaAssets from '../../data/mediaAssets.json';
 
 const Video = () => {
   const [videoError, setVideoError] = useState(false);
@@ -10,16 +10,6 @@ const Video = () => {
 
   const handleVideoError = () => {
     setVideoError(true);
-  };
-
-  const handlePlayPause = (videoElement) => {
-    if (videoElement.paused) {
-      videoElement.play();
-      setIsPlaying(true);
-    } else {
-      videoElement.pause();
-      setIsPlaying(false);
-    }
   };
 
   return (

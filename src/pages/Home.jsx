@@ -1,8 +1,8 @@
 // src/pages/Home.jsx
 import React from 'react';
-import Hero from '../components/Hero';
-import Map from '../components/Map';
-import Video from '../components/Video';
+import Hero from '../components/home/Hero';
+import Map from '../components/home/Map';
+import Video from '../components/home/Video';
 
 const Home = () => {
   return (
