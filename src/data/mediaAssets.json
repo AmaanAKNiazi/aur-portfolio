@@ -1,88 +1,107 @@
 {
-  "images": {
-    "hero_slideshow": [
+  "home":{
+    "images": {
+      "hero_slideshow": [
+        {
+          "id": 1,
+          "src": "/images/home/hero-slide-1.jpeg",
+          "alt": "Hero Image 1"
+        },
+        {
+          "id": 2,
+          "src": "/images/home/kidsbulldozer.jpeg",
+          "alt": "Hero Image 2"
+        }
+      ],
+      "profile": "/images/profile.jpg",
+      "about_section": "/images/about-image.jpg",
+      "project_thumbnails": [
+        "/images/project-1.jpg",
+        "/images/project-2.jpg",
+        "/images/project-3.jpg"
+      ],    
+      "map_slideshow": [
+        {
+          "id": 1,
+          "src": "/images/home/maps-1.jpg",
+          "alt": "Maps Image 1"
+        },
+        {
+          "id": 2,
+          "src": "/images/home/maps-2.jpg",
+          "alt": "Maps Image 2"
+        },
+        {
+          "id": 3,
+          "src": "/images/home/maps-3.jpg",
+          "alt": "Maps Image 3"
+        },
+        {
+          "id": 4,
+          "src": "/images/home/maps-4.jpg",
+          "alt": "Maps Image 4"
+        }
+      ],
+      "timeline":{
+        "june_26_2015": "/images/timeline/jun-26-2015-justice-for-i11.jpeg"
+      }
+    },
+    "pdfs": {
+      "toolkit_eng": "/documents/home/toolkit_eng.pdf", 
+      "toolkit_urdu": "/documents/home/toolkit_urdu.pdf"
+    },
+    "videos": {
+      "hero_video": {
+        "src": "/videos/home/your-video.mp4",
+        "poster": "/images/your-thumbnail.jpg",
+        "title": "People's Conference on Land, Ecology, Development and Displacement",
+        "caption": "Resolution on 21st century land reform passed at the AWP People’s conference on land, ecology, development and displacement. The resolution consisted of the key demands emerging from each of the panel discussions in ranging from global finance, real estate and the new colonialism, resource extraction in the peripheries, Bahria Town, urban expansion and indigenous rights, katchi abadis and the affordable housing crisis, war and land conflicts in ex-FATA, 21st century enclosures and the politics of land acquisition, and building an Islamabad for the people. Presented by AWP Punjab President Ammar Rashid."
+      }
+    },
+    "external_links": {
+      "youtube_channel": "https://www.youtube.com/channel/UCjGGxt42VM0oGmxGZSr-Eww#",
+      "linkedin": "https://linkedin.com/in/yourprofile",
+      "twitter": "https://twitter.com/yourhandle"
+    },
+    "map_locations": [
       {
-        "id": 1,
-        "src": "/images/home/hero-slide-1.jpeg",
-        "alt": "Hero Image 1"
+      "id": 1,
+      "name": "G7 Shopper Colony (Allama Iqbal colony)",
+      "city": "Your City",
+      "country": "Your Country",
+      "description": "Your description"
       },
       {
-        "id": 2,
-        "src": "/images/home/kidsbulldozer.jpeg",
-        "alt": "Hero Image 2"
+      "id": 1,
+      "name": "G7 Shopper Colony (Allama Iqbal colony)"
+      },
+      {
+      "id": 1,
+      "name": "G8 Miskeen Musharaff"
+      },
+      {
+      "id": 1,
+      "name": "H9 Rimsha Colony"
+      },
+      {
+      "id": 1,
+      "name": "Mehrabadi"
+      },
+      {
+      "id": 1,
+      "name": "I-9 Muslim Colony"
+      },
+      {
+      "id": 1,
+      "name": "Alipur Farash"
+      },
+              {
+      "id": 1,
+      "name": "I-10"
       }
-    ],
-    "profile": "/images/profile.jpg",
-    "about_section": "/images/about-image.jpg",
-    "project_thumbnails": [
-      "/images/project-1.jpg",
-      "/images/project-2.jpg",
-      "/images/project-3.jpg"
-    ],
-    "map_section": {
-      "main_map": "/images/home/locations-map.jpg",
-      "alt": ""
-    },
-    "timeline":{
-      "june_26_2015": "/images/timeline/jun-26-2015-justice-for-i11.jpeg"
-    }
+    ]
   },
-  "pdfs": {
-    "portfolio": "/documents/home/toolkit_eng.pdf", 
-    "resume": "/documents/home/toolkit_urdu.pdf",
-    "project_report": "/documents/project-report.pdf",
-    "policy_document": "/documents/policy-document.pdf"
-  },
-  "videos": {
-    "hero_video": {
-      "src": "/videos/home/your-video.mp4",
-      "poster": "/images/your-thumbnail.jpg",
-      "title": "People's Conference on Land, Ecology, Development and Displacement",
-      "caption": "Resolution on 21st century land reform passed at the AWP People’s conference on land, ecology, development and displacement. The resolution consisted of the key demands emerging from each of the panel discussions in ranging from global finance, real estate and the new colonialism, resource extraction in the peripheries, Bahria Town, urban expansion and indigenous rights, katchi abadis and the affordable housing crisis, war and land conflicts in ex-FATA, 21st century enclosures and the politics of land acquisition, and building an Islamabad for the people. Presented by AWP Punjab President Ammar Rashid."
-    }
-  } ,
-  "external_links": {
-    "youtube_channel": "https://www.youtube.com/channel/UCjGGxt42VM0oGmxGZSr-Eww#",
-    "linkedin": "https://linkedin.com/in/yourprofile",
-    "twitter": "https://twitter.com/yourhandle"
-  },  
-  "map_locations": [
-        {
-        "id": 1,
-        "name": "G7 Shopper Colony (Allama Iqbal colony)",
-        "city": "Your City",
-        "country": "Your Country",
-        "description": "Your description"
-        },
-        {
-        "id": 1,
-        "name": "G7 Shopper Colony (Allama Iqbal colony)"
-        },
-        {
-        "id": 1,
-        "name": "G8 Miskeen Musharaff"
-        },
-        {
-        "id": 1,
-        "name": "H9 Rimsha Colony"
-        },
-        {
-        "id": 1,
-        "name": "Mehrabadi"
-        },
-        {
-        "id": 1,
-        "name": "I-9 Muslim Colony"
-        },
-        {
-        "id": 1,
-        "name": "Alipur Farash"
-        },
-                {
-        "id": 1,
-        "name": "I-10"
-        }
-  ],
+
   "timeline_events": [
     {
       "id": 1,
@@ -437,6 +456,7 @@
       "color": "green"
     }
   ],
+
   "stories": [
     {
       "id": 1,
@@ -873,6 +893,7 @@
       ]
     }	   
   ],
+
   "archives": [
     {
       "title": "Press cuttings",
@@ -933,6 +954,7 @@
       ]
     }
   ],
+
   "projects": [
     {
       "title": "GoldSmith Global Challenges Research Fund (GCRF)",
@@ -992,175 +1014,256 @@
       "partner": ""
     }
   ],
+
   "resources": {
     "intro": {
       "title": "The “Permanent Impermanence” Report",
       "subtitle": "Katchi Abadis and the crisis of forced evictions, displacement and low-income housing in Islamabad",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-      "background": "bg-gradient-to-br from-blue-900 to-purple-900",
-      "backgroundImage": "/images/resources/permanent_impermanence_report.png"
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "backgroundImage": "/images/resources/permanent_impermanence_report.png",
+      "fallbackBackground": "bg-gradient-to-br from-blue-900 to-purple-900"
     },
     "report": {
       "title": "The “Permanent Impermanence” Report",
       "description": [
-        "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-        "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.",
-        "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       ],
       "featured": {
-        "title": "Download the Report",
+        "title": "Download the Complete Report",
         "description": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+          "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus."
         ],
-        "images": [
-          {
-            "src": "/images/resources/permanent_impermanence_report_cover.JPG",
-            "alt": "Urban Housing Rights Report",
-            "caption": "Featured Research Report"
-          }
-        ],
-        "downloadLink": "/documents/urban-housing-rights-report.pdf"
+        "image": "/images/resources/permanent_impermanence_report_cover.JPG",
+        "downloadLink": "/documents/resources/Permanent_Impermanence_Report_250630.docx"
       }
     },
     "details": {
-      "title": "Key Takeaways",
-      "sections": [
+      "title": "Implementation Framework",
+      "topics": [
         {
           "id": 1,
-          "title": "<strong>Research Scope & Objectives</strong>",
-          "type": "paragraph",
-          "content": "This comprehensive study examines the housing crisis in Pakistani urban centers, focusing on the experiences of families living in informal settlements. Our research methodology combines quantitative data analysis with qualitative community testimonies to provide a holistic understanding of urban housing challenges."
+          "title": "Key Takeaways",
+          "sections": [
+            {
+              "type": "paragraph",
+              "content": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+            },
+            {
+              "type": "paragraph",
+              "content": "Integer dictum tincidunt scelerisque. Phasellus eleifend lorem eu lacus finibus dictum. Nam fringilla lorem purus, sit amet posuere sapien volutpat at. Aenean nisi justo, tempor consequat consectetur id, facilisis vel neque."
+            }
+          ]
         },
         {
           "id": 2,
-          "title": "Data Collection Methods",
-          "type": "numbered",
-          "content": [
-            "Household surveys conducted across 12 katchi abadis in Islamabad",
-            "In-depth interviews with 150 community members and leaders",
-            "Focus group discussions with women, youth, and elderly residents",
-            "Policy analysis of existing housing regulations and implementation gaps",
-            "Participatory mapping exercises with community organizations"
+          "title": "What's Inside the Report",
+          "sections": [
+            {
+              "type": "paragraph",
+              "content": "Cras vulputate interdum sapien. Phasellus luctus ullamcorper nulla, non vestibulum felis congue a. Donec sed congue lacus.:"
+            },
+            {
+              "type": "numbered",
+              "content": [
+                "<strong>Assessment Phase:</strong> Aliquam blandit sem ac sagittis dapibus. Quisque pellentesque placerat leo, vitae facilisis lacus mattis id.",
+                "<strong>Framework Adoption:</strong> Aliquam at nibh suscipit, euismod nunc nec, ultrices tellus.",
+                "<strong>Pilot Implementation:</strong> Suspendisse ultricies, turpis at pellentesque tristique, tortor lacus faucibus tortor, non congue nisl diam ut felis.",
+                "<strong>Monitoring & Evaluation:</strong> Donec sed fringilla nisi, at sodales tortor. Phasellus quis ultrices sem.",
+                "<strong>Scaling & Refinement:</strong> Duis mollis purus turpis, et vulputate nisl euismod in."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "ed hendrerit massa in quam tempor, eget tempus nibh porttitor. In sed odio lobortis tortor iaculis tempus vitae id mauris."
+            }
           ]
         },
         {
           "id": 3,
-          "title": "Key Research Areas",
-          "type": "bullets",
-          "content": [
-            "Access to basic services (water, electricity, sanitation)",
-            "Security of tenure and eviction threats",
-            "Community organizing and resistance strategies",
-            "Gender-specific impacts of housing insecurity",
-            "Health and education outcomes in informal settlements"
+          "title": "Who Should Read It",
+          "sections": [
+            {
+              "type": "paragraph",
+              "content": "Fusce semper posuere velit, non iaculis purus venenatis et. Aliquam elit lorem, volutpat ac odio vel, ultricies interdum sem. Phasellus vel tristique justo. Phasellus vitae scelerisque quam, finibus dictum sem:"
+            },
+            {
+              "type": "bullets",
+              "content": [
+                "<strong>Leadership Commitment:</strong> Nunc mollis id arcu eu lacinia.",
+                "<strong>Engagement:</strong> Nam luctus diam varius placerat gravida. Sed et erat ut leo eleifend pretium vel vel nunc.",
+                "<strong>Continuous Training:</strong> Nulla facilisi. Vivamus elementum sodales justo, a accumsan nunc egestas vel.",
+                "<strong>Transparent Communication:</strong> Mauris pretium et est vel mollis.",
+                "<strong>Adaptive Governance:</strong> Quisque vitae vestibulum sapien."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "Proin ac diam rutrum elit auctor facilisis. Praesent ac purus et justo pellentesque faucibus eget id tortor. Proin a elit vestibulum magna facilisis tincidunt."
+            },
+            {
+              "type": "numbered",
+              "content": [
+                "Cras nec efficitur enim.",
+                "Sed non diam consequat tortor porta semper quis in libero.",
+                "Curabitur eleifend elit nec porta convallis."
+              ]
+            }
           ]
         },
         {
           "id": 4,
-          "title": "Community Voices",
-          "type": "image_with_text",
-          "images": [
+          "title": "Research Partners & Collaborators",
+          "sections": [
             {
-              "src": "/images/details/community-voices.jpg",
-              "alt": "Community Research",
-              "caption": "Community members participating in research"
+              "type": "paragraph",
+              "content": "Proin consequat felis orci, vel elementum quam accumsan quis. Nunc elementum nisi ante, et feugiat massa faucibus vitae. Donec ac ipsum id lacus tempor pretium pellentesque et dolor. "
+            },
+            {
+              "type": "bullets",
+              "content": [
+                "Aenean vel vestibulum felis.",
+                "Aenean condimentum elit et augue ornare, id consequat ante mollis. Nam imperdiet posuere ex vel posuere.",
+                "Proin et tellus quis sapien tristique accumsan.",
+                "Vestibulum vulputate finibus consectetur."
+              ]
+            },
+            {
+              "type": "images",
+              "content": [
+                {
+                  "src": "/images/resources/aur-logo.png",
+                  "alt": "Alliance For Urban Rights",
+                  "width": 120,
+                  "height": 60
+                },
+                {
+                  "src": "/images/resources/uni-essex-logo.png", 
+                  "alt": "University of Essex",
+                  "width": 120,
+                  "height": 60
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "We extend our gratitude to all partner organizations for their commitment to this research."
             }
-          ],
-          "content": "Our research prioritizes the voices and experiences of community members themselves. Through extensive interviews and participatory research methods, we documented the resilience, innovation, and organizing capacity of residents in informal settlements. These testimonies form the foundation of our policy recommendations."
-        },
-        {
-          "id": 5,
-          "title": "Policy Recommendations Framework",
-          "type": "numbered",
-          "content": [
-            "Immediate halt to forced evictions without adequate resettlement",
-            "Recognition of informal settlements as legitimate communities",
-            "Investment in upgrading existing settlements rather than demolition",
-            "Participatory planning processes that include community input",
-            "Legal reforms to protect housing rights and prevent displacement"
           ]
         },
         {
-          "id": 6,
-          "title": "Implementation Challenges",
-          "type": "bullets",
-          "content": [
-            "Bureaucratic resistance to policy change",
-            "Lack of coordination between government departments",
-            "Insufficient budget allocation for housing programs",
-            "Limited understanding of community needs among officials",
-            "Political instability affecting long-term planning"
+          "id": 5,
+          "title": "Ethical Framework Components",
+          "sections": [
+            {
+              "type": "paragraph",
+              "content": "Proin ullamcorper, justo eget pretium dapibus, ipsum turpis facilisis lacus, sit amet imperdiet est leo eu mi. Sed a laoreet nisi. Ut accumsan vitae eros vel vehicula. Vivamus nec nisl metus:"
+            },
+            {
+              "type": "bullets",
+              "content": [
+                "<strong>Learning Outcome Alignment:</strong> Proin sapien orci, consectetur nec ullamcorper ut, elementum in nisi.",
+                "<strong>Student Agency:</strong> Quisque ornare aliquam posuere.",
+                "<strong>Cultural Sensitivity:</strong> In hac habitasse platea dictumst.",
+                "<strong>Transparency:</strong> Morbi dictum et elit nec rhoncus.",
+                "<strong>Human Interaction:</strong> Donec libero orci, pharetra tincidunt nisl sed, volutpat tempor nisl."
+              ]
+            },
+            {
+              "type": "numbered",
+              "content": [
+                "Impact Measurement: Integer risus nunc, placerat ac dui ut, cursus tincidunt orci.",
+                "Ethical Training: Integer volutpat porta ligula.",
+                "Bias Detection: Vestibulum interdum velit in consectetur consectetur."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "Phasellus semper convallis justo sit amet varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+            }
           ]
         }
       ]
     },
     "summary": {
       "title": "Executive Summary",
-      "sections": [
+      "topics": [
         {
           "id": 1,
           "title": "Key Findings",
-          "type": "bullets",
-          "content": [
-            "Over 60% of families in informal settlements lack secure tenure",
-            "Women bear disproportionate burden of housing insecurity",
-            "Children in katchi abadis have 40% lower school enrollment rates",
-            "Community-led initiatives show higher success rates than top-down programs",
-            "Forced evictions increase poverty and social marginalization"
+          "sections": [
+            {
+              "type": "paragraph",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec eleifend libero, vel semper eros. Suspendisse bibendum faucibus mi, at euismod mauris auctor eu. Morbi et accumsan leo. Nunc molestie blandit lectus, scelerisque vehicula sem commodo nec. Pellentesque feugiat turpis sit amet nulla ullamcorper ullamcorper. Quisque sit amet mi convallis, vehicula tellus sed, pharetra lorem. Nunc non accumsan tellus, vel pretium ante. Sed est nunc, ultrices ac semper quis, mollis sed dui. Integer nec sagittis lacus. Ut venenatis justo sed ipsum luctus pharetra. Suspendisse ornare mollis lectus, ac varius libero porttitor vitae. Aliquam vulputate interdum tincidunt. Phasellus ullamcorper ut eros ac eleifend. Curabitur posuere leo quis sapien cursus, et rutrum dolor mattis."
+            },
+            {
+              "type": "bullets",
+              "content": [
+                "<strong>Compliance Rates:</strong> Mauris sed egestas ipsum, a vestibulum neque",
+                "<strong>Learning Outcomes:</strong> In a accumsan quam.",
+                "<strong>Implementation Challenges:</strong> Maecenas porta tellus et arcu feugiat, eget congue leo aliquet.",
+                "<strong>Cultural Adaptation:</strong> Morbi lorem tortor, elementum sed magna ac, sodales aliquet nulla. Suspendisse potenti."
+              ]
+            }
           ]
         },
         {
           "id": 2,
           "title": "Primary Recommendations",
-          "type": "numbered",
-          "content": [
-            "Establish a moratorium on forced evictions without adequate consultation and resettlement",
-            "Implement participatory budgeting for urban development projects",
-            "Create legal frameworks protecting housing rights of informal settlement residents",
-            "Invest in upgrading existing settlements rather than demolition and displacement",
-            "Develop affordable housing programs with community input and ownership"
+          "sections": [
+            {
+              "type": "paragraph",
+              "content": "Aliquam interdum erat a erat semper, quis vestibulum urna placerat. Morbi suscipit, elit sed hendrerit dictum, mauris quam laoreet dui, non aliquam urna eros ut est. Aenean augue turpis, imperdiet commodo congue non, luctus vel nulla. Cras euismod, arcu eu ullamcorper tempor, augue eros feugiat tortor, vitae accumsan felis nisi nec est. Nullam ex mauris, fermentum quis iaculis sed, consectetur id ante. Fusce odio dolor, dictum in auctor vel, hendrerit sit amet massa. Ut ex risus, luctus sed ex ut, congue egestas mauris. Vestibulum massa ipsum, lacinia sed risus sit amet, ornare sollicitudin dui. Donec semper justo vel dapibus consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi.:"
+            },
+            {
+              "type": "numbered",
+              "content": [
+                "<strong>Establish Committees:</strong> Mauris molestie elementum ornare",
+                "<strong>Implement Programs:</strong> Duis in vehicula neque, sed malesuada nisi.",
+                "<strong>Create Transparency Protocols:</strong> Phasellus tincidunt consequat velit quis bibendum.",
+                "<strong>Develop Assessment Frameworks:</strong> Integer ultricies arcu id vehicula pretium."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "Phasellus ut dapibus nisi. Donec eleifend, elit vel eleifend sagittis, massa enim sollicitudin est, a lobortis nibh eros a lacus."
+            }
           ]
         },
         {
           "id": 3,
-          "title": "Community Impact",
-          "type": "paragraph",
-          "content": "The research demonstrates the profound resilience and organizing capacity of communities facing housing insecurity. Despite facing constant threats of eviction and limited access to basic services, residents have developed innovative solutions for water access, waste management, and community safety. These grassroots initiatives offer valuable lessons for urban planning and policy development."
-        },
-        {
-          "id": 4,
-          "title": "Policy Implications",
-          "type": "bullets",
-          "content": [
-            "Current housing policies fail to address the scale of urban housing needs",
-            "Criminalization of informal settlements exacerbates poverty and exclusion",
-            "Lack of coordination between federal and local authorities creates implementation gaps",
-            "International human rights obligations require immediate policy reforms",
-            "Economic benefits of settlement upgrading outweigh costs of displacement"
-          ]
-        },
-        {
-          "id": 5,
           "title": "Implementation Timeline",
-          "type": "numbered",
-          "content": [
-            "Immediate (0-6 months): Halt all forced evictions and establish community consultation processes",
-            "Short-term (6-18 months): Develop legal frameworks and allocate budget for settlement upgrading",
-            "Medium-term (1-3 years): Implement pilot upgrading projects in selected settlements",
-            "Long-term (3-5 years): Scale successful models and establish permanent housing policy framework",
-            "Ongoing: Monitor implementation and adapt policies based on community feedback"
+          "sections": [
+            {
+              "type": "paragraph",
+              "content": "Our recommended implementation follows a <strong>structured timeline</strong> designed to maximize institutional readiness while minimizing disruption to existing educational processes:"
+            },
+            {
+              "type": "numbered",
+              "content": [
+                "<strong>Phase 1:</strong> Nam eros metus, blandit ut mi nec, malesuada faucibus magna. Suspendisse libero neque, ornare quis efficitur ut, consequat non enim. Donec sed orci ut urna sagittis feugiat. ",
+                "<strong>Phase 2:</strong> Nulla nec eros quis magna facilisis placerat volutpat vitae arcu. Donec rutrum scelerisque tellus, a tristique sem elementum at. Praesent nec odio elementum risus elementum vulputate. Cras a dui sem. Integer ullamcorper suscipit auctor.",
+                "<strong>Phase 3:</strong> Aliquam interdum erat a erat semper, quis vestibulum urna placerat. Morbi suscipit, elit sed hendrerit dictum, mauris quam laoreet dui, non aliquam urna eros ut est.",
+                "<strong>Phase 4:</strong> Aenean augue turpis, imperdiet commodo congue non, luctus vel nulla. Cras euismod, arcu eu ullamcorper tempor, augue eros feugiat tortor, vitae accumsan felis nisi nec est. Nullam ex mauris, fermentum quis iaculis sed, consectetur id ante. Fusce odio dolor, dictum in auctor vel, hendrerit sit amet massa. ",
+                "<strong>Phase 5:</strong> Ut ex risus, luctus sed ex ut, congue egestas mauris. Vestibulum massa ipsum, lacinia sed risus sit amet, ornare sollicitudin dui. Donec semper justo vel dapibus consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi."
+              ]
+            },
+            {
+              "type": "bullets",
+              "content": [
+                "Integer dictum tincidunt scelerisque. ",
+                "Phasellus eleifend lorem eu lacus finibus dictum.",
+                " Nam fringilla lorem purus, sit amet posuere sapien volutpat at."
+              ]
+            }
           ]
-        },
-        {
-          "id": 6,
-          "title": "Call to Action",
-          "type": "paragraph",
-          "content": "The housing crisis in Pakistani cities requires immediate and sustained action from government, civil society, and international partners. The evidence presented in this report demonstrates both the urgency of the situation and the availability of viable solutions. We call upon policymakers to prioritize housing rights, support community-led initiatives, and work towards inclusive urban development that leaves no one behind."
         }
       ]
     }
   },
+
   "about_us": {
     "title": "Alliance for Urban Rights",
     "description": [

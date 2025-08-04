@@ -4,8 +4,9 @@ import mediaAssets from '../../data/mediaAssets.json';
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const { images, pdfs, external_links } = mediaAssets;
-  const slideImages = images.hero_slideshow;
+  const { home } = mediaAssets;
+  //const { images, pdfs, external_links } = mediaAssets;
+  const slideImages = home.images.hero_slideshow;
 
   // Auto-advance slideshow
   useEffect(() => {
@@ -17,11 +18,11 @@ const Hero = () => {
   }, [slideImages.length]);
 
   const handleYouTubeClick = () => {
-    window.open(external_links.youtube_channel, '_blank');
+    window.open(home.external_links.youtube_channel, '_blank');
   };
 
   const handlePDFClick = (pdfKey) => {
-    const pdfPath = pdfs[pdfKey];
+    const pdfPath = home.pdfs[pdfKey];
     window.open(pdfPath, '_blank');
   };
 
@@ -60,7 +61,7 @@ const Hero = () => {
 
               {/* Black PDF Button */}
               <button
-                onClick={() => handlePDFClick('resume')}
+                onClick={() => handlePDFClick('toolkit_urdu')}
                 className="w-full inline-flex items-center justify-center px-6 py-4 bg-gray-900 text-white font-medium rounded-lg hover:bg-gray-800 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
               >
                 <svg className="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -71,7 +72,7 @@ const Hero = () => {
 
               {/* Green PDF Button */}
               <button
-                onClick={() => handlePDFClick('portfolio')}
+                onClick={() => handlePDFClick('toolkit_eng')}
                 className="w-full inline-flex items-center justify-center px-6 py-4 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
               >
                 <svg className="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">

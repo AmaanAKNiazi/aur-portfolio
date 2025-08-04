@@ -51,7 +51,7 @@ const Projects = () => {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
-                Our Projects
+                Projects
               </h1>
               <p className="mt-2 text-lg text-gray-600">
                 Initiatives and campaigns for urban rights and community development

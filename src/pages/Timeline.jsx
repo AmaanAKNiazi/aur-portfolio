@@ -105,7 +105,7 @@ const Timeline = () => {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
-                Our Timeline
+                Timeline
               </h1>
               <p className="mt-2 text-lg text-gray-600">
                 A decade of transforming communities through urban rights advocacy

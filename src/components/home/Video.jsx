@@ -1,12 +1,13 @@
 // src/components/Video.jsx
 import React, { useState } from 'react';
+//import { Link } from 'react-router-dom';
 import mediaAssets from '../../data/mediaAssets.json';
 
 const Video = () => {
   const [videoError, setVideoError] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
-  const { videos } = mediaAssets;
-  const videoData = videos.hero_video;
+  const { home } = mediaAssets;
+  const videoData = home.videos.hero_video;
 
   const handleVideoError = () => {
     setVideoError(true);
@@ -15,10 +16,11 @@ const Video = () => {
   return (
     <section className="bg-white py-16 lg:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center space-y-12">
+        <div className="text-center space-y-12">          
           {/* Heading */}
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+              {/*<Link to="/projects" className="video-title-link"> {videoData.title} </Link>*/}
               {videoData.title}
             </h2>
           </div>

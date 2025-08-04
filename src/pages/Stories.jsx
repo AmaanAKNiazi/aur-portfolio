@@ -23,7 +23,7 @@ const Stories = () => {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
-                Community Stories
+                Stories
               </h1>
               <p className="mt-2 text-lg text-gray-600">
                 Real stories from our communities and their experiences

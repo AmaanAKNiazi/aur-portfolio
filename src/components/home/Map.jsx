@@ -1,15 +1,74 @@
 // src/components/Map.jsx
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Map, View } from 'ol';
+import TileLayer from 'ol/layer/Tile';
+import OSM from 'ol/source/OSM';
+import { fromLonLat } from 'ol/proj';
+import 'ol/ol.css';
 import mediaAssets from '../../data/mediaAssets.json';
 
-const Map = () => {
+const MapComponent = () => {
   const navigate = useNavigate();
-  const { images, map_locations } = mediaAssets;
+  const mapRef = useRef();
+  const mapInstanceRef = useRef();
+  const [selectedLocation, setSelectedLocation] = useState(null);
+  const { home } = mediaAssets;
 
   const handleLocationClick = (locationId) => {
-    // Navigate to stories page with location parameter
     navigate(`/stories?location=${locationId}`);
+  };
+
+  // Default center coordinates - Islamabad, Pakistan
+  const defaultCenter = [73.0479, 33.6844]; // Islamabad, Pakistan coordinates
+
+  useEffect(() => {
+    if (!mapRef.current) return;
+
+    // Create the map without location markers
+    const map = new Map({
+      target: mapRef.current,
+      layers: [
+        // Base layer (OpenStreetMap)
+        new TileLayer({
+          source: new OSM(),
+        }),
+      ],
+      view: new View({
+        center: fromLonLat(defaultCenter),
+        zoom: 12, // Adjust zoom level as needed
+      }),
+    });
+
+    // Enable all interactions (they should be enabled by default, but let's be explicit)
+    map.getInteractions().forEach(interaction => {
+      interaction.setActive(true);
+    });
+
+    mapInstanceRef.current = map;
+
+    // Add a simple click handler to test if interactions work
+    map.on('click', (event) => {
+      console.log('Map clicked at:', event.coordinate);
+    });
+
+    // Log when map is ready
+    map.on('rendercomplete', () => {
+      console.log('Map render complete - should be interactive now');
+    });
+
+    // Cleanup function
+    return () => {
+      if (mapInstanceRef.current) {
+        mapInstanceRef.current.setTarget(null);
+      }
+    };
+  }, []);
+
+  // Handle location list item clicks
+  const handleListLocationClick = (location) => {
+    setSelectedLocation(location);
+    handleLocationClick(location.id);
   };
 
   return (
@@ -24,29 +83,41 @@ const Map = () => {
               </h2>
             </div>
 
-            {/* Map Image - Larger */}
+            {/* OpenLayers Map Container */}
             <div className="relative">
               <div className="relative w-full h-[500px] bg-gray-200 rounded-2xl overflow-hidden shadow-lg">
-                <img
-                  src={images.map_section.main_map}
-                  alt={images.map_section.alt}
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    // Fallback to a simple map illustration if image fails to load
-                    e.target.style.display = 'none';
-                    e.target.nextSibling.style.display = 'flex';
+                <div 
+                  ref={mapRef} 
+                  className="w-full h-full"
+                  style={{ 
+                    position: 'relative',
+                    zIndex: 1,
+                    pointerEvents: 'auto',
+                    touchAction: 'none'
                   }}
                 />
-                {/* Fallback Map Illustration */}
-                <div 
-                  className="w-full h-full bg-gradient-to-br from-blue-100 to-green-100 items-center justify-center"
-                  style={{ display: 'none' }}
-                >
-                  <div className="text-center text-gray-600">
-                    <div className="text-6xl mb-4">🗺️</div>
-                    <div className="text-lg font-medium">Global Impact Map</div>
-                    <div className="text-sm mt-2">Interactive map coming soon</div>
-                  </div>
+                
+                {/* Map Controls Overlay */}
+                <div className="absolute top-4 right-4 z-10 bg-white rounded-lg shadow-md p-2 space-y-2">
+                  <button 
+                    className="block w-8 h-8 bg-white hover:bg-gray-100 rounded border text-gray-600 hover:text-gray-800 transition-colors"
+                    onClick={() => {
+                      if (mapInstanceRef.current) {
+                        const view = mapInstanceRef.current.getView();
+                        view.animate({
+                          center: fromLonLat(defaultCenter),
+                          zoom: 11,
+                          duration: 1000,
+                        });
+                      }
+                    }}
+                    title="Reset View"
+                  >
+                    <svg className="w-4 h-4 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 5a2 2 0 012-2h4a2 2 0 012 2v3H8V5z" />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>
@@ -60,31 +131,67 @@ const Map = () => {
               </h3>
             </div>
 
-            {/* Simplified Locations List */}
+            {/* Enhanced Locations List */}
             <div className="space-y-3">
-              {map_locations.map((location) => (
+              {home.map_locations.map((location) => (
                 <div
                   key={location.id}
-                  onClick={() => handleLocationClick(location.id)}
-                  className="group bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all duration-200 cursor-pointer border border-gray-100 hover:border-blue-200"
+                  onClick={() => handleListLocationClick(location)}
+                  className={`group bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all duration-200 cursor-pointer border hover:border-blue-200 ${
+                    selectedLocation?.id === location.id 
+                      ? 'border-blue-400 bg-blue-50' 
+                      : 'border-gray-100'
+                  }`}
                 >
                   <div className="flex items-center justify-between">
-                    {/* Location Name */}
+                    {/* Location Info */}
                     <div className="flex-1 min-w-0">
-                      <h4 className="text-base font-medium text-gray-900 group-hover:text-blue-600 transition-colors duration-200">
+                      <h4 className={`text-base font-medium transition-colors duration-200 ${
+                        selectedLocation?.id === location.id 
+                          ? 'text-blue-700' 
+                          : 'text-gray-900 group-hover:text-blue-600'
+                      }`}>
                         {location.name}
                       </h4>
+                      {location.description && (
+                        <p className="text-sm text-gray-500 mt-1 line-clamp-2">
+                          {location.description}
+                        </p>
+                      )}
                     </div>
 
                     {/* Arrow Icon */}
-                    <div className="flex-shrink-0">
-                      <svg className="w-4 h-4 text-gray-400 group-hover:text-blue-600 transition-colors duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div className="flex-shrink-0 ml-3">
+                      <svg 
+                        className={`w-4 h-4 transition-colors duration-200 ${
+                          selectedLocation?.id === location.id 
+                            ? 'text-blue-600' 
+                            : 'text-gray-400 group-hover:text-blue-600'
+                        }`} 
+                        fill="none" 
+                        stroke="currentColor" 
+                        viewBox="0 0 24 24"
+                      >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
                     </div>
                   </div>
                 </div>
               ))}
+            </div>
+
+            {/* Map Info */}
+            <div className="mt-8 p-4 bg-white rounded-lg border border-gray-200">
+              <h4 className="text-sm font-medium text-gray-900 mb-3">Map Information</h4>
+              <div className="space-y-2">
+                <div className="flex items-center">
+                  <div className="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
+                  <span className="text-xs text-gray-600">Interactive Map View</span>
+                </div>
+                <p className="text-xs text-gray-500 mt-2">
+                  Click and drag to explore the map. Use mouse wheel to zoom in/out.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -93,4 +200,4 @@ const Map = () => {
   );
 };
 
-export default Map;
+export default MapComponent;
