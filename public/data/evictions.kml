@@ -1,0 +1,3197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="Evictions">
+  <name>Evictions</name>
+  <Snippet></Snippet>
+  <Style id="IconStyle00">
+    <IconStyle>
+      <scale>0.250000</scale>
+      <Icon><href>Layer0_Symbol_11ee4a38_0.png</href></Icon>
+    </IconStyle>
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <PolyStyle>
+      <color>ff000000</color>
+      <outline>0</outline>
+    </PolyStyle>
+  </Style>
+  <Folder id="FeatureLayer0">
+    <name>Evictions</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>F-9 Labour Colony</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>F-9 Labour Colony</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>F-9 Labour Colony</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>1980-1992</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>Complete sector of F-9</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>F-9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>1992</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>F-9 park</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.70183950757445, 73.02234522598197</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.022345</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.70184</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.70184</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.022345</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Alipur Farash town phase-1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td>33.650627117696935, 73.20114194909866</td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>33.650627</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>73.201142</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td>Abadi dismantled and formed many other abadis in different sectors</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.02234522598197,33.70183950757445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00001">
+      <name>Tarmai Chowk abadi</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Tarmai Chowk abadi</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Tarmai Chowk abadi</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>2000-2005</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>60-70 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>E-11 Chowk at Margalla road</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2005</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Shadi halls and Naval HQ</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>4</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.69507959049601, 72.99110367045947</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>72.991104</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.69508</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.69508</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>72.991104</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>E-11 Katchi Abadi</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td>33.6952906628242, 72.99148749839424</td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>33.695291</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>72.991488</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 72.99110367045947,33.69507959049601,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00002">
+      <name>Muslim Colony</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Muslim Colony</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>2</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Muslim Colony</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>1960-1994</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>200-300 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>Nurpur Shahan, Diplomatic Enclave</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>1994</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Resettlement</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>5</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.747831471228196, 73.11286913749113</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.112869</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.747831</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.747831</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.112869</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Nurpur Shahan, Diplomatic Enclave</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td>33.747831471228196, 73.11286913749113</td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>33.747831</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>73.112869</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.11286913749113,33.7478314712282,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00003">
+      <name>G-11 basti</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>G-11 basti</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>3</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>G-11 basti</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>1995-2007</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>100 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>G-11 Markaz</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2007</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Housing society</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>7</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.66799340171578, 72.99575863766518</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>72.995759</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.667993</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.667993</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>72.995759</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td></td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 72.99575863766518,33.66799340171578,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00004">
+      <name>Sumbal Kark</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Sumbal Kark</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>4</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Sumbal Kark</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>1960-2004</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>Thousands of households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>Rawal chowk to Faizabad along with Murree road</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2004</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Farm houses/housing societies</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>8</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.681296, 73.103374</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.103374</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.681296</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.681296</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.103374</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td></td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.103374,33.681296,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00005">
+      <name>E-9 basti</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>E-9 basti</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>5</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>E-9 basti</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>1993-2000</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>60-70 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>E-9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2000</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>For shadi halls and Naval HQ</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.71586847319571, 73.01761374752144</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.017614</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.715868</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.715868</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.017614</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Tarmai chowk</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td>33.69507959049601, 72.99110367045947</td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>33.69508</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>72.991104</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.01761374752144,33.71586847319571,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00006">
+      <name>Rawal dam abadi</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Rawal dam abadi</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>6</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Rawal dam abadi</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>1960-1980</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>More then 300 households abadi</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>Rawal dam Chowk</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>1980</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Rawal town</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>11</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.6890637604923, 73.11108470438215</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.111085</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.689064</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.689064</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.111085</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Not found</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td></td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td>Not found</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.11108470438215,33.6890637604923,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00007">
+      <name>I-11 abadi</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>I-11 abadi</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>7</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>I-11 abadi</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>1980-2015</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>More then 1000 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>Mandi Mor I-11</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2015</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Housing society</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>12</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.63619575894733, 73.021940765557</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.021941</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.636196</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.636196</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.021941</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Chakra</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td>33.589385987724214, 72.97844001406986</td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>33.589386</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>72.97844</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.02194076555701,33.63619575894733,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00008">
+      <name>G-11 jhugi basti</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>G-11 jhugi basti</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>8</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>G-11 jhugi basti</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>1985-2021</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>100 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>G-11 Markaz</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2021</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>CDA is planning to build a park there</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>15</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.66950402848061, 73.00421473993916</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.004215</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.669504</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.669504</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.004215</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Half abadi is still there</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td>33.66950402848061, 73.00421473993916</td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>33.669504</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>73.004215</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.00421473993916,33.66950402848061,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00009">
+      <name>E-11 jughi basti</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>E-11 jughi basti</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>E-11 jughi basti</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>1995-2022</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>150 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>E-11 near Margalla Road</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2022</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Margalla Motorway</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>17</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.6952906628242, 72.99148749839424</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>72.991487</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.695291</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.695291</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>72.991488</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Chauntra</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td>33.7206982309556, 72.98790686471322</td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>33.720698</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>72.987907</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 72.99148749839424,33.6952906628242,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00010">
+      <name>Sinyari</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Sinyari</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Sinyari</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>1980-2022</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>200-300 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>Near Chauntra</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2022</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>For Naval HQ</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>19</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>11</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.723661901771585, 72.99183029805657</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>72.99183</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.723662</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.723662</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>72.99183</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Chauntra</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td>33.7206982309556, 72.98790686471322</td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>33.720698</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>72.987907</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 72.99183029805657,33.72366190177159,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00011">
+      <name>Bheka Sayedan</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Bheka Sayedan</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>11</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Bheka Sayedan</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>400 years old village</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>200-300 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>F-11 Markaz</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Not known</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>22</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.68357681897538, 72.99342156777107</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>72.993422</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.683577</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.683577</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>72.993422</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Mehrabadi</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td>33.673408538415146, 72.97124032508307</td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>33.673409</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>72.97124</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 72.99342156777107,33.68357681897538,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00012">
+      <name>Talla Sayedan</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Talla Sayedan</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>12</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Talla Sayedan</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>Old village</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>150-200 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>G-14</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Housing society</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>24</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>13</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.64190081877131, 72.94556072802628</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>72.945561</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.641901</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.641901</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>72.945561</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>26 no. Chungi</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td>33.634098637774386, 72.94015923795543</td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>33.634099</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>72.940159</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 72.94556072802628,33.64190081877131,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00013">
+      <name>Chelow</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Chelow</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>13</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Chelow</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>Old village</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>200-250 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>G-14</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Housing society</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>26</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.636721675519055, 72.9468469834831</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>72.946847</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.636722</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.636722</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>72.946847</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>26 no. Chungi</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td>33.634098637774386, 72.94015923795543</td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>33.634099</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>72.940159</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 72.9468469834831,33.63672167551906,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00014">
+      <name>Lunda mastal</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lunda mastal</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>14</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Lunda mastal</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>Old village</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>200-300 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>H-9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2001</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Farm houses / housing societies</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>28</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.670573198532814, 73.04313679974474</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.043137</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.670573</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.670573</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.043137</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Not known</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td></td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.04313679974474,33.67057319853281,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00015">
+      <name>Haq Bahu</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Haq Bahu</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>15</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Haq Bahu</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>1980</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>400-500 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>Along with IJP road</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2001</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Service road I-10</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>29</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.63787087579761, 73.04081973037097</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.04082</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.637871</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.637871</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.04082</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Some settled in Farash town Phase 2</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td>33.65006928304773, 73.20463808213836</td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>33.650069</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>73.204638</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.04081973037097,33.63787087579761,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00016">
+      <name>Dhok Najju</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Dhok Najju</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>16</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Dhok Najju</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>1970</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>400-500 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>Along with IJP road</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2002</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Service road I-10</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>30</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>17</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.64321062329459, 73.04381457421637</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.043815</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.643211</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.643211</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.043815</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Some settled in Farash town Phase 2</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td>33.65006928304773, 73.20463808213836</td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>33.650069</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>73.204638</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.04381457421637,33.64321062329459,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00017">
+      <name>Jabba Taili</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Jabba Taili</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>17</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Jabba Taili</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>1998-2023</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>700 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>Near Chak Shehzad farms/NARC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Road construction</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>31</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>18</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.6466460898831, 73.12943222862766</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.129432</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.646646</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.646646</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.129432</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Still there</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td>33.6466460898831, 73.12943222862766</td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>33.646646</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>73.129432</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td>Still there</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.12943222862766,33.6466460898831,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00018">
+      <name>Malpur</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Malpur</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>18</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Malpur</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>Old village</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>200 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>Near Lake View Park</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>2nd Avenue</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>32</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>19</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.73515425742426, 73.14689626764137</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.146896</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.735154</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.735154</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.146896</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Unkown</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td></td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td>Unkown</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.14689626764137,33.73515425742426,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00019">
+      <name>Chakshezad abadi</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Chakshezad abadi</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>19</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Chakshezad abadi</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>Old village</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>400-500 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>Near park Enclave society</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Park envlave society</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>33</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.67295779607745, 73.14927334626766</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.149273</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.672958</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.672958</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.149273</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Near park Enclave society</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td>33.67295779607745, 73.14927334626766</td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>33.672958</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>73.149273</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td>Still there</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.14927334626766,33.67295779607745,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00020">
+      <name>Mohra Cheezan</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Mohra Cheezan</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>20</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Mohra Cheezan</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>Old village</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>20-30 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>Near NIH</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Bahria Enclave society</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>34</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>21</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.68122762883986, 73.14914799468552</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.149148</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.681228</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.681228</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.149148</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Near NIH</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td>33.68122762883986, 73.14914799468552</td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>33.681228</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>73.149148</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td>Still there</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.14914799468552,33.68122762883986,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00021">
+      <name>Mochi Mohra</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Mochi Mohra</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>21</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Mochi Mohra</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>Old village</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>200-300</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>Orchard scheme</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Threat of eviction</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>35</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>22</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.67708888291654, 73.11197508923524</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.111975</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.677089</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.677089</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.111975</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Orchard scheme</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td>33.67708888291654, 73.11197508923524</td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>33.677089</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>73.111975</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td>Still there</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.11197508923524,33.67708888291654,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00022">
+      <name>UNHCR Afghan Camp</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>UNHCR Afghan Camp</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>22</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>UNHCR Afghan Camp</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>2013-2023</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>1873 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>I-12  (Near NUST)</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Afghan kachi basti</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>36</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>23</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.63586033257329, 73.00210423295297</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.002104</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.63586</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.63586</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.002104</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Afghan residents deported</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td></td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.00210423295297,33.63586033257329,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00023">
+      <name>UNHCR Afghan Camp</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>UNHCR Afghan Camp</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>23</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>UNHCR Afghan Camp</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>Since 1980s</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>279 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>H-11</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Afghan kachi basti</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>37</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>24</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.657807775544036, 73.00007106807097</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.000071</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.657808</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.657808</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.000071</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Afghan residents deported</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td></td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.00007106807097,33.65780777554404,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00024">
+      <name>E-12 basti</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>E-12 basti</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>24</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>E-12 basti</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>15 years</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>199 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>E-12</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Afghan kachi basti</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>38</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.697273584930485, 72.96442407139324</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>72.964424</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.697274</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.697274</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>72.964424</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Afghan residents deported</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td></td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 72.96442407139324,33.69727358493049,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00025">
+      <name>Bani Mor Abadi</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Bani Mor Abadi</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>25</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Bani Mor Abadi</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>Since 1970s</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td>300 households</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>Near Margalla town phase 2</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Afghan kachi basti</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>39</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>26</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.69710009328844, 72.96490368643339</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>72.964904</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.6971</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.6971</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>72.964904</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>Afghan residents deported</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td></td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 72.96490368643339,33.69710009328844,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00026">
+      <name>G-8/3 Labour Camp</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>G-8/3 Labour Camp</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>26</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>G-8/3 Labour Camp</td>
+</tr>
+<tr>
+<td>Age</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td></td>
+</tr>
+<tr>
+<td>Location</td>
+<td>G-8/3</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>1979</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>To build PIMS</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td>CDA acquired land</td>
+</tr>
+<tr>
+<td>id</td>
+<td>40</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>27</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.702008, 73.054326</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.054326</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.702008</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.702008</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.054326</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td>G-8/1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td>33.691411, 73.050933</td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>33.691411</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>73.050933</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td>Resettled in G8 and dispersed to other locations</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.05423520331313,33.70182640662624,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00027">
+      <name>Railway Line abadi</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Railway Line abadi</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>27</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Railway Line abadi</td>
+</tr>
+<tr>
+<td>Age</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Size</td>
+<td></td>
+</tr>
+<tr>
+<td>Location</td>
+<td>Between H-10/4 and I-10/3</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Demolition</td>
+<td>2015</td>
+</tr>
+<tr>
+<td>Reason_of</td>
+<td>Court ordered demolition driven</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Land_statu</td>
+<td></td>
+</tr>
+<tr>
+<td>id</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>dem_id</td>
+<td>28</td>
+</tr>
+<tr>
+<td>Dem_coord</td>
+<td>33.657717, 73.036248
+
+33.657717, 73.036248
+
+33.657717, 73.036248
+33.657717, 73.036248
+
+33.65771</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_coord_</td>
+<td>73.036248</td>
+</tr>
+<tr>
+<td>Dem_coord1</td>
+<td>33.657717</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dem_lat</td>
+<td>33.657717</td>
+</tr>
+<tr>
+<td>Dem_long</td>
+<td>73.036248</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_no</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Reset_loc</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_coor</td>
+<td></td>
+</tr>
+<tr>
+<td>Reset_lat</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Reset_long</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Other_note</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 73.03653187868116,33.65761386359532,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

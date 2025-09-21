@@ -66,13 +66,6 @@
     "map_locations": [
       {
       "id": 1,
-      "name": "G7 Shopper Colony (Allama Iqbal colony)",
-      "city": "Your City",
-      "country": "Your Country",
-      "description": "Your description"
-      },
-      {
-      "id": 1,
       "name": "G7 Shopper Colony (Allama Iqbal colony)"
       },
       {
@@ -98,6 +91,16 @@
               {
       "id": 1,
       "name": "I-10"
+      }
+    ],
+    "kml_files":[
+      {
+        "src": "/data/boundaries.kml",
+        "alt": "Boundaries"
+      },
+      {
+        "src": "/data/evictions.kml", 
+        "alt": "Evictions"
       }
     ]
   },
@@ -1019,25 +1022,22 @@
     "intro": {
       "title": "The “Permanent Impermanence” Report",
       "subtitle": "Katchi Abadis and the crisis of forced evictions, displacement and low-income housing in Islamabad",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "description": "This report maps and analyzes the precarious state of low-income housing in Islamabad, where nearly a quarter of the population lives in katchi abadis (informal settlements). It highlights how the Capital Development Authority’s (CDA) land-use policies, demolitions, and refusal to recognize these settlements have entrenched cycles of eviction, displacement, and marginalization. The study argues that Islamabad’s urban planning prioritizes elite real estate development at the expense of workers and vulnerable populations, creating a permanent state of impermanence for the city’s poor.",
       "backgroundImage": "/images/resources/permanent_impermanence_report.png",
       "fallbackBackground": "bg-gradient-to-br from-blue-900 to-purple-900"
     },
     "report": {
       "title": "The “Permanent Impermanence” Report",
       "description": [
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-        "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
-        "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+        "The report finds that over 532,000 people (23% of Islamabad’s population) live in 39 katchi abadis, most of which are unrecognised and under constant threat of demolition. These communities largely house marginalized groups—Christian sanitation workers, Pashtun and Afghan migrants, and displaced rural poor—who provide essential services to the city.",
+        "Despite residents investing heavily in housing through informal markets, they face extortion, lack of infrastructure, and recurring forced evictions. The CDA, instead of creating affordable housing policies, has perpetuated insecurity by denying recognition of settlements, ignoring Supreme Court orders, and privileging elite encroachments while criminalizing poor communities.",
+        "The report concludes by calling for recognition of katchi abadis, formalization of tenure, and a rights-based housing policy that ensures justice-driven urban development."
       ],
       "featured": {
         "title": "Download the Complete Report",
-        "description": [
-          "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
-          "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus."
-        ],
+        "description": ["Islamabad’s housing crisis has left nearly a quarter of its residents in katchi abadis—informal settlements facing constant demolitions and denial of rights. The Capital Development Authority’s elite-driven land policies prioritize speculation and aesthetics over affordable housing, deepening insecurity and displacement. The report calls for recognition, tenure security, and rights-based urban planning to break this cycle of “permanent impermanence.”"],
         "image": "/images/resources/permanent_impermanence_report_cover.JPG",
-        "downloadLink": "/documents/resources/Permanent_Impermanence_Report_250630.docx"
+        "downloadLink": "/documents/resources/Permanent Impermanence Report_250825.docx"
       }
     },
     "details": {
@@ -1048,140 +1048,43 @@
           "title": "Key Takeaways",
           "sections": [
             {
-              "type": "paragraph",
-              "content": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-            },
-            {
-              "type": "paragraph",
-              "content": "Integer dictum tincidunt scelerisque. Phasellus eleifend lorem eu lacus finibus dictum. Nam fringilla lorem purus, sit amet posuere sapien volutpat at. Aenean nisi justo, tempor consequat consectetur id, facilisis vel neque."
+              "type": "bullets",
+              "content": [
+                "<strong>Scale of Crisis:</strong> Around 23% of Islamabad’s population lives in katchi abadis, marking a seventeen-fold growth since 1997.",
+                "<strong>Policy Failure:</strong> CDA has refused to develop a comprehensive housing plan for the poor, relying instead on demolitions and speculative land development.",
+                "<strong>Marginalized Residents:</strong> Communities are predominantly poor workers, religious minorities, and displaced populations from conflict or disaster. They are unfairly stigmatized as criminals or encroachers despite being integral to the city’s economy.",
+                "<strong>Living Conditions:</strong> Lack of recognition translates into absence of basic infrastructure—water, sanitation, electricity, gas—and heightened vulnerability to flooding and displacement.",
+                "<strong>Double Standards:</strong> Elite and middle-class encroachments are legalized through judicial and planning changes, while poor communities face demolitions.",
+                "<strong>Strategic Displacement:</strong> CDA uses a cycle of demolitions and temporary resettlements to keep low-income residents insecure and mobile, feeding the growth of new abadis.",
+                "<strong>Call to Action:</strong> The report urges CDA to recognize all abadis, provide tenure security, establish a Directorate for Katchi Abadis, and adopt rights-based urban planning to break the cycle of demolitions and housing precarity."
+              ]
             }
           ]
         },
         {
           "id": 2,
-          "title": "What's Inside the Report",
-          "sections": [
-            {
-              "type": "paragraph",
-              "content": "Cras vulputate interdum sapien. Phasellus luctus ullamcorper nulla, non vestibulum felis congue a. Donec sed congue lacus.:"
-            },
-            {
-              "type": "numbered",
-              "content": [
-                "<strong>Assessment Phase:</strong> Aliquam blandit sem ac sagittis dapibus. Quisque pellentesque placerat leo, vitae facilisis lacus mattis id.",
-                "<strong>Framework Adoption:</strong> Aliquam at nibh suscipit, euismod nunc nec, ultrices tellus.",
-                "<strong>Pilot Implementation:</strong> Suspendisse ultricies, turpis at pellentesque tristique, tortor lacus faucibus tortor, non congue nisl diam ut felis.",
-                "<strong>Monitoring & Evaluation:</strong> Donec sed fringilla nisi, at sodales tortor. Phasellus quis ultrices sem.",
-                "<strong>Scaling & Refinement:</strong> Duis mollis purus turpis, et vulputate nisl euismod in."
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": "ed hendrerit massa in quam tempor, eget tempus nibh porttitor. In sed odio lobortis tortor iaculis tempus vitae id mauris."
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "title": "Who Should Read It",
-          "sections": [
-            {
-              "type": "paragraph",
-              "content": "Fusce semper posuere velit, non iaculis purus venenatis et. Aliquam elit lorem, volutpat ac odio vel, ultricies interdum sem. Phasellus vel tristique justo. Phasellus vitae scelerisque quam, finibus dictum sem:"
-            },
-            {
-              "type": "bullets",
-              "content": [
-                "<strong>Leadership Commitment:</strong> Nunc mollis id arcu eu lacinia.",
-                "<strong>Engagement:</strong> Nam luctus diam varius placerat gravida. Sed et erat ut leo eleifend pretium vel vel nunc.",
-                "<strong>Continuous Training:</strong> Nulla facilisi. Vivamus elementum sodales justo, a accumsan nunc egestas vel.",
-                "<strong>Transparent Communication:</strong> Mauris pretium et est vel mollis.",
-                "<strong>Adaptive Governance:</strong> Quisque vitae vestibulum sapien."
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": "Proin ac diam rutrum elit auctor facilisis. Praesent ac purus et justo pellentesque faucibus eget id tortor. Proin a elit vestibulum magna facilisis tincidunt."
-            },
-            {
-              "type": "numbered",
-              "content": [
-                "Cras nec efficitur enim.",
-                "Sed non diam consequat tortor porta semper quis in libero.",
-                "Curabitur eleifend elit nec porta convallis."
-              ]
-            }
-          ]
-        },
-        {
-          "id": 4,
           "title": "Research Partners & Collaborators",
           "sections": [
-            {
-              "type": "paragraph",
-              "content": "Proin consequat felis orci, vel elementum quam accumsan quis. Nunc elementum nisi ante, et feugiat massa faucibus vitae. Donec ac ipsum id lacus tempor pretium pellentesque et dolor. "
-            },
-            {
-              "type": "bullets",
-              "content": [
-                "Aenean vel vestibulum felis.",
-                "Aenean condimentum elit et augue ornare, id consequat ante mollis. Nam imperdiet posuere ex vel posuere.",
-                "Proin et tellus quis sapien tristique accumsan.",
-                "Vestibulum vulputate finibus consectetur."
-              ]
-            },
             {
               "type": "images",
               "content": [
                 {
                   "src": "/images/resources/aur-logo.png",
                   "alt": "Alliance For Urban Rights",
-                  "width": 120,
-                  "height": 60
+                  "width": 320,
+                  "height": 120
                 },
                 {
                   "src": "/images/resources/uni-essex-logo.png", 
                   "alt": "University of Essex",
-                  "width": 120,
-                  "height": 60
+                  "width": 320,
+                  "height": 120
                 }
               ]
             },
             {
               "type": "paragraph",
               "content": "We extend our gratitude to all partner organizations for their commitment to this research."
-            }
-          ]
-        },
-        {
-          "id": 5,
-          "title": "Ethical Framework Components",
-          "sections": [
-            {
-              "type": "paragraph",
-              "content": "Proin ullamcorper, justo eget pretium dapibus, ipsum turpis facilisis lacus, sit amet imperdiet est leo eu mi. Sed a laoreet nisi. Ut accumsan vitae eros vel vehicula. Vivamus nec nisl metus:"
-            },
-            {
-              "type": "bullets",
-              "content": [
-                "<strong>Learning Outcome Alignment:</strong> Proin sapien orci, consectetur nec ullamcorper ut, elementum in nisi.",
-                "<strong>Student Agency:</strong> Quisque ornare aliquam posuere.",
-                "<strong>Cultural Sensitivity:</strong> In hac habitasse platea dictumst.",
-                "<strong>Transparency:</strong> Morbi dictum et elit nec rhoncus.",
-                "<strong>Human Interaction:</strong> Donec libero orci, pharetra tincidunt nisl sed, volutpat tempor nisl."
-              ]
-            },
-            {
-              "type": "numbered",
-              "content": [
-                "Impact Measurement: Integer risus nunc, placerat ac dui ut, cursus tincidunt orci.",
-                "Ethical Training: Integer volutpat porta ligula.",
-                "Bias Detection: Vestibulum interdum velit in consectetur consectetur."
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": "Phasellus semper convallis justo sit amet varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
             }
           ]
         }
@@ -1192,71 +1095,57 @@
       "topics": [
         {
           "id": 1,
-          "title": "Key Findings",
+          "title": "Context",
           "sections": [
-            {
-              "type": "paragraph",
-              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec eleifend libero, vel semper eros. Suspendisse bibendum faucibus mi, at euismod mauris auctor eu. Morbi et accumsan leo. Nunc molestie blandit lectus, scelerisque vehicula sem commodo nec. Pellentesque feugiat turpis sit amet nulla ullamcorper ullamcorper. Quisque sit amet mi convallis, vehicula tellus sed, pharetra lorem. Nunc non accumsan tellus, vel pretium ante. Sed est nunc, ultrices ac semper quis, mollis sed dui. Integer nec sagittis lacus. Ut venenatis justo sed ipsum luctus pharetra. Suspendisse ornare mollis lectus, ac varius libero porttitor vitae. Aliquam vulputate interdum tincidunt. Phasellus ullamcorper ut eros ac eleifend. Curabitur posuere leo quis sapien cursus, et rutrum dolor mattis."
-            },
             {
               "type": "bullets",
               "content": [
-                "<strong>Compliance Rates:</strong> Mauris sed egestas ipsum, a vestibulum neque",
-                "<strong>Learning Outcomes:</strong> In a accumsan quam.",
-                "<strong>Implementation Challenges:</strong> Maecenas porta tellus et arcu feugiat, eget congue leo aliquet.",
-                "<strong>Cultural Adaptation:</strong> Morbi lorem tortor, elementum sed magna ac, sodales aliquet nulla. Suspendisse potenti."
+                "Over <strong>532,000 people (23% of Islamabad’s population)</strong> live in 39 katchi abadis (informal settlements)",
+                "These communities exist despite Islamabad’s Master Plan, which envisioned an orderly, model city.",
+                "The <strong>Capital Development Authority (CDA)</strong> has systematically neglected, denied, and demolished these settlements instead of planning affordable housing."
               ]
             }
           ]
         },
         {
           "id": 2,
-          "title": "Primary Recommendations",
+          "title": "Key Findings",
           "sections": [
             {
-              "type": "paragraph",
-              "content": "Aliquam interdum erat a erat semper, quis vestibulum urna placerat. Morbi suscipit, elit sed hendrerit dictum, mauris quam laoreet dui, non aliquam urna eros ut est. Aenean augue turpis, imperdiet commodo congue non, luctus vel nulla. Cras euismod, arcu eu ullamcorper tempor, augue eros feugiat tortor, vitae accumsan felis nisi nec est. Nullam ex mauris, fermentum quis iaculis sed, consectetur id ante. Fusce odio dolor, dictum in auctor vel, hendrerit sit amet massa. Ut ex risus, luctus sed ex ut, congue egestas mauris. Vestibulum massa ipsum, lacinia sed risus sit amet, ornare sollicitudin dui. Donec semper justo vel dapibus consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi.:"
-            },
-            {
-              "type": "numbered",
+              "type": "bullets",
               "content": [
-                "<strong>Establish Committees:</strong> Mauris molestie elementum ornare",
-                "<strong>Implement Programs:</strong> Duis in vehicula neque, sed malesuada nisi.",
-                "<strong>Create Transparency Protocols:</strong> Phasellus tincidunt consequat velit quis bibendum.",
-                "<strong>Develop Assessment Frameworks:</strong> Integer ultricies arcu id vehicula pretium."
+                "<strong>Failure of Urban Planning:</strong> CDA’s policies rely on elite-focused land auctions and speculative real estate, excluding working-class residents.",
+                "<strong>Cycle of Demolitions:</strong> Evictions are justified using stigmas (“encroachments”, “illegal”, “criminal havens”), disproportionately targeting marginalized groups—Christians, Pashtuns, Afghans, and the urban poor.",
+                "<strong>Living Conditions:</strong> Lack of recognition prevents investment in infrastructure—residents face unsafe water, poor sanitation, overcrowding, and extortion.",
+                "<strong>Institutional Denial:</strong> CDA ignores census data and maps to erase katchi abadi populations, undermining claims for recognition, resettlement, or compensation.",
+                "<strong>Double Standards:</strong> Elite encroachments are legitimized, while poor residents are criminalized and uprooted."
               ]
-            },
-            {
-              "type": "paragraph",
-              "content": "Phasellus ut dapibus nisi. Donec eleifend, elit vel eleifend sagittis, massa enim sollicitudin est, a lobortis nibh eros a lacus."
             }
           ]
         },
         {
           "id": 3,
-          "title": "Implementation Timeline",
+          "title": "Recommendations",
           "sections": [
-            {
-              "type": "paragraph",
-              "content": "Our recommended implementation follows a <strong>structured timeline</strong> designed to maximize institutional readiness while minimizing disruption to existing educational processes:"
-            },
             {
               "type": "numbered",
               "content": [
-                "<strong>Phase 1:</strong> Nam eros metus, blandit ut mi nec, malesuada faucibus magna. Suspendisse libero neque, ornare quis efficitur ut, consequat non enim. Donec sed orci ut urna sagittis feugiat. ",
-                "<strong>Phase 2:</strong> Nulla nec eros quis magna facilisis placerat volutpat vitae arcu. Donec rutrum scelerisque tellus, a tristique sem elementum at. Praesent nec odio elementum risus elementum vulputate. Cras a dui sem. Integer ullamcorper suscipit auctor.",
-                "<strong>Phase 3:</strong> Aliquam interdum erat a erat semper, quis vestibulum urna placerat. Morbi suscipit, elit sed hendrerit dictum, mauris quam laoreet dui, non aliquam urna eros ut est.",
-                "<strong>Phase 4:</strong> Aenean augue turpis, imperdiet commodo congue non, luctus vel nulla. Cras euismod, arcu eu ullamcorper tempor, augue eros feugiat tortor, vitae accumsan felis nisi nec est. Nullam ex mauris, fermentum quis iaculis sed, consectetur id ante. Fusce odio dolor, dictum in auctor vel, hendrerit sit amet massa. ",
-                "<strong>Phase 5:</strong> Ut ex risus, luctus sed ex ut, congue egestas mauris. Vestibulum massa ipsum, lacinia sed risus sit amet, ornare sollicitudin dui. Donec semper justo vel dapibus consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi."
+                "<strong>Recognize Residents’ Rights:</strong> Acknowledge workers, domestic staff, waste collectors, and service providers as rightful citizens of Islamabad.",
+                "<strong>Formalize Abadis:</strong> Recognize and upgrade all katchi abadis; grant tenure security.",
+                "<strong>Reorient Planning:</strong> Shift from speculative real-estate to justice-driven urban development.",
+                "<strong>Operationalize Housing Policies:</strong> Revive CDA’s Katchi Abadi Cell and enforce Supreme Court orders for low-income housing policies.",
+                "<strong>Inclusive Vision:</strong> Envision Islamabad as a city for all—workers, not just elites.."
               ]
-            },
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Takeaway",
+          "sections": [
             {
-              "type": "bullets",
-              "content": [
-                "Integer dictum tincidunt scelerisque. ",
-                "Phasellus eleifend lorem eu lacus finibus dictum.",
-                " Nam fringilla lorem purus, sit amet posuere sapien volutpat at."
-              ]
+              "type": "paragraph",
+              "content": "Islamabad cannot function without its workers. Denial and demolitions have only worsened housing precarity. A rights-based, inclusive approach to urban planning is essential to break the cycle of permanent impermanence."
             }
           ]
         }

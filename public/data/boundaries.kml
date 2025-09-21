@@ -1,0 +1,1873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="KA_boundaries_minus_refugee_camp">
+  <name>KA_boundaries_minus_refugee_camp</name>
+  <Snippet></Snippet>
+  <Style id="PolyStyle00">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>00f0f0f0</color>
+      <width>0.400000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>ff0000a8</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="PolyStyle01">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>00f0f0f0</color>
+      <width>0.400000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>ff00aaff</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Folder id="FeatureLayer0">
+    <name>KA_boundaries_minus_refugee_camp</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>G11 Jhuggi Basti</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>G11 Jhuggi Basti</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>G11 Jhuggi Basti</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.00337334792098,33.6696179590927,565.2566003834202 73.00411337042689,33.66874997953141,564.2968967562092 73.00523365076023,33.66937400764333,560.7565682383108 73.00445185830722,33.67028313562073,563.8277577693609 73.00425999366011,33.6709121542646,564.3326143450269 73.00302224136327,33.67014698253302,565.8258206969914 73.00337334792098,33.6696179590927,565.2566003834202</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00001">
+      <name>Tambu Colony</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Tambu Colony</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Tambu Colony</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle01</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.06747973953178,33.70070579607852,539.1417693705692 73.06717521742749,33.70066006772107,536.6710353449935 73.06710591382597,33.70058560862545,536.4946517781865 73.06712309725475,33.70011043551573,536.0148949709528 73.06684144227796,33.69987103240397,534.3814576467962 73.06703878253376,33.69953611403651,533.819950543762 73.06766348741147,33.69973127935476,541.060677807234 73.06747973953178,33.70070579607852,539.1417693705692</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00002">
+      <name>Miskeen Colony</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Miskeen Colony</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>2</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Miskeen Colony</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.05602302663701,33.6966477313483,535.7427498845533 73.05544595531092,33.69641052705728,538.6888559637244 73.05556269037633,33.69614445608607,539.1623320701701 73.05477545524319,33.69574100924331,540.4408850639684 73.05490719026682,33.69518597963336,538.5374801580326 73.05519874656078,33.69492544393524,537.8178532257045 73.05550123299724,33.69467714729656,537.421035529614 73.05580539574848,33.69477435121239,537.2538398311277 73.05622763407048,33.69486464600151,536.3113292647893 73.05632804765511,33.69501218418399,533.0164827142788 73.05624951307257,33.69519127566971,532.4283725440574 73.05652334532425,33.69533676099205,535.0019418843456 73.05633805517404,33.69554977059817,534.5917000619386 73.05647530760936,33.6962139846886,535.5750630045819 73.05641066157503,33.6962219603173,535.0647496858436 73.05637163883203,33.69632523250377,534.7275942922444 73.056257582199,33.69632582123219,534.200631252205 73.05619045044175,33.69661650093961,534.771580741441 73.05602302663701,33.6966477313483,535.7427498845533</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00003">
+      <name>Musharraf Colony</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Musharraf Colony</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>3</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Musharraf Colony</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.05434397191922,33.69511990241821,538.524227467297 73.05419405426106,33.69515526993258,538.4119764947496 73.05405676683304,33.69511525778658,537.1581434900454 73.05409561706367,33.69506922512632,537.2974871070537 73.05360930429065,33.69488914444915,537.2989076672678 73.05345969956227,33.69484926738036,537.6366236775395 73.05344325591051,33.69457170596478,537.8833292082787 73.0537477005111,33.69444853865391,537.400921946928 73.05389511637333,33.69428526758998,536.8909297264978 73.05399903934891,33.69418214325616,536.4572675454073 73.05402674282239,33.69394878027104,535.9468579471137 73.05396898881,33.69369734834401,535.7753346552723 73.05389819042195,33.69336972495366,534.7846132195191 73.05393165228539,33.69329454825618,532.6755202259828 73.05422700239023,33.69335247792117,531.5056355793701 73.05472899602164,33.69345104238305,529.842599511602 73.0549712892654,33.69355642236943,531.8922594365174 73.05496256955983,33.69393709692471,533.7449795826026 73.05522299214165,33.69409519940139,535.0313973509526 73.05514361737838,33.69428918332862,535.8579637957316 73.05487549848492,33.69431496313753,534.7159164022522 73.05474232988456,33.69436336668139,534.9009464160715 73.05446268776339,33.69443106217394,535.6588884933867 73.05431168203695,33.69464198145548,536.4941499458137 73.05425724370353,33.69477225321722,536.8714005888219 73.05447078676309,33.69484243224586,536.890643168245 73.05434397191922,33.69511990241821,538.524227467297</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00004">
+      <name>Muslim Colony - Bari Imam</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Muslim Colony - Bari Imam</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>4</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Muslim Colony - Bari Imam</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle01</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.10876867187199,33.73989260107619,589.675603620187 73.1080019011798,33.73737159721977,581.8582727116374 73.10835699003837,33.73648663032894,579.5494778665659 73.10820996270459,33.73574590905847,579.2823129055588 73.10860246125932,33.7349178161824,578.5668445429804 73.10949743314664,33.73509864621575,576.6486230963587 73.10989401882405,33.73469958177744,575.278883299837 73.10984743006118,33.73324316977408,573.8226634395227 73.11034427389048,33.73306329486233,573.477623228633 73.11094294925675,33.73317363821972,571.22434313217 73.11134275328996,33.73278320882765,569.9312027056525 73.11113804364548,33.73204216611268,568.4994519889781 73.11255707328186,33.73130715244977,568.3027293176522 73.11352209625419,33.73078669561445,569.0680218995577 73.11371967732768,33.73178619573138,567.6640550104053 73.11346652799952,33.73294371671915,567.8155392828484 73.11272681159201,33.73393594130214,570.170911546683 73.11274474169694,33.73515832867228,594.9048432468768 73.11273128538366,33.735482054763,596.4609463152352 73.11327246923878,33.73662582433797,597.0963279802367 73.11297544939397,33.73783632654528,600.6836156031826 73.11317479313085,33.73851242065997,601.9509126272882 73.11358435448082,33.73911277032115,592.4725662767422 73.1122171841439,33.73965825911606,588.6630143344644 73.1107947671772,33.7400798417538,589.4324105581517 73.10994051588094,33.73992465385069,587.1968536379995 73.10921605491514,33.7398814385467,588.1294613401799 73.10876867187199,33.73989260107619,589.675603620187</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00005">
+      <name>Muslim Colony I-9</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Muslim Colony I-9</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>5</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Muslim Colony I-9</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.05849088163372,33.65207935196324,498.4378969539966 73.05934272287249,33.65209850680817,500.1752277965509 73.05972266889589,33.6527318018767,505.0105287884484 73.05918403174785,33.65342946678957,507.8958880900075 73.05849732590431,33.65309318788292,505.2719821235226 73.05782148169155,33.65296640769499,501.0325058124455 73.05849088163372,33.65207935196324,498.4378969539966</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00006">
+      <name>Muzaffar Colony</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Muzaffar Colony</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>6</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Muzaffar Colony</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.02114625076433,33.65470046887243,535.5481274794599 73.02011649439638,33.65487057910062,538.6751075292626 73.02138528427632,33.65315774177183,531.9224427588231 73.0227016527646,33.65144316679677,525.1697779883838 73.0241496791153,33.65190346950518,528.8010321238864 73.02229441668652,33.65436152299593,536.7129367170373 73.02114625076433,33.65470046887243,535.5481274794599</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00007">
+      <name>Naswar Mor</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Naswar Mor</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>7</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Naswar Mor</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 72.97440134537284,33.68565121083874,562.1833183426547 72.97217460466725,33.68710710004191,561.613982779093 72.97081835699593,33.68731314408549,563.9153263315344 72.97011422384602,33.68691718529193,569.2558653774289 72.9692297446901,33.68693663812184,571.7885136347686 72.96861341051569,33.68648864418438,573.7984884295778 72.96854675339084,33.68619609829484,571.6378819567688 72.96966924842671,33.68576645284224,569.6062495584499 72.96987730179728,33.68509872785683,569.5941927973238 72.96986728656925,33.68465277530991,571.5546409044861 72.9683870259,33.68414643361561,572.5874450730372 72.97162921419745,33.68134900490555,568.1161127954591 72.97222238758565,33.68145545954286,565.5493070447752 72.97249058352432,33.68201334909221,565.4072222027354 72.97341451021421,33.68199106558205,567.0383833901558 72.97396411778134,33.68213065564977,569.3316614379254 72.97412711540166,33.68300938733415,570.0885964525095 72.97356274458231,33.68315740361625,569.627985324113 72.9734735015833,33.68365216529651,570.0892869508807 72.97427567037822,33.68352854969879,570.0887888913751 72.97426102558036,33.68383752323395,569.8181977552164 72.97342893826439,33.68407243987286,570.085798826861 72.97378651567381,33.68495165011926,567.5487425732098 72.97440134537284,33.68565121083874,562.1833183426547</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00008">
+      <name>Nawaz Sharif Colony</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Nawaz Sharif Colony</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>8</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Nawaz Sharif Colony</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.03466654815506,33.6678781185301,516.2724532383515 73.03534484427672,33.66700639122048,515.344232597101 73.03581536922302,33.66708843043159,513.3574496132095 73.03662818587975,33.66756586285857,522.8726259443655 73.03636399757515,33.66784430700305,521.8526652554518 73.03610186682754,33.66804837718269,519.1357655600879 73.03592940188386,33.6680131708473,517.6883496452507 73.03570286415888,33.66814568453056,515.2993002800335 73.03559628712505,33.66820394534233,514.9258880393057 73.03524319411996,33.66812713337517,517.4236725316005 73.03484693084499,33.66801785030443,515.9675425976556 73.03466654815506,33.6678781185301,516.2724532383515</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00009">
+      <name>Nurpur Shahan</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Nurpur Shahan</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Nurpur Shahan</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.11444206832162,33.73074382909117,565.0854715323331 73.11571464449042,33.73102857285441,566.2934043864999 73.11732686988536,33.73178317562932,567.5013372406667 73.11919813923421,33.73304272956468,569.9172029490002 73.12548460884257,33.73954489745681,590.6314548245374 73.12514481218189,33.74467575147928,610.4528691299788 73.11801800922605,33.74463085452603,588.4465928001915 73.11786964342774,33.74591419772421,593.4036014911291 73.11998444675299,33.74875193649176,607.5483017904664 73.11950481875432,33.75040768734662,623.1146095398007 73.11898066227128,33.75037551533077,611.1460627911231 73.1186989145328,33.7507790988577,619.2567287704807 73.11753596137007,33.75209494634892,642.4771200786321 73.11737557670834,33.754901962654,645.1860223464491 73.11753817261332,33.75672566578986,669.2075150616575 73.11774219621253,33.75955133557644,726.8104635531727 73.11779174069578,33.76334089425738,724.1583538041665 73.11414988654876,33.76531124498372,721.5062440551603 73.11304628714312,33.76398149504639,718.8541343061543 73.11208968013291,33.75937331487953,716.2020245571481 73.10929952490335,33.75367920175778,662.635191200406 73.10769853128824,33.753800992479,649.4571879487359 73.10594048869713,33.75399357116324,636.2791846970656 73.10409721164082,33.75253216198856,647.8766120784567 73.10392873298147,33.75151302827724,659.4740394598479 73.1038135432819,33.75060886954122,627.4926398974437 73.1035397897536,33.74890258060785,619.9801493173209 73.10469459744414,33.7472596692494,624.8713832519425 73.10344891406272,33.74646539671669,628.4455408631692 73.10369407185755,33.74532578234192,632.0196984743958 73.10491137844609,33.74497815328661,603.801341348532 73.10534208572118,33.74396913155475,598.2528791893978 73.1055460872618,33.74139482776503,589.8690460019773 73.10675822044469,33.74117977618865,592.8606855443882 73.10710435026699,33.74068345826854,595.8523250867989 73.10869091426137,33.74033968924028,601.8356041716207 73.10909738046121,33.74003643137669,602.5835140572234 73.109525998339,33.73995166684651,603.3314239428261 73.11053270640545,33.74009988665338,604.8272437140315 73.11116658191267,33.73993919270825,607.8188832564424 73.11373900781932,33.74005938616751,613.8021623412641 73.11388761170004,33.73309007355426,589.4438169367986 73.11444206832162,33.73074382909117,565.0854715323331</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00010">
+      <name>Poona Faqeeran</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Poona Faqeeran</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Poona Faqeeran</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.10836602715739,33.67222777978454,508.2735671267462 73.10747179651595,33.67138727766094,515.4932319547534 73.10712400302312,33.67093812402786,513.7383124689508 73.10725709658993,33.67068458791453,512.8608527260495 73.10742812125353,33.67051141557489,512.4221228545989 73.10744769322176,33.67031682984232,512.2027579188737 73.10726566031681,33.6703167121008,511.9833929831484 73.10727070320044,33.6700768289471,511.2508956971071 73.10720182455552,33.66995457087297,510.8846470540865 73.10713745255444,33.66986375995728,510.518398411066 73.10737964625118,33.66973469052004,509.7859011250248 73.10750023876969,33.66968881715815,509.4196524820042 73.10735010884859,33.66947695519104,509.236528160494 73.10753415449476,33.66937481209805,509.0534038389837 73.10774046689787,33.6692807851524,507.6476928269914 73.10783094532179,33.66937080654564,506.9448373209954 73.10793094376186,33.66933794860977,506.5934095679974 73.10809008829629,33.66935982872392,506.4176956914985 73.10829474303888,33.66934587243713,506.2419818149994 73.10851063272695,33.66932869044228,504.1056289535369 73.10875318176582,33.66945910041734,503.0374525228057 73.10891648579717,33.66946772089551,502.5033643074402 73.10906822753338,33.66965306947484,501.9692760920746 73.10915506364729,33.66972642026769,501.5707170877641 73.10928179859616,33.669671359841,501.3714375856088 73.11069959485923,33.66874822421822,501.1721580834537 73.11126979122979,33.66898602177902,500.3750400748328 73.11147383700926,33.6691614069621,499.577922066212 73.11047449785886,33.66970777182048,499.1793630619017 73.11020471475472,33.67011278808355,498.7808040575911 73.11048444528654,33.67077833351682,496.6945135835383 73.11122756545713,33.6713505184387,495.651368346512 73.11213858248716,33.67161841140963,494.6082231094854 73.11247054357048,33.67183078310077,494.2499871363177 73.11268804342625,33.67193057606691,493.89175116315 73.11309658395884,33.67212549583074,493.1752792168145 73.11341834868617,33.67262113641113,491.7423353241437 73.11202868822483,33.6720918278621,495.7692456770599 73.11145462445893,33.67209795858881,496.7759732652891 73.11143255760341,33.67268023373571,497.7827008535181 73.11151707205606,33.67325246926899,498.7894284417471 73.11149411456582,33.67368453694671,499.2927922358616 73.11140675459662,33.67396126756985,499.5444741329188 73.11121549289699,33.67452673643002,499.7961560299761 73.11087847533372,33.67462182561464,507.8499767358084 73.10997474072649,33.67481486911957,507.6100699260517 73.10836602715739,33.67222777978454,508.2735671267462</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00011">
+      <name>Rimsha Colony</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Rimsha Colony</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>11</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Rimsha Colony</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.03310416344598,33.67259165916114,529.3102743472484 73.03249276123597,33.67236398241867,528.9374422142187 73.03202897689965,33.67217978702507,528.316906610786 73.03162103445918,33.67197535520557,527.3825109698611 73.0329087148652,33.67015139070735,525.3250309166972 73.03447104880712,33.66808107215399,518.1531291907645 73.03465334454273,33.66790509140056,516.4598875829302 73.03506363146782,33.6680719247708,516.6837777803007 73.03558862349639,33.66819025614632,514.9977336573687 73.03575219698666,33.66812924557625,515.3481688251474 73.03592599439253,33.66800931882623,517.6691647947994 73.03640384437308,33.66817465896976,524.3827070698009 73.03502812774781,33.67007689945848,526.4016641647132 73.03310416344598,33.67259165916114,529.3102743472484</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00012">
+      <name>100 Quarter</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>100 Quarter</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>12</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>100 Quarter</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle01</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.07017407607808,33.73155277207679,592.914756116819 73.0701071919479,33.73145682318589,592.4142169066002 73.07056495460233,33.73053837739042,588.8807024572048 73.07095857918783,33.72982069993625,586.9470508279588 73.07206199332229,33.72849921659167,583.3836633049199 73.07241034299491,33.72860283886514,583.5537622863143 73.07227928854736,33.72939587280344,584.739374872161 73.07201493771888,33.72990646423817,585.5077112780491 73.07179191023279,33.73038044709423,586.0003417436145 73.07161843721221,33.73088198536826,588.0028755925318 73.07186953469613,33.73233257908747,591.4708496772897 73.07212882236547,33.73257327525502,592.986495138296 73.07179935847709,33.73322777015628,593.1968020797957 73.07053655684757,33.73241284417137,596.6273938443791 73.07084885857992,33.73202266200784,594.5235911676043 73.07017407607808,33.73155277207679,592.914756116819</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00013">
+      <name>Parian</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Parian</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>13</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Parian</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.1309830912015,33.68969339840556,522.6820565691781 73.13275559801063,33.68925337978884,522.6325448046573 73.13334209830563,33.68976985554604,524.5712810169337 73.13338343754603,33.69090705143475,528.3514521082342 73.13511183417639,33.6913667044585,526.2370024834636 73.13493450155488,33.69214922083477,527.9020597428628 73.13469250073446,33.69258670245695,529.7485420619089 73.13376715442722,33.692792942045,530.3217758433291 73.13317828012761,33.69253705840885,530.5521856982366 73.1320112847235,33.69081611926984,526.9151492807721 73.13056243891155,33.6899673856852,522.7394259826669 73.1309830912015,33.68969339840556,522.6820565691781</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00014">
+      <name>Lakhwal</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lakhwal</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>14</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Lakhwal</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.14063822248691,33.6953207483388,551.4288227533079 73.14180274410178,33.6954322665018,555.6588207602604 73.14472015083845,33.6964814169212,555.621074095976 73.1523625339677,33.70120993011952,554.7959461222745 73.15237120353491,33.70131201011345,553.8000800582092 73.1523215824694,33.70149990971687,552.804213994144 73.15215515217615,33.70179540994107,550.8124818660135 73.15192018235079,33.70210336747259,546.8290176097527 73.1473423616734,33.70308664364849,538.4113530238342 73.14525913211185,33.70290524800432,535.8278024054273 73.14417984955595,33.70380078614544,535.2834724601421 73.14309847878175,33.70387055264501,534.7391425148569 73.14244697024722,33.70269387474399,533.6504826242865 73.14158136997143,33.69993951955522,533.3540161514429 73.14235610901164,33.69834420636806,534.4836659016302 73.14063822248691,33.6953207483388,551.4288227533079</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00015">
+      <name>Mochi Mohra Moorian</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Mochi Mohra Moorian</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>15</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Mochi Mohra Moorian</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.10943670912772,33.67895175359335,511.9758749969195 73.11019778376564,33.67601058958505,510.9514960158833 73.11114483480452,33.67550350274132,512.3705772490148 73.11204378634086,33.67547228418262,510.8087700707504 73.11217422294898,33.67593570109369,511.6640825741603 73.11293062156601,33.67584395172616,509.4236351720554 73.11484645074168,33.67860753298422,511.9262395624211 73.11449018612028,33.67898698664813,512.9203011740206 73.11521453172546,33.67951305854935,513.5587499665075 73.11612287841925,33.68029269822109,513.5991111118148 73.11494559923509,33.68094380800724,515.445223483329 73.11465870885766,33.68161331166979,520.0421263413032 73.11446942918946,33.68197387884437,521.1490421032341 73.11384997632662,33.68202327045123,523.2202262699255 73.11283141455981,33.68179488023441,524.4771016740614 73.11101656373656,33.68004726115232,521.3374190492603 73.10943670912772,33.67895175359335,511.9758749969195</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00016">
+      <name>Jabba Taili</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Jabba Taili</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>16</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Jabba Taili</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.1292683789589,33.6501954048756,493.4371627542474 73.12674650432197,33.64907454173638,493.7971264603153 73.12628127889568,33.64649280198039,491.2926987055798 73.12767411782124,33.64506455072061,490.9658174477813 73.13035333829887,33.64502476305312,489.5423486218124 73.13151904208364,33.64654390047977,490.9643349259674 73.1327894485481,33.6465695303712,492.6995856355653 73.13342228165668,33.64346664628425,490.4955041443218 73.13417436425432,33.6420225566401,488.9309904126436 73.1360823574399,33.64388584440788,486.1464964416082 73.13720013129267,33.64609942705138,489.4307945277005 73.13761409396825,33.64779807684441,490.8512136546522 73.1377330643662,33.64851439281917,490.7938838003913 73.13744381398351,33.64944245806018,493.046637852774 73.13692188618226,33.64945323528626,493.0070639479833 73.13609208832332,33.64909176771781,491.4406329942581 73.12988935167085,33.64985866983852,494.0215623328419 73.1292683789589,33.6501954048756,493.4371627542474</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00017">
+      <name>Pindorian</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Pindorian</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>17</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Pindorian</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.1136005631878,33.65468346118096,486.0957078211017 73.11347086285949,33.6525643171998,486.0963930060535 73.11444119986866,33.65143215944225,491.7597932807582 73.11448007155558,33.65078706867231,491.3537241080965 73.11493811549971,33.65010324541002,492.200457705467 73.1173670429116,33.65090643772893,493.5323693058587 73.11759396814719,33.65141026493192,494.2724886948362 73.11694334617725,33.65202578157307,489.3456582851049 73.11612885552007,33.65323169200109,493.5322589675276 73.11533654221932,33.65399535741957,485.0517254658856 73.1136005631878,33.65468346118096,486.0957078211017</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00018">
+      <name>Chak Shehzad Abadi</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Chak Shehzad Abadi</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>18</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Chak Shehzad Abadi</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.14991440907205,33.66829299942681,512.831349348838 73.15308770071024,33.67101373726086,509.3404197673481 73.1569885185224,33.67340299272683,515.1329935649912 73.15489250061437,33.67574335099139,504.4128768869268 73.15265167110684,33.67499897229423,511.4902043906918 73.15141418360217,33.67469065941884,512.3913216354462 73.15017669609752,33.67438234654345,513.2924388802006 73.15005025051668,33.67374265492104,514.47943759089 73.14681090770745,33.67176697583875,515.7694655263917 73.14776581097338,33.6701230325604,515.1853617818996 73.14991440907205,33.66829299942681,512.831349348838</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00019">
+      <name>48 Quarter</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>48 Quarter</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>19</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>48 Quarter</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle01</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.06815552898971,33.71135506111474,554.3532750485201 73.06815538580811,33.71140929381365,554.4781010895617 73.06809086040968,33.71168938471995,555.6502235854517 73.06800136616863,33.7119737546184,556.3555431104671 73.06775865511919,33.71233890100918,556.4430928663047 73.06767626528853,33.71234520326943,556.0558770325594 73.06725735705747,33.71209348914731,554.0798066222029 73.06711752596551,33.71225625345688,556.9895306507891 73.06609564533814,33.71172095712404,550.4980833136083 73.06584687275321,33.71136483903453,548.3239354358866 73.0659217535911,33.71059073830092,549.0526689932778 73.06697734415472,33.71046269483158,556.4809336245127 73.06830510316824,33.7111370894887,554.9953688820711 73.06815552898971,33.71135506111474,554.3532750485201</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00020">
+      <name>66 Quarter</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>66 Quarter</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>20</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>66 Quarter</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle01</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.06433895148164,33.70138028430124,540.455411938419 73.06505682402633,33.70098732944062,540.2265888917907 73.06687710992618,33.69971357664751,534.6065190740153 73.0671079426336,33.70009010756001,535.8346893339814 73.06709152627698,33.70073253590546,535.5111079359646 73.06728156572849,33.70096460657794,539.2703300692361 73.0667182658153,33.70180503162539,544.7089455724357 73.06570887679439,33.70181108481681,542.5695025777682 73.06502822740792,33.70185743443453,540.9963116700851 73.06433895148164,33.70138028430124,540.455411938419</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00021">
+      <name>Basti Near Pindi Sagrial</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Basti Near Pindi Sagrial</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>21</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Basti Near Pindi Sagrial</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 72.92331283991611,33.68698965045134,590.5903645892507 72.92388458080518,33.68728710599179,593.1205240768828 72.9245282110236,33.68741383160634,593.7878905927545 72.92692238865143,33.68921560643733,589.5721148892819 72.92650735025167,33.69021263789969,598.3172246839974 72.92531297805841,33.69053691884289,598.2962779554543 72.92446702827412,33.69050150696702,598.0993765051078 72.92370306164166,33.69125894949437,597.9024750547612 72.92337076673815,33.69234876463676,587.7474558418048 72.9220051350389,33.69295753757249,607.9879121125556 72.92090624976183,33.69378036060488,612.2308148477625 72.92021373064316,33.69358113286341,602.3456655549185 72.92004601111597,33.6926167077946,592.4605162620743 72.92008075089876,33.69156436769297,590.1029969609016 72.92106734165506,33.69124999389947,588.9242373103152 72.92224590065527,33.69119193696234,587.745477659729 72.92307436877705,33.69074884605102,591.34730823319 72.92287366872439,33.6901399428444,591.9129758214078 72.92135129745341,33.69033022037738,584.1714584980191 72.92118504849363,33.68974115325889,592.4339047791437 72.92331283991611,33.68698965045134,590.5903645892507</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00022">
+      <name>Akram Gill</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Akram Gill</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>22</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Akram Gill</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.03206314075079,33.67398936534146,530.0663452365902 73.03069235747525,33.67318816848954,529.2055844610227 73.03163366459296,33.6719662995767,527.8260636100579 73.03215463271296,33.67222310587223,528.7454864439907 73.03258506407076,33.67238289107086,529.261357974287 73.03310955454563,33.67259081605258,529.3154418046258 73.03206314075079,33.67398936534146,530.0663452365902</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00023">
+      <name>Allama Iqbal Colony</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Allama Iqbal Colony</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>23</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Allama Iqbal Colony</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.0681785081597,33.70457303400772,547.918135060567 73.06864674790434,33.7039358935434,544.8044467924792 73.06877732950487,33.70405755112449,545.2738527461146 73.06941028673668,33.70417374387069,546.0083269764143 73.0699600828129,33.70421284028418,546.1628167146486 73.07040985597796,33.70439433885075,547.5077770403552 73.07056830268851,33.70417624175078,548.6826346132149 73.07079849412992,33.70430905789616,549.5834559651589 73.07073895192815,33.70438133226515,549.5106988509373 73.07099741303486,33.70455822404161,550.0262535070655 73.07153523866262,33.70488708767135,550.2466072432953 73.071620789481,33.70493391352355,549.7683784911635 73.07135672559491,33.70535537882184,548.591947277572 73.0709585143571,33.70587869450113,548.411724289938 73.07048082913452,33.70573605313931,547.2734962292784 73.07011802584699,33.70566544230825,548.2832455418527 73.07006397423433,33.70562032787407,547.8119379089122 73.07007711110202,33.70539461548754,547.4411167551667 73.06988586572132,33.70530944532001,547.2710285307587 73.07014300580886,33.70497498689818,545.8076739025641 73.0695905793479,33.70471569273307,546.0329499347746 73.06939221176275,33.70474694970719,546.0870432475016 73.06923062418159,33.70496756013956,546.6664079226883 73.06891755047207,33.70479334654883,545.6107517601554 73.0687624448699,33.70492152830439,545.7500151467945 73.0681785081597,33.70457303400772,547.918135060567</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00024">
+      <name>Awami Basti</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Awami Basti</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>24</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Awami Basti</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 72.9766859548821,33.67666603942985,561.0929334390224 72.97750566512187,33.67753976545337,565.8822137060091 72.97767290982985,33.67815392957426,565.5233034136271 72.97804163301086,33.67989875254664,565.9214526390348 72.97785982608522,33.67986751108531,565.8198981073722 72.9777906950855,33.68029764961276,566.5563592297378 72.97827853303386,33.68042630484696,566.6737813108701 72.97689781565579,33.68229816190123,566.7303689061896 72.97642146135958,33.68219600016594,567.93560187029 72.97610049799727,33.68191768960448,568.4909911480795 72.97623119537697,33.6810963905609,568.8531550893384 72.9750096524626,33.68149154604186,568.7867892985803 72.97383132398781,33.68203577579443,568.720423507822 72.97285321897796,33.68186636984728,565.8813571731847 72.97304336169979,33.68164310259522,567.3799504454206 72.97315052094203,33.68146128196562,566.8507841442573 72.97318093951891,33.68137783028602,566.2052535829849 72.97320357104097,33.68128858484736,565.5597230217124 72.97332180941706,33.68088467187862,564.6751168846431 72.97357767574792,33.68060361008769,564.355097528854 72.97360348660517,33.68050014967677,564.2664457010841 72.97386811381541,33.68029232528691,564.4118425094665 72.97411687059321,33.68008201375963,564.5572393178488 72.9742687974931,33.67990943890321,564.7288233596437 72.97453924927878,33.67974319224861,564.9004074014385 72.97457840481768,33.67984005468027,565.3635027510943 72.97471454830344,33.67992633461237,565.8265981007503 72.97495781044968,33.68004988883451,566.7527888000621 72.97579107097451,33.67967343394691,567.1532373256588 72.97583820876677,33.67879154525193,565.7131171543724 72.97599311811352,33.67825647348072,565.9558569673047 72.97607646382991,33.67790923474888,565.6963824339224 72.97531065101211,33.67795329370836,561.4339519615414 72.97538240965132,33.67745568343555,561.4334845687838 72.97589673858047,33.67703834289788,561.7394434780896 72.9766859548821,33.67666603942985,561.0929334390224</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00025">
+      <name>26 No. Chungi</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>26 No. Chungi</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>25</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>26 No. Chungi</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 72.94737721938988,33.64202558926193,573.3876926351019 72.94521289647497,33.64127202499707,565.7813472833766 72.94297099950728,33.64163821167389,561.1578090151087 72.93824301174708,33.64271360745482,570.1941409490524 72.93592378473041,33.64171938504563,575.4916789827514 72.93490686990054,33.63885279448646,569.6888335716253 72.93467408978799,33.63824412477646,567.8624841933139 72.93143609107378,33.63906324986331,563.3816779687282 72.93119733354658,33.63837042701884,570.6133723725632 72.93329881198626,33.636401324723,569.3141150926645 72.93395576014325,33.63462478938237,564.4928349441683 72.93363215706401,33.63420385197547,562.7508893162436 72.93583477930937,33.63354019181278,565.2184504382437 72.93752217066952,33.63258286842255,561.880392472052 72.93896124592531,33.63238789429167,559.1297951657332 72.94237404694169,33.63287927447992,555.5672406965992 72.94415448118805,33.63256080194705,557.2004860204313 72.94443277147501,33.63326815690675,562.7646545284354 72.94606756880306,33.63309600120802,561.6929651908129 72.95001828412674,33.63596937334972,568.251869029643 72.95120966915597,33.63715355545933,569.7190431632446 72.94737721938988,33.64202558926193,573.3876926351019</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00026">
+      <name>Banni Mor Abadi</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Banni Mor Abadi</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>26</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Banni Mor Abadi</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 72.9657761798818,33.69625182722393,566.3232882203129 72.96568241949043,33.69564220180819,567.4983442824893 72.96524937727624,33.69502695640899,568.2332090547723 72.96546513795472,33.69435377407667,572.23186283155 72.96583260370717,33.69333268750974,574.8041679019791 72.96621329577566,33.69316157967545,576.2186192370514 72.96509122089387,33.69276633579835,575.909325572832 72.96495580739241,33.69205790947636,576.9120157842395 72.96485579133792,33.69156639473786,577.6929349359187 72.96543080310016,33.69060681886369,579.5716118769728 72.96734170769267,33.69041754513519,577.2877954970628 72.96940230051652,33.6908542134563,573.7627948317822 72.96979294511672,33.69128939737074,574.3202669855316 72.96992370967972,33.69221134048796,574.0674149871616 72.96974123400116,33.69309027747693,573.9844251156045 72.96864081687966,33.6941040154652,570.5886280359556 72.96790975138791,33.69464800612515,568.5571657363748 72.96722236061649,33.69537279774902,566.5257034367941 72.9657761798818,33.69625182722393,566.3232882203129</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00027">
+      <name>Bheka Syedan Abadi</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Bheka Syedan Abadi</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>27</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Bheka Syedan Abadi</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 72.99377891095693,33.68434708150404,546.2501697791876 72.99378897058614,33.68499186099943,551.0694482454687 72.99343738086674,33.68522312881146,553.0704358532716 72.99306114942208,33.68524553663651,555.0714234610746 72.99196066765161,33.68446737040717,556.0351615099065 72.99148899843908,33.68400643919961,555.5425389140302 72.9914922006045,33.68353105790299,554.6596446373292 72.9912887349895,33.68293710618496,552.2214150700536 72.99156255528708,33.68272604034414,551.5693580319316 72.99232071703564,33.68250509129873,550.7130312072297 72.9930522871414,33.68213848254578,550.0027395425121 72.99393164000163,33.68194105391208,552.5712431244962 72.99457092432792,33.68222909397625,554.5994860054474 72.99458611459264,33.68265166625896,553.9814891682259 72.99464887842008,33.68279145287508,553.0241146867486 72.99456640334101,33.68289925232078,552.0667402052712 72.9947569666855,33.68313639810896,550.9664153185216 72.99493267690733,33.6833028652623,550.4162528751467 72.99504350332302,33.68345878578605,549.8660904317719 72.99524902221066,33.68329812729245,546.913124914909 72.99592262144607,33.68284306349319,545.4366421564774 72.99661899655541,33.68308253205154,544.6984007772617 72.99704244217615,33.68322324852706,544.3292800876538 72.99711644812538,33.68336290558993,543.9601593980459 72.99528871242855,33.68396709321569,543.665966344399 72.99452901831721,33.68388593162661,544.9580680617933 72.99377891095693,33.68434708150404,546.2501697791876</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00028">
+      <name>Machar Colony</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Machar Colony</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>28</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Machar Colony</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 72.96479191630634,33.68012258603626,573.0522370278468 72.96523336796922,33.67994762315735,573.3147898092658 72.96564435952286,33.6798664427977,573.4418459939948 72.96545965425447,33.68030993316195,572.1879092856605 72.96598155025235,33.68065195412677,571.8097289640177 72.96637315292978,33.68067338207346,571.3496306824466 72.96672621427365,33.6802819002045,571.6500097332445 72.96681115833472,33.67986957224667,572.0547177694128 72.96754481064127,33.68003803400408,569.1770639600691 72.96778164161331,33.6803419203695,568.2588207264594 72.96779476317764,33.68078943066833,568.2588245403514 72.96751898338174,33.6811989855448,568.6938482356466 72.96717800615868,33.68152632804176,568.9921169889401 72.96672586610434,33.6818807497019,569.0649433275665 72.96645686301878,33.68213741801729,568.2588987032937 72.96589902396877,33.68215379816666,568.0372873941503 72.96567160115036,33.68196262072186,569.3837240158033 72.96527549738248,33.68191895030543,571.0490614166102 72.96533929041883,33.68121111777254,570.2487044739314 72.96531435127922,33.6807980403612,570.8549373016101 72.96511573771606,33.68018124173533,572.665227070712 72.96479191630634,33.68012258603626,573.0522370278468</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00029">
+      <name>Chauntra</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Chauntra</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>29</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Chauntra</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 72.97677626405999,33.72492713096726,647.4659644075707 72.97361142902388,33.72395241920947,659.3045168146989 72.97207981018236,33.7226942163025,678.7756608593403 72.97191501633834,33.72055969884198,640.7586422948937 72.97275974822276,33.72001664189021,629.9670717163223 72.97095033943235,33.71895734047124,645.0434274232216 72.97085262960854,33.71735521685855,625.5669641633813 72.97150298776243,33.71688944710525,615.6666114772707 72.97252073838939,33.71700773787574,613.4334211012047 72.97213045856029,33.71564494501908,608.6555113578939 72.97250755410901,33.71459633303862,606.5508743412989 72.97549417287289,33.71559422509353,609.2219494287034 72.97573172237355,33.71461867328465,604.7309397413214 72.97842379485304,33.71486813861835,607.1000022395681 72.97858139226375,33.71459772577446,605.7873150304652 72.98057765194513,33.71507727247487,604.1567973566986 72.98118965197224,33.71572498108076,603.5367146897315 72.98188472245582,33.71695803297658,602.3666943076049 72.98538950755913,33.71662965862036,604.4470309085038 72.98664885746999,33.71804373132232,608.4132270320383 72.98806947015431,33.71825104648713,612.3717566694576 72.98831673649865,33.71751965618058,614.5955224456961 72.99140994845143,33.71797172363944,608.7741420028606 72.992331550708,33.71939332758546,618.2940130611679 72.99583730260204,33.72018234256142,616.0538495153374 72.99677173924275,33.72167586849878,605.5682270042064 72.99678972977279,33.72288230095706,608.1798242210754 72.99438448832642,33.72601594174395,618.5673707516378 72.99227878461458,33.72601303040191,625.8615882080533 72.99050429514067,33.72731018038805,627.0469509118216 72.98856293383351,33.72838816512038,634.3369696479364 72.98677481271737,33.7267119958434,642.6875865783247 72.98639176344251,33.72499916663924,630.0633983030712 72.98487195245671,33.72483857014133,630.2272445993744 72.98381041549308,33.72505262528367,637.6083093792826 72.98077525308088,33.72382046287024,634.9913196896473 72.97907245674082,33.72359973594926,667.3892527076493 72.97677626405999,33.72492713096726,647.4659644075707</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00030">
+      <name>Christian Colony G-6</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Christian Colony G-6</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>30</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Christian Colony G-6</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.0758513791388,33.7140199731085,557.6756234390288 73.07594415923893,33.71381403290481,556.9754292827716 73.07598618629038,33.71356782035908,557.8018009870522 73.0759318845207,33.71346164189902,557.7770707375133 73.07594962317103,33.71331617604484,557.3625484677384 73.07604813470643,33.7131857300697,555.5842959551567 73.07629249764304,33.71313847826814,555.9343578198573 73.07681237289282,33.71344144428272,562.0458932817068 73.07672159311248,33.71355665953918,562.1181948296315 73.07684262727497,33.7136272380511,562.7594248024794 73.07638324616816,33.71422670268885,558.7134947395074 73.07584924488928,33.71414478350386,558.1656543863073 73.0758513791388,33.7140199731085,557.6756234390288</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00031">
+      <name>Dhobi Ghat Colony G-6</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Dhobi Ghat Colony G-6</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>31</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Dhobi Ghat Colony G-6</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.07601816558947,33.71502524989836,558.3703965720855 73.07626081694356,33.71503653514799,561.6955925182579 73.07666463795691,33.71528366893153,563.3959414215007 73.07648563249641,33.71562735417617,560.132615297035 73.07670028398734,33.71580457708044,561.0938879037114 73.07667729738148,33.71591774212067,560.6208715410195 73.07610099963843,33.71620593418704,559.284927059559 73.07595377942181,33.71610201019924,560.9275738042046 73.07611887667686,33.71594264495779,559.0237601158091 73.07602419487795,33.71553487350878,558.7235797141832 73.07601816558947,33.71502524989836,558.3703965720855</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00032">
+      <name>France Colony</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>France Colony</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>32</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>France Colony</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle01</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.06048266471163,33.72062802404138,561.5579560366922 73.06075912683974,33.72027278845805,561.4642860761712 73.06077287010653,33.71997494858171,560.856443234321 73.06104763538987,33.71955234602756,563.4945431490733 73.06150697508403,33.71925057943401,564.4206930492179 73.06173795889514,33.7186418314763,560.7401238334198 73.06239468164182,33.7188304029203,562.8517441613936 73.06250287409681,33.71956346088923,563.078319415181 73.06292673085927,33.71988062892711,565.1685911158311 73.06151822702385,33.72177648494281,570.7299216029018 73.06087094000455,33.72146725344108,563.3424037091027 73.06048266471163,33.72062802404138,561.5579560366922</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00033">
+      <name>Hansa Colony</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Hansa Colony</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>33</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Hansa Colony</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle01</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.04963254581232,33.6925216992318,531.7877164190884 73.04933259542184,33.69224368396809,530.9328789121713 73.04917391698073,33.69146379111272,530.5680629281452 73.04935943872844,33.69133418796083,530.1951049253595 73.04963615538236,33.6915695068573,529.81565614084 73.04984779318298,33.69167813842773,529.8316085904333 73.05012508342097,33.6914731621987,529.8778996489945 73.05020716452987,33.6913531941811,529.9336399788513 73.05000539199013,33.69099534349004,529.3169557528539 73.04997480627195,33.69076522481573,529.6137361531529 73.05021945130304,33.69046219565193,529.1654420260165 73.05052555750105,33.69043374949921,528.8730469367273 73.05079679308351,33.69058453483417,528.7697002478386 73.05090231894695,33.69081870618371,529.4659102958598 73.05103021120094,33.69096558223016,529.9967165508132 73.05137425406346,33.69078301388735,529.4561178082282 73.05119265128776,33.69056763430448,528.9373843381234 73.0509197806421,33.69025992179112,529.3109823292592 73.05091916645237,33.68997080030968,529.7952769550878 73.05113447469616,33.68961117544745,530.2325868127324 73.05135011797302,33.68960356255793,529.6489239702919 73.05239786147712,33.69018656313954,524.6507947903971 73.05270440229174,33.6904057046357,527.0837216966893 73.05274210554209,33.6908522073454,528.774660128198 73.05275686610074,33.69112076792893,528.6336196248745 73.05298445363852,33.69132996708303,528.1859046095237 73.05253174185111,33.69199896592421,533.4120775048294 73.05235790230233,33.69211416754518,534.8953234518124 73.05198734097782,33.69188383346968,534.375274297867 73.05188034924893,33.6917629389259,534.4414992419868 73.05182742470296,33.69184100564307,534.989550399018 73.05173189425018,33.69179661785557,535.2740321375586 73.05167852066823,33.69184003190356,535.8852751193714 73.05154326474744,33.69203287915593,535.9088843491772 73.05146017672784,33.69215070618596,535.818601503951 73.05136843366131,33.69226562962574,535.7719774032053 73.05118581656788,33.69217087994957,535.4789327993236 73.050879138626,33.69261096439238,536.6429292945178 73.05076511088579,33.69276330000192,537.5311231991961 73.04983238264211,33.69234938993196,531.4247236141131 73.04963254581232,33.6925216992318,531.7877164190884</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00034">
+      <name>I-10 Katchi Abadi</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>I-10 Katchi Abadi</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>34</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>I-10 Katchi Abadi</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.03402904070084,33.64448701824902,508.1527687354038 73.03410467535477,33.64437716431426,508.6637901224464 73.03425635787686,33.64445594749421,506.6735226855478 73.03449731423451,33.64411839943484,506.0217207651179 73.03437260567628,33.64395859703093,505.9399369223455 73.03437770657192,33.6438690183,506.0910958666817 73.03399181001447,33.64359486070043,510.1397623887348 73.03428235294861,33.6431886029063,508.3427899682882 73.03493472094991,33.64354726334583,504.4772233137795 73.03553804738425,33.64374417479672,504.6595439448881 73.03583958864373,33.64390247673207,505.9235201101714 73.03576352004632,33.64399123651195,506.1784085769605 73.0358439841449,33.64406238316769,506.4971211173399 73.03572884860134,33.64418102501932,506.7927874763666 73.03557729459608,33.64414319858633,506.3835206763192 73.03550370243313,33.64424645102349,506.8261120869783 73.03503123571208,33.64401992617937,505.3635899100484 73.03488752696165,33.64421056091209,505.6816851502088 73.03485604097908,33.64420285166985,505.5746756140767 73.0347565930818,33.64432101454634,505.0481126790439 73.03465024471033,33.64426777570492,504.7219890630737 73.03453089882301,33.64441874169562,504.3803410984085 73.0345268881197,33.64442917260466,504.3528745821808 73.03444299546663,33.64459775290665,504.4414952834421 73.0344081362371,33.64465750828232,505.0678567965932 73.03402904070084,33.64448701824902,508.1527687354038</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00035">
+      <name>J Salik Colony</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>J Salik Colony</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>35</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>J Salik Colony</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle01</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.04752721959611,33.69432667529609,537.1118388140787 73.04795222740145,33.6935691473461,533.9183608821382 73.04814260608219,33.69352751290153,534.0443510458348 73.04895490256196,33.69398038103639,533.292955862282 73.04906765701631,33.6942443948109,532.3532665448057 73.04898719938467,33.69439164538362,533.4609466752179 73.04861002037718,33.69462799394263,534.8911144908719 73.04825989743185,33.69476214730705,534.1735083710491 73.04752721959611,33.69432667529609,537.1118388140787</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00036">
+      <name>E-12 basti</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>E-12 basti</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>36</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>E-12 basti</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Not recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 72.96045980894702,33.69442312143076,571.1237454460497 72.96005752061122,33.69413214330209,574.8824553450388 72.96012113345125,33.6937727581094,576.9472181623545 72.96047427004009,33.69357847200823,577.6704175374053 72.96059254121631,33.6934425786201,578.2001667472705 72.96115068424754,33.69367451207875,576.064564493297 72.9626354223152,33.69406197570679,572.0784194790284 72.96310478016362,33.69382677366034,571.3247326867299 72.96310553431942,33.69341705168351,572.2858238251391 72.96317656046928,33.69299769044493,573.0124673781572 72.96345860142189,33.6928125688686,573.3843776315092 72.96381033568126,33.69332854732957,571.7796395651704 72.96465588684661,33.69333985605671,573.2070422623816 72.9647152662768,33.69378768602894,571.3526500952563 72.96535725103146,33.69448891124808,570.9937500321969 72.96489325321755,33.69595979320672,567.6884400659297 72.96488249715432,33.69640200286948,565.4282385447115 72.96589373812692,33.69681177634179,568.2356745733188 72.96506884716912,33.69806348568279,569.6542180632277 72.96412764064338,33.69750422798684,570.8165519136714 72.96381010133193,33.6963504529904,569.9952374599994 72.96430458083297,33.69524448782758,566.5520855373161 72.96422207991161,33.69486217292005,566.716215459306 72.96266876473706,33.69442233235545,569.3845443506045 72.96045980894702,33.69442312143076,571.1237454460497</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00037">
+      <name>Farash Town</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Farash Town</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>37</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Farash Town</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle01</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.19976558044938,33.65358328855063,0 73.19934783329651,33.64725879095722,0 73.2005840734175,33.64710820768119,0 73.2006132185677,33.6475623862718,0 73.20174259313795,33.64744337690848,0 73.20285010884555,33.64730007992,0 73.20317313426027,33.64747495082121,0 73.20314641787259,33.64730493744504,0 73.2026509503192,33.64699891336794,0 73.20262180516899,33.64662245517786,0 73.20318042054782,33.64644272675162,0 73.20399162722839,33.64644272675162,0 73.20541973958819,33.64645001303916,0 73.20597349744199,33.64642329665148,0 73.20618965730597,33.64841002439012,0 73.2062965228567,33.65035303440345,0 73.20656854425857,33.65400589322851,0 73.20328485733606,33.65415161897951,0 73.20317799178532,33.65348128052491,0 73.20163329882472,33.65354928587538,0 73.20039948746624,33.65358814607565,0 73.19976558044938,33.65358328855063,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00038">
+      <name>Esa Nagri</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Esa Nagri</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>38</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Name</td>
+<td>Esa Nagri</td>
+</tr>
+<tr>
+<td>descriptio</td>
+<td></td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Recognized</td>
+<td>Recognized</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle01</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> 73.0569532707034,33.65180458580117,507.6907949964502 73.05711872872065,33.65140311654066,505.0380458260143 73.05691381107394,33.65124308452339,503.0453307969937 73.0570393211913,33.65115766108114,500.8264314650023 73.05782179569462,33.65129171975024,500.9140512855458 73.0583637529684,33.65168176402914,500.8392424063119 73.0584058094058,33.65201567048109,498.963277907853 73.05784696238879,33.65253534457948,498.3471929764299 73.05748130831086,33.65293835168146,506.1339617134668 73.05674836138466,33.65285395143404,508.0016699192831 73.05738855984349,33.65198115033694,506.4202594488883 73.0569532707034,33.65180458580117,507.6907949964502</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>
